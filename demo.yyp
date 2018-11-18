@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "05351eef-1d56-44d9-b5f0-118a8223c214",
+            "Value": {
+                "id": "d7faa29f-9fb6-4457-b1c4-9162d4e86116",
+                "resourcePath": "sprites\\spr_girl_avatar\\spr_girl_avatar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0b0974e9-52d7-480a-9cb2-94d99ec92423",
             "Value": {
                 "id": "07f89b2e-691a-4145-b0b1-beb3a8c29528",

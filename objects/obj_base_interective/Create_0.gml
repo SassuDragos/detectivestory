@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 myName = noone;
-myColor = c_green;
+myColor = noone;
 mySprite = noone;
 myTextbox = noone;
 myAvatar = noone;

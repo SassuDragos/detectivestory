@@ -1,7 +1,7 @@
 /// @description Player movement
 
 // Set mouse position
-if (!point_in_rectangle(mouse_x, mouse_y, 0, 519, 355, 768)){
+if (!point_in_rectangle(mouse_x, mouse_y, 0, 519, 355, 768) && move == true){
 	if (mouse_check_button_pressed(mb_left)){
 		target_x = mouse_x;
 		target_y = mouse_y;

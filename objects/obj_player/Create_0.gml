@@ -8,3 +8,4 @@ spd = 3.5;
 check = true;
 
 function = false;
+move = true;

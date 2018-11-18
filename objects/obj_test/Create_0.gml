@@ -4,14 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
-myName = "Test";
+myName = "TEST";
 myColor = c_green;
-mySprite = sprite9;
-myTextbox = noone;
-myAvatar = noone;
-
-textX = 300;
-textY = 400;
+mySprite = spr_girl_avatar;
 
 myText[0] = "Hello!! I'm a NPC."
 myText[1] = "Nice to meet you."
