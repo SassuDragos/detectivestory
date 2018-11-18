@@ -3,7 +3,7 @@
 if (page == 0) obj_player.move = false;
 
 //increase page
-if(keyboard_check_pressed(ord("Z"))){
+if(mouse_check_button_pressed(mb_right)){
 	if (page + 1 < array_length_1d(text)){
 		page += 1;
 		char_count = 0;

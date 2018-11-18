@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if(place_meeting(x,y, obj_player)){
-	if(keyboard_check_pressed(ord("Z"))){
+	if(mouse_check_button_pressed(mb_right)){
 		if(myTextbox == noone){
 			myTextbox = instance_create_layer(obj_player.x - 200, obj_player.y + 150 , "Textbox_Layer", obj_textbox);
 			myTextbox.text = myText;
