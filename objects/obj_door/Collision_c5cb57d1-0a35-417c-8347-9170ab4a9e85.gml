@@ -17,8 +17,9 @@ if(!other.grab) {
 		myText[0] = "This doesn't seem to fit...";
 		ReAddObjectToInventory(other);
 	}
+	
+	if(myText != []) {
+		event_inherited();
+		myText = orig_text;
+	}
 }
-
-event_inherited();
-
-myText = orig_text;

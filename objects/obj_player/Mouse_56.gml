@@ -23,6 +23,8 @@ if(move) {
 	destination_x = mouse_x;
 	destination_y = mouse_y;
 
-	speed = 3;
+	if(speed < 7.5) {
+		speed += 2.5 ;
+	}
 	
 }

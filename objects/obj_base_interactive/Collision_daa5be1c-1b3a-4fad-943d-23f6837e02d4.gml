@@ -4,7 +4,7 @@
 object_dragging = true;
 
 if(other.inInventory && !other.grab) {
-
+	
 	if(myTextbox == noone){
 		myTextbox = instance_create_layer(room_width/2 - 200, room_height/2 + 150 , "Textbox_Layer", obj_textbox);
 		myTextbox.text = myText;

@@ -12,3 +12,5 @@ myText[0] = "Hello!! I'm a NPC."
 myText[1] = "Nice to meet you."
 myText[2] = "Idk what else to say... Let me just write a long line of text to see if this is working correctly. How does it look? :D"
 myText[3] = "This is the last line of text, I promise."
+
+orig_text = myText;
