@@ -14,5 +14,3 @@ destination_y = reset_destination_y;
 
 // In the beginning, we start facing left
 side = "left";
-
-move = true;

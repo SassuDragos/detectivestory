@@ -1,4 +1,4 @@
-obj_player.move = true;
+obj_player.canMove = true;
 instance_destroy(textBoxObject);
 instance_destroy(avatarBoxObject);
 

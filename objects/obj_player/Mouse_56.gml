@@ -1,6 +1,6 @@
-/// @description Move to target
+/// @description  to target
 
-if(move) {
+if(canMove) {
 	
 	if(mouse_x >= x) {
 		image_xscale = -1;
