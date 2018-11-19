@@ -33,6 +33,6 @@ if (!point_in_rectangle(mouse_x, mouse_y, 0, 519, 355, 768) && move == true){
 		speed = 0;
 		image_index = 0;
 		image_speed = 0;
-		check = false;
+		//check = false;
 	}
 }
