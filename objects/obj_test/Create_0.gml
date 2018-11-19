@@ -13,10 +13,8 @@ myBodyTextSequence[2] = "[NPC]	Idk what else to say... Let me just write a long 
 myBodyTextSequence[3] = "[PLAYER]	This is the last line of text, I promise.";
 
 myCharactersSequence = array_create(4);
-myCharactersSequence[0] = obj_test;
-myCharactersSequence[1] = obj_player;
-myCharactersSequence[2] = obj_test;
-myCharactersSequence[1] = obj_player;
-
-//ds_list_add(myCharactersSequence, obj_test, , obj_test, obj_player)
+myCharactersSequence[0] = id;
+myCharactersSequence[1] = obj_player.id;
+myCharactersSequence[2] = id;
+myCharactersSequence[3] = obj_player.id;
 

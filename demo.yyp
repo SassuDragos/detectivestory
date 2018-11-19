@@ -442,7 +442,7 @@
             "Key": "fbb0f36c-c38c-402f-97f6-3d0526370600",
             "Value": {
                 "id": "103c9395-6be0-40d1-ac59-5c75d3ec4a6b",
-                "resourcePath": "objects\\obj_ava\\obj_ava.yy",
+                "resourcePath": "objects\\obj_avatar_border\\obj_avatar_border.yy",
                 "resourceType": "GMObject"
             }
         },

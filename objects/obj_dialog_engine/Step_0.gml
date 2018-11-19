@@ -1,11 +1,8 @@
 //Initialize dialog text and avatar (ONLY FIRST TIME) -> Due to lack of constructor forobj_dialog_engine
-if (currentDialogStep == 0 && string_length(textBox.textBody) == 0) {
+if (currentDialogStep == 0 && string_length(textBoxObject.textBody) == 0) {
 	var text = bodyTextSequence[currentDialogStep];
 	var character = charactersSequence[currentDialogStep];
-	setup_dialog(text, 
-	character, 
-	"", textBoxObject, 
-	avatarBoxObject);
+	setup_dialog(text, character, "", textBoxObject, avatarBoxObject);
 }
 
 

@@ -1,8 +1,10 @@
 //Go to next dialog option
 
-if (currentDialogStep < array_length_1d(bodyTextSequence)){
+if (currentDialogStep + 1 < array_length_1d(bodyTextSequence)){
 	currentDialogStep += 1
-	setup_dialog(bodyTextSequence[currentDialogStep], charactersSequence[currentDialogStep], ds_list_create(), textBoxObject, avatarBoxObject);
+	setup_dialog(bodyTextSequence[currentDialogStep], charactersSequence[currentDialogStep], "", textBoxObject, avatarBoxObject);
+} else {
+	instance_destroy();
 }
 
 /*

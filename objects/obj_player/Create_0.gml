@@ -1,7 +1,7 @@
 
 myName = "CHARACTER PLAYER";
 myColor = c_blue;
-myAvatar = spr_potion;
+myAvatar = spr_detective_avatar;
 
 
 // Set the checking destinations to unclickable points

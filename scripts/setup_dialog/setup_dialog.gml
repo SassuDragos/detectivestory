@@ -7,7 +7,7 @@
 	argument[4]: AvatarBox
 */
 var dialogText = argument[0];
-var dialogCharacter = argument[1];
+var dialogCharacterId = argument[1];
 var dialogChoice = argument[2];
 var textBoxObject = argument[3];
 var avatarBoxObject = argument[4];
@@ -19,10 +19,13 @@ var avatarBoxObject = argument[4];
 
 textBoxObject.textBody = dialogText;
 textBoxObject.stringHeight = string_height(dialogText);
-textBoxObject.name = dialogCharacter.myName;
-textBoxObject.color = dialogCharacter.myColor;		
-object_set_sprite(avatarBoxObject, dialogCharacter.myAvatar);
+var avatarSprintId = noone;
 
+with (dialogCharacterId) {
+	other.textBoxObject.name = myName;
+	other.textBoxObject.color = myColor;		
+	other.avatarBoxObject.sprite_index = myAvatar;
+}
 
 /// @function create_dialog_engine
 /*
