@@ -4,16 +4,16 @@
 if(place_meeting(x,y, obj_player)){
 	if(mouse_check_button_pressed(mb_right)){
 		if(myTextbox == noone){
-			myTextbox = instance_create_layer(obj_player.x - 200, obj_player.y + 150 , "Textbox_Layer", obj_textbox);
+			myTextbox = instance_create_layer(room_width/2 - 200, room_height/2 + 150 , "Textbox_Layer", obj_textbox);
 			myTextbox.text = myText;
 			myTextbox.creator = self;
 			myTextbox.name = myName;
 			myTextbox.color = myColor;
 		
-			myAvatar = instance_create_layer(obj_player.x - 400, obj_player.y + 150, "avatar_layer", obj_avatar);
+			myAvatar = instance_create_layer(room_width/2 - 400, room_height/2 + 150, "avatar_layer", obj_avatar);
 		
 			object_set_sprite(obj_ava, mySprite);
-			instance_create_depth(obj_player.x - 300, obj_player.y + 250, -1, obj_ava);
+			instance_create_depth(myAvatar.x + 5, myAvatar.y + 10, -1, obj_ava);
 		}
 	}
 } else {
