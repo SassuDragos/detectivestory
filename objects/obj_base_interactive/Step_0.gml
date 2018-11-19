@@ -14,6 +14,8 @@ if(!layer_has_instance("Textbox_Layer", obj_textbox)) {
 				myAvatar = instance_create_layer(room_width/2 - 400, room_height/2 + 150, "avatar_layer", obj_avatar);
 				object_set_sprite(obj_ava, mySprite);
 				instance_create_depth(myAvatar.x + 5, myAvatar.y + 10, -1, obj_ava);
+				
+				
 			}
 		}
 	

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1a70cc66-3130-4300-b3c5-fe40786bf629",
+            "Value": {
+                "id": "187462cd-3a8d-41d2-9024-e154bf657b97",
+                "resourcePath": "objects\\obj_mug\\obj_mug.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c28a9d3-2858-4079-b468-20eb4447ec2c",
             "Value": {
                 "id": "00238118-23a3-4e6b-976b-6c86d24ad658",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "60ee64a8-cdca-40ca-b91f-2c935840cf3f",
+            "Value": {
+                "id": "5a5e6ea0-ef03-4c68-8113-4e58316235d2",
+                "resourcePath": "objects\\obj_kettle\\obj_kettle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "643c95e2-93a3-461b-add5-803860f3eeaf",
             "Value": {
                 "id": "d0f42b34-d3ee-4601-9154-04813c0ead33",
@@ -242,7 +258,7 @@
             "Key": "856fd18f-ba2b-42dd-a088-667bb44f2ed5",
             "Value": {
                 "id": "1adad7d8-f598-42a8-bd33-8b8af99c6148",
-                "resourcePath": "objects\\obj_test\\obj_test.yy",
+                "resourcePath": "objects\\obj_girl\\obj_girl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -316,6 +332,14 @@
                 "id": "a96f8849-43a0-48a0-b489-dfcea11d3957",
                 "resourcePath": "objects\\obj_draggable\\obj_draggable.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "aa1331d8-f96b-402f-82e1-30e94925fbda",
+            "Value": {
+                "id": "29290bd2-d60e-4db4-a8f3-86c57a4e5f8e",
+                "resourcePath": "sprites\\spr_mug\\spr_mug.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -420,6 +444,14 @@
                 "id": "76737ec1-5573-4381-bbee-2a508a926e2d",
                 "resourcePath": "objects\\obj_bowl1\\obj_bowl1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d3faf515-945d-49b3-a5f8-08013d540c92",
+            "Value": {
+                "id": "9c760cc3-87ee-4fc8-b93b-a6822f5df69b",
+                "resourcePath": "sprites\\spr_kettle\\spr_kettle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
