@@ -1,7 +1,1 @@
-if isPlaying == false {
-	audio_play_sound(sound0,1,false);
-	isPlaying = true
-} else {
-	audio_stop_sound(sound0);
-	isPlaying = false
-}
+isPlaying = action_on_object_with_sound(sound0, false, isPlaying)
