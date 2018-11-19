@@ -4,10 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
-myName = "TEST";
-myColor = c_green;
-mySprite = spr_girl_avatar;
+noTea = true;
 
-myText[0] = "Just Crying."
+
+myText[0] = "It's a kettle."
+myText[1] = "Maybe I can make some tea to calm down the little girl..."
 
 orig_text = myText;

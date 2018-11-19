@@ -11,7 +11,12 @@ if(other.inInventory && !other.grab) {
 		myText[0] = "Only God knows how good it feels to drink while on duty!";
 		audio_play_sound(snd_drink, 1, false);
 		RemoveObjectFromInventory(other);
-	} else {
+	}
+	else if(other.id == obj_mug.id){
+		myText[0] = "It's a mug. Maybe I can fill it with something...";
+		ReAddObjectToInventory(other);	
+	} 
+	else {
 		myText[0] = "This doesn't seem to fit...";
 		ReAddObjectToInventory(other);
 	}

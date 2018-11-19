@@ -3,11 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
+image_speed = 0;
 
-myName = "TEST";
-myColor = c_green;
-mySprite = spr_girl_avatar;
-
-myText[0] = "Just Crying."
-
-orig_text = myText;
+collider = obj_kettle;
