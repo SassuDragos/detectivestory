@@ -10,4 +10,6 @@ mySprite = spr_girl_avatar;
 
 myText[0] = "Just Crying."
 
+hasTea = false;
+
 orig_text = myText;

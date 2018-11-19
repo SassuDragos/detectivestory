@@ -4,7 +4,8 @@
 myText = [];
 if(!other.grab) {
 	if(other.id == obj_mug.id && obj_kettle.noTea == false) {
-		myText[0] = "I'll tell you everything :D";
+		myText[0] = "Thank you, sir! :D";
+		hasTea = true;
 		RemoveObjectFromInventory(other);
 	} else {
 		myText[0] = "That doesn't seem to right...";
@@ -13,8 +14,8 @@ if(!other.grab) {
 }
 
 event_inherited();
-
-myText = orig_text;
-
+if (hasTea){
+	myText[0] = "What will it be of me and my two little brothers?"
+}
 
 
