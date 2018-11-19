@@ -45,6 +45,20 @@
             "value": "false",
             "varName": "isPlaying",
             "varType": 0
+        },
+        {
+            "id": "b578f7a5-9195-4209-8a85-72a08f75e663",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "sound0",
+            "varName": "activeSound",
+            "varType": 0
         }
     ],
     "solid": false,

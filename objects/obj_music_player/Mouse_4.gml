@@ -1,1 +1,1 @@
-isPlaying = action_on_object_with_sound(sound0, false, isPlaying)
+isPlaying = action_on_object_with_sound(activeSound, false, isPlaying)
