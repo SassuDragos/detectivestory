@@ -1,13 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+myName = "TEST";
+myColor = c_green;
+mySprite = spr_girl_avatar;
 
-myName = noone;
-myColor = noone;
-mySprite = noone;
-myTextbox = noone;
-myAvatar = noone;
+myBodyTextSequence = array_create(100);
+myCharactersSequence = array_create(100);
+myChoiceSequence = array_create(100);
 
-textX = 300;
-textY = 400;
-
-myText[0] = "Hello"
+//Temporary init
+variable_global_set("dialog_engine", noone);

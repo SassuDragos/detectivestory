@@ -1,4 +1,5 @@
 // Let's see if we're walking
+event_inherited()
 if(destination_x != reset_destination_x) {
 	
 	if((side == "left" && x <= destination_x) || (side == "right" && x >= destination_x)) {

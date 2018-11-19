@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1d166cf3-27a3-4ec4-9884-c3ab93bac696",
+            "Value": {
+                "id": "ca6711dd-e055-4d4e-bf4b-2a24a0c8bce0",
+                "resourcePath": "objects\\obj_textbox_choice_list\\obj_textbox_choice_list.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2371a1de-8b5c-4cbc-a349-c1b4b24405a0",
             "Value": {
                 "id": "8987e934-4cdc-4e08-9acb-c54ab6782ca5",
@@ -359,6 +367,14 @@
             }
         },
         {
+            "Key": "d19e26c3-3571-4b3e-a60d-26b01a7a58dd",
+            "Value": {
+                "id": "71f2a4e1-9a81-44ee-954c-85e51d8c9559",
+                "resourcePath": "scripts\\string_split\\string_split.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "db38e8b0-9073-4e15-b47f-631f812c5277",
             "Value": {
                 "id": "5f117f12-c59a-4366-a842-2869d9c68745",
@@ -399,6 +415,14 @@
             }
         },
         {
+            "Key": "e7f09442-cb6d-4621-9e38-cd817b10b31f",
+            "Value": {
+                "id": "580d7236-f4b6-44c0-8ebe-e2d274ce3306",
+                "resourcePath": "scripts\\setup_dialog\\setup_dialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e8527f92-2dc6-47d6-a2f4-03668ac7e622",
             "Value": {
                 "id": "3a5eed2c-b22d-42e7-80b8-5fffb6be7a4d",
@@ -432,7 +456,9 @@
         }
     ],
     "script_order": [
-        "26315590-50ad-4003-8fbb-ccf200ece21f"
+        "26315590-50ad-4003-8fbb-ccf200ece21f",
+        "e7f09442-cb6d-4621-9e38-cd817b10b31f",
+        "d19e26c3-3571-4b3e-a60d-26b01a7a58dd"
     ],
     "tutorial": ""
 }

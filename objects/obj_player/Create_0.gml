@@ -1,4 +1,8 @@
-/// @description Set the variables
+
+myName = "CHARACTER PLAYER";
+myColor = c_blue;
+myAvatar = spr_potion;
+
 
 // Set the checking destinations to unclickable points
 reset_destination_x = camera_get_view_width(view_camera[0]) + 1;
