@@ -1,7 +1,4 @@
-/// @description  to target
-
-if(canMove) {
-	
+if(canMove) {	
 	if(mouse_x >= x) {
 		image_xscale = -1;
 		side = "right";
@@ -11,9 +8,9 @@ if(canMove) {
 	}
 
 	if(mouse_y <= y) {
-		sprite_index = spr_detective_walk_nw;	
+		sprite_index = WalkNW;	
 	} else {
-		sprite_index = spr_detective_walk_sw;
+		sprite_index = WalkSW;
 	}
 
 	image_index = 0;
@@ -23,6 +20,7 @@ if(canMove) {
 	destination_x = mouse_x;
 	destination_y = mouse_y;
 
-	speed = 3;
-	
+	if(speed < 7.5) {
+		speed += 2.5 ;
+	}	
 }

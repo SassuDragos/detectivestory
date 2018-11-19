@@ -1,8 +1,6 @@
-
-myName = "CHARACTER PLAYER";
+myName = "Detective Pepsi";
 myColor = c_blue;
 myAvatar = spr_detective_avatar;
-
 
 // Set the checking destinations to unclickable points
 reset_destination_x = camera_get_view_width(view_camera[0]) + 1;

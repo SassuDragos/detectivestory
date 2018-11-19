@@ -1,5 +1,5 @@
 {
-    "id": "0bc9532f-9a49-44a4-989d-5d42c98d0b12",
+    "id": "ec72f05a-2f53-4f3f-93fe-fcfadb1569cb",
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "spr_detective_avatar",
@@ -16,24 +16,23 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "6ff6156e-de7f-42d9-a147-90d7d35a6451",
+            "id": "59ef39b7-f1ab-421b-a19c-df4455ba2b14",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "0bc9532f-9a49-44a4-989d-5d42c98d0b12",
+            "SpriteId": "ec72f05a-2f53-4f3f-93fe-fcfadb1569cb",
             "compositeImage": {
-                "id": "fdaa44aa-77dd-49e8-b385-33b568ba492c",
+                "id": "074a8f49-c6f5-43a9-92b8-41f30ff38770",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "6ff6156e-de7f-42d9-a147-90d7d35a6451",
+                "FrameId": "59ef39b7-f1ab-421b-a19c-df4455ba2b14",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
-            "images": [
-                {
-                    "id": "34390a31-adad-423c-a59d-26b69bc2323f",
+            "images": [                {
+                    "id": "9b3ac35e-da37-47a4-b3c2-50cd3c075043",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "6ff6156e-de7f-42d9-a147-90d7d35a6451",
-                    "LayerId": "91675992-c5f4-420f-b08a-b9cba0f2577a"
+                    "FrameId": "59ef39b7-f1ab-421b-a19c-df4455ba2b14",
+                    "LayerId": "22492868-2d92-49fa-a449-be026d645b5d"
                 }
             ]
         }
@@ -43,10 +42,10 @@
     "height": 180,
     "layers": [
         {
-            "id": "91675992-c5f4-420f-b08a-b9cba0f2577a",
+            "id": "22492868-2d92-49fa-a449-be026d645b5d",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "0bc9532f-9a49-44a4-989d-5d42c98d0b12",
+            "SpriteId": "ec72f05a-2f53-4f3f-93fe-fcfadb1569cb",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",

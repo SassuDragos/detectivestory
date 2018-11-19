@@ -18,3 +18,6 @@ myCharactersSequence[1] = obj_player.id;
 myCharactersSequence[2] = id;
 myCharactersSequence[3] = obj_player.id;
 
+// [TO_BE_CHECKED] 
+
+orig_text = myText;
