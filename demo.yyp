@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "a86e0822-56d7-460a-b7da-448bc9008820",
+            "Value": {
+                "id": "93ebcde1-7f48-48f8-9408-8922db304284",
+                "resourcePath": "objects\\obj_result\\obj_result.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a97c7477-0a60-48dd-b66a-02bc89f4a2eb",
             "Value": {
                 "id": "a96f8849-43a0-48a0-b489-dfcea11d3957",
@@ -508,6 +516,14 @@
                 "id": "f1c4c0e9-ccec-4124-aa38-2dd445104f1c",
                 "resourcePath": "scripts\\AddObjectToInventory\\AddObjectToInventory.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0d114587-3512-498f-a254-de2bfddf3a0c",
+            "Value": {
+                "id": "ead8f4d9-c0f6-4e2c-920f-f0934636933f",
+                "resourcePath": "rooms\\keypad\\keypad.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
