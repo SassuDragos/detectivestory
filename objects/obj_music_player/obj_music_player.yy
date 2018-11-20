@@ -59,20 +59,6 @@
             "value": "sound0",
             "varName": "activeSound",
             "varType": 0
-        },
-        {
-            "id": "863dfb40-1606-459d-9efe-cca292b9491a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "image_speed",
-            "varType": 0
         }
     ],
     "solid": false,

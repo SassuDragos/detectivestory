@@ -1,5 +1,5 @@
 // Block player
-obj_player.canMove = false;
+obj_player.move = false;
 
 // Initialise UI elements
 textBoxObject = instance_create_layer(room_width/2 - 200, room_height/2 + 150 , "Textbox_Layer", obj_textbox);
