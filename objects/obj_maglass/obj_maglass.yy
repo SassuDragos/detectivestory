@@ -1,19 +1,10 @@
 {
-    "id": "6688c95d-f424-40be-9ddd-927c168c6e36",
+    "id": "06a36fb0-f02f-4a7e-b707-41f3054bf851",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_inventory",
+    "name": "obj_maglass",
     "eventList": [
-        {
-            "id": "38172074-5ad2-4042-86da-c845fb69a0b3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6688c95d-f424-40be-9ddd-927c168c6e36"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1c28a9d3-2858-4079-b468-20eb4447ec2c",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
