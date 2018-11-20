@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_maglass",
     "eventList": [
-        
+        {
+            "id": "8a8302f6-1a6c-43c0-b339-5cc0badb91fd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "06a36fb0-f02f-4a7e-b707-41f3054bf851"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "9da88701-9191-4558-bbb0-de1afadd5c0c",
     "visible": true
 }

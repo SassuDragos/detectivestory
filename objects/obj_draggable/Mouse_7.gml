@@ -1,4 +1,10 @@
 /// @description When we let go of object
 
-grab = false;
-depth = 0;
+if(inInventory) {
+	grab = false;
+	if(place_empty(x,y)) {
+		ReAddObjectToInventory(self);
+		obj_player.move = true;
+	}
+//depth = 0;
+}
