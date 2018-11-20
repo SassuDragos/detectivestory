@@ -56,7 +56,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "sound0",
+            "value": "snd_mambo_clue",
             "varName": "activeSound",
             "varType": 0
         },
