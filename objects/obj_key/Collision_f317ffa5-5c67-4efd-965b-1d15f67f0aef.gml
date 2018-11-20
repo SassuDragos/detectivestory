@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-event_inherited();
+if(!inInventory) {
+	image_xscale *= 2;
+	image_yscale *= 2;
+}
 
-image_xscale *= 2;
-image_yscale *= 2;
+event_inherited();

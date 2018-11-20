@@ -1,0 +1,81 @@
+{
+    "id": "9b381aad-798f-4192-8fe2-34aff23cde21",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_music_player",
+    "eventList": [
+        {
+            "id": "f2459b47-81d0-4416-ad65-f4e906d6200f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "9b381aad-798f-4192-8fe2-34aff23cde21"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "a030046b-f985-4ace-88fc-2b879cd14650",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "2f962b22-3ad7-4b17-bef3-d81e972d6a53",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "isPlaying",
+            "varType": 3
+        },
+        {
+            "id": "13effd61-2a9d-4647-991d-94a32b1ecd46",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "snd_song",
+            "varName": "activeSound",
+            "varType": 5
+        },
+        {
+            "id": "4fa25eaf-d0b5-46fe-b8b6-c7ded9ec232a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "image_spe",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "7c3523f5-ad8a-4695-abc7-b381f29da753",
+    "visible": true
+}

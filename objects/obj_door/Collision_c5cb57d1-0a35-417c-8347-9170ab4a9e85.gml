@@ -4,7 +4,7 @@
 myText = [];
 if(!other.grab) {
 	if(other.id == obj_key.id && keyLock) {
-		if(elecLock) {
+		if(global.elecLock) {
 			myText[0] = "It does seem to be the right key, but another lock is still activated.";
 			myText[1] = "Maybe it's got something to do with the keypad next to the door?";
 		} else {

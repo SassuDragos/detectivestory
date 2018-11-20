@@ -14,7 +14,7 @@ if keyboard_lastkey = vk_backspace
 if keyboard_check_pressed(vk_alt)
 {
 	number[1]=4;
-	number[2]=6;
+	number[2]=9;
 	number[3]=3;
 	number[4]=5;
 }
@@ -195,11 +195,11 @@ else
 }
 
 
-if global.numbercode = "4635" && keyboard_check_pressed(vk_enter)
+if global.numbercode = "4935" && keyboard_check_pressed(vk_enter)
 {
-	unlocked = true
+	global.elecLock = false
 }
-if unlocked = true
+if global.elecLock == false
 {
 	room_goto(room_main);
 }
