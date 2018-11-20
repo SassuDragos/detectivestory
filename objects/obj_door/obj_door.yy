@@ -5,16 +5,6 @@
     "name": "obj_door",
     "eventList": [
         {
-            "id": "e70def74-7841-4c85-a9ac-b637445a07ae",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "45c083a2-b230-4489-87b9-4efce9cf951b",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "8e0bcb08-2cbc-4d0f-ba17-8f0d29bfd83d"
-        },
-        {
             "id": "f935a104-d3f6-4756-9de4-1159bf6daf5d",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "72923de1-413c-4ada-b5eb-3eb6aefe92c0",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
