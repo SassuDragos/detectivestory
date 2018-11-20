@@ -6,7 +6,7 @@ event_inherited();
 
 myName = "Little Girl";
 myColor = c_red;
-mySprite = spr_girl_avatar;
+mySprite = spr_girl_avatar_crying;
 
 myText[0] = "*sobs*."
 

@@ -3,19 +3,24 @@
 
 myText = [];
 if(!other.grab) {
-	if(other.id == obj_mug.id && obj_kettle.noTea == false) {
-		myText[0] = "Thank you, sir! :D";
-		hasTea = true;
-		RemoveObjectFromInventory(other);
+	if(other.id == obj_mug.id) {
+		if(!obj_kettle.noTea) {
+			myText[0] = "Thank you, sir! :D";
+			mySprite = spr_girl_avatar;
+			hasTea = true;
+			RemoveObjectFromInventory(other);
+		} else {
+			myText[0] = "*sob* How's an empty mug going to help me? *sob*";
+			ReAddObjectToInventory(other);
+		}
 	} else {
-		myText[0] = "That doesn't seem to right...";
+		myText[0] = "That doesn't seem to be right...";
 		ReAddObjectToInventory(other);
 	}
 }
 
 event_inherited();
-if (hasTea){
-	myText[0] = "What will it be of me and my two little brothers?"
-}
+
+myText = orig_text;
 
 

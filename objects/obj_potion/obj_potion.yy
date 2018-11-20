@@ -1,19 +1,10 @@
 {
-    "id": "33e40e60-a8a1-438e-9bae-0336a01d7c6a",
+    "id": "97533245-bf9b-4049-ad94-b5c0fcaec960",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_potion",
     "eventList": [
-        {
-            "id": "254c280a-72d4-4df0-bd44-3ac3dc29b1d4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "33e40e60-a8a1-438e-9bae-0336a01d7c6a"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9da88701-9191-4558-bbb0-de1afadd5c0c",
+    "spriteId": "1a9f4aea-8226-46dc-92b7-35a795030573",
     "visible": true
 }
