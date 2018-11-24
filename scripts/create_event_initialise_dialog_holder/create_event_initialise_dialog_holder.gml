@@ -14,7 +14,7 @@ dialog_owner = argument[0];
 
 dialog_owner.body_text_sequence = argument[1];
 dialog_owner.charaters_sequence = argument[2];
-dialog_owner.choice_options = argument[3];
+dialog_owner.choice_option_sequence = argument[3];
 
 //[TODO] TEMPORARY. SHOULD BE IN INIT ROOM
 variable_global_set("dialog_engine", noone);

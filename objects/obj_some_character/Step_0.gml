@@ -1,8 +1,9 @@
 if(place_meeting(x,y, obj_player)){
 	if(mouse_check_button_pressed(mb_right)){
-		instantiate_dialog(dialog_body_text_list, dialog_character_list, []);
+		instantiate_dialog(body_text_sequence, charaters_sequence, choice_option_sequence);
 	}
 }
+
 
 /*
 	argument[0]: Body text sequence

@@ -131,6 +131,20 @@
             "value": "-1",
             "varName": "currentDialogStep",
             "varType": 1
+        },
+        {
+            "id": "9e73c1ca-e605-41b9-a546-88d936344d0c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "choiceBoxObject",
+            "varType": 5
         }
     ],
     "solid": false,

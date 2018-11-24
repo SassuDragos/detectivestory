@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "b68a57c6-0e51-43e8-945c-027e46e66491",
+            "Value": {
+                "id": "f22632e2-78e0-47c2-8d29-2cf6b79020f8",
+                "resourcePath": "objects\\obj_dialog_choice_list\\obj_dialog_choice_list.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bf90400d-4d83-4b8e-8786-22d19a5fe63a",
             "Value": {
                 "id": "8af8bc00-b389-4870-8b6d-93a4ae70acfe",
@@ -372,6 +380,14 @@
                 "id": "f952e566-6b49-4ff2-b1d8-dd97b49a2241",
                 "resourcePath": "scripts\\create_event_initialise_dialog_holder\\create_event_initialise_dialog_holder.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cd057ae9-6162-4a0f-bf53-1e36e1c40cc6",
+            "Value": {
+                "id": "f21fc9dd-a45f-4360-a723-ddb7fc172d4e",
+                "resourcePath": "sprites\\spr_choice_list_background\\spr_choice_list_background.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

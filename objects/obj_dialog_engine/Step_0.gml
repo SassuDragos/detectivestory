@@ -2,7 +2,8 @@
 if (currentDialogStep == 0 && string_length(textBoxObject.text_body) == 0) {
 	var text = body_text_sequence[currentDialogStep];
 	var characters = characters_sequence[currentDialogStep];
-	setup_dialog_data(text, characters, "", textBoxObject, avatarBoxObject);
+	var choices = choice_sequence[currentDialogStep];
+	setup_dialog_data(text, characters, choices, textBoxObject, avatarBoxObject, choiceBoxObject);
 }
 
 
@@ -12,4 +13,5 @@ if (currentDialogStep == 0 && string_length(textBoxObject.text_body) == 0) {
 	argument[2]: String = Choice dialog sequence (seach choice is eparated by '@')
 	argument[3]: TextBox 
 	argument[4]: AvatarBox	
+	argumnet[5]: ChoiceBox
 */

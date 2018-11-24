@@ -2,7 +2,12 @@
 
 if (currentDialogStep + 1 < array_length_1d(body_text_sequence)){
 	currentDialogStep += 1
-	setup_dialog_data(body_text_sequence[currentDialogStep], characters_sequence[currentDialogStep], "", textBoxObject, avatarBoxObject);
+	setup_dialog_data(	body_text_sequence[currentDialogStep], 
+						characters_sequence[currentDialogStep], 
+						choice_options[currentDialogStep], 
+						textBoxObject, 
+						avatarBoxObject,
+						choiceBoxObject);
 } else {
 	instance_destroy();
 }
