@@ -2,7 +2,7 @@
     "id": "b1fd5fde-27f5-4514-9e51-a26fd4d3735c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_textbox",
+    "name": "spr_textbox_background",
     "For3D": false,
     "HTile": false,
     "VTile": false,

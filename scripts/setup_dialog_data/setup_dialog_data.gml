@@ -18,10 +18,11 @@ textBoxObject.text_body = dialogText;
 textBoxObject.text_line_height = string_height(dialogText);
 var avatarSprintId = noone;
 
+        
 //TODO
 with (dialogCharacterId) {
 	other.textBoxObject.name = name;
-	other.textBoxObject.color = color;		
+	other.textBoxObject.color = text_color;		
 	other.avatarBoxObject.sprite_index = avatar;
 }
 

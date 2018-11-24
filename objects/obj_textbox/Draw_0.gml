@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //draw textbox
-draw_sprite(spr_textbox,0,x,y);
+draw_sprite(spr_textbox_background,0,x,y);
 
 //increse characters
 if(char_count < string_length(text_body)) char_count += 0.5;

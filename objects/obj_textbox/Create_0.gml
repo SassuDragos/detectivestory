@@ -4,5 +4,5 @@
 addX = 20;
 addY = 10;
 
-box_width = sprite_get_width(spr_textbox) - (2*addX);
+box_width = sprite_get_width(spr_textbox_background) - (2*addX);
 
