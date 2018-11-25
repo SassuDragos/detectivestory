@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 myText = [];
-if(other.inInventory && !other.grab) {
+if(other.inInventory && !other.grab && !place_meeting(x,y,obj_base_interactive)) {
 	if(other.id == obj_key.id) {
 		myText[0] = "It's an ordinary key I just found lying around here...";
 		ReAddObjectToInventory(other);

@@ -2,7 +2,7 @@
 
 if(inInventory) {
 	grab = false;
-	if(place_empty(x,y)) {
+	if(place_empty(x,y) || place_meeting(x,y,obj_inventory)) {
 		ReAddObjectToInventory(self);
 		obj_player.move = true;
 	}
