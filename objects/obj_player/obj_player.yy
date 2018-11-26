@@ -82,20 +82,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "682079b2-1636-4872-9d5b-8b9448fd2def",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "true",
-            "varName": "canMove",
-            "varType": 0
-        },
-        {
             "id": "452fee69-13eb-4eff-89cc-c4ceca89ae4b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -108,7 +94,7 @@
             "value": "down",
             "varName": "side",
             "varType": 2
-		}
+        }
     ],
     "solid": false,
     "spriteId": "ff947035-d3b8-467d-a3de-68ac12bc1dce",
