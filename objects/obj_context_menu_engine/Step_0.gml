@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// if engine has been initialised and items haven't been created yet instanciate them.
+// INITIALIZE UI (If items added, but UI not created)
 if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 	var inputTypeListLength = array_length_1d(inputTypeList);
 	var spriteHeight = sprite_get_height(spr_context_menu_item);
+	var spriteWidth = sprite_get_width(spr_context_menu_item);
 	for (var typeIndex = 0; typeIndex < inputTypeListLength; typeIndex += 1) {
 		var itemX = menuX;
 		var itemY = menuY + typeIndex * spriteHeight;
@@ -33,4 +34,15 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 				break;
 		}
 	}
+	
+	menuMaxX = menuX + spriteWidth;
+	menuMaxY = menuY + inputTypeListLength * spriteHeight;
 }
+
+var pointNotInRectangle = !point_in_rectangle(mouse_x, mouse_y, menuX, menuY, menuMaxX, menuMaxY);
+var mouseActionTriggered = (mouse_check_button_pressed(mb_left) || mouse_check_button_pressed(mb_middle) || mouse_check_button_pressed(mb_right))
+
+if (mouseActionTriggered && pointNotInRectangle) {
+	instance_destroy();
+}
+

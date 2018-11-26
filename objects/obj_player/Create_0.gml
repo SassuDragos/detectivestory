@@ -16,3 +16,5 @@ enum ContextMenuItemType {
 	PICK_UP,
 	DISCUSS
 }
+
+variable_global_set("actions_allowed", true);

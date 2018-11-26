@@ -1,6 +1,6 @@
 /// @description  to target
 
-if(canMove) {
+if(global.actions_allowed) {
 	
 	if(mouse_x >= x) {
 		image_xscale = -1;

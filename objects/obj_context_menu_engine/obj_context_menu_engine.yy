@@ -72,7 +72,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "noone",
+            "value": "0",
             "varName": "menuX",
             "varType": 1
         },
@@ -86,7 +86,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "noone",
+            "value": "0",
             "varName": "menuY",
             "varType": 1
         },
@@ -117,6 +117,34 @@
             "value": "0",
             "varName": "inputTypeList",
             "varType": 6
+        },
+        {
+            "id": "12186a81-dcb7-4830-9e31-1c09ea26a6af",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "menuMaxY",
+            "varType": 1
+        },
+        {
+            "id": "d8b8ded7-8183-4ab8-8d6a-b2d8f11fa958",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "menuMaxX",
+            "varType": 1
         }
     ],
     "solid": false,
