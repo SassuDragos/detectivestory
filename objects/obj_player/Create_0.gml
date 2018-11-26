@@ -11,3 +11,8 @@ destination_y = reset_destination_y;
 // In the beginning, we start facing left
 side = "left";
 
+enum ContextMenuItemType {
+	GOTO, 
+	PICK_UP,
+	DISCUSS
+}
