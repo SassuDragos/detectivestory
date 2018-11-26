@@ -4,7 +4,7 @@ var twoDArray = argument[0];
 var rowIndex = argument[1];
 
 var newArrayLength = array_length_2d(twoDArray, rowIndex);
-var newArray;
+var newArray = [];
 
 for (var columnIndex = 0; columnIndex < newArrayLength; columnIndex++;) {
 	newArray[columnIndex] = twoDArray[rowIndex, columnIndex];

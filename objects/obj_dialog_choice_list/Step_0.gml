@@ -1,19 +1,16 @@
-if (showList)
+var choiceListLength = array_length_1d(choice_list);
+
+if (choiceListLength > 0)
 {
-    if (mouse_wheel_up())
+    if (mouse_wheel_up() && lowerPos - 1 >= 0)
     {
-        lowerPos = max(lowerPos-1, 0);
-        upperPos = lowerPos+10;
+		lowerPos = lowerPos - 1;
+        upperPos = upperPos - 1;
     }
     else
-    if (mouse_wheel_down())
+    if (mouse_wheel_down() && upperPos + 1 < choiceListLength)
     {
-        upperPos = min(upperPos+1, 99);
-        lowerPos = upperPos-10;
+        upperPos = upperPos + 1;
+        lowerPos = lowerPos + 1;
     }
-}
-
-if (mouse_check_button_pressed(mb_right))
-{
-    showList = true;
 }

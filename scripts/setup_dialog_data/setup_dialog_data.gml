@@ -28,4 +28,9 @@ with (dialogCharacterId) {
 
 if array_length_1d(dialogChoices) > 0 {
 	choiceBoxObject.sprite_index = spr_choice_list_background;
+	choiceBoxObject.choice_list = dialogChoices;
+	choiceBoxObject.text_line_height = string_height(dialogText);
+} else {
+	choiceBoxObject.sprite_index = noone;
+	choiceBoxObject.choice_list = noone;
 }
