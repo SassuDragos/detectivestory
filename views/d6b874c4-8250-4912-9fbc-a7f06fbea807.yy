@@ -6,7 +6,8 @@
     "children": [
         "a7e34252-25d2-4c3a-938b-bcbe4d50e340",
         "cce29017-78f8-4874-89eb-a9426617f90e",
-        "5bc3f335-ddd4-412a-8f50-798d8877a1e6"
+        "5bc3f335-ddd4-412a-8f50-798d8877a1e6",
+        "3e3c9759-58f2-4af5-ba14-2e892b55fba6"
     ],
     "filterType": "GMScript",
     "folderName": "dialog",

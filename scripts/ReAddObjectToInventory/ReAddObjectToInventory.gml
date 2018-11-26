@@ -1,4 +1,5 @@
-object = argument0;
+obj_inventory.hasChanged = true;
+/*object = argument0;
 
 var j;
 for(j = 0; j < obj_inventory.i; ++j) {
@@ -7,4 +8,4 @@ for(j = 0; j < obj_inventory.i; ++j) {
 }
 	
 object.x = obj_inventory.x + 65 + (j * 115);
-object.y = obj_inventory.y + obj_inventory.sprite_height / 2;
+object.y = obj_inventory.y + obj_inventory.sprite_height / 2;*/

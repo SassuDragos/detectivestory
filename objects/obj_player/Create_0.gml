@@ -8,9 +8,6 @@ reset_destination_y = camera_get_view_height(view_camera[0]) + 1;
 destination_x = reset_destination_x;
 destination_y = reset_destination_y;
 
-// In the beginning, we start facing left
-side = "left";
-
 enum ContextMenuItemType {
 	GOTO, 
 	PICK_UP,
