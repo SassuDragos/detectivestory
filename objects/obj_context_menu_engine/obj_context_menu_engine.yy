@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "09166d9e-bab3-4c20-957c-c5bb6a05efe1"
+        },
+        {
+            "id": "d91db67d-d28f-48d1-9773-0936a322cb6e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "09166d9e-bab3-4c20-957c-c5bb6a05efe1"
+        },
+        {
+            "id": "c9d37b7e-abde-4f47-961a-58e0899bcce6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 27,
+            "eventtype": 9,
+            "m_owner": "09166d9e-bab3-4c20-957c-c5bb6a05efe1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -81,7 +101,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "butonList",
+            "varName": "buttonList",
             "varType": 6
         },
         {

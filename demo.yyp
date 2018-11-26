@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "05a338f4-097e-4d50-8d67-eb0d1dc2e1de",
+            "Value": {
+                "id": "bbc9e970-dec1-4d49-82c1-e0889137de39",
+                "resourcePath": "scripts\\action_discuss\\action_discuss.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "072ce89b-4bc9-4986-852c-c2d6ceb941fb",
             "Value": {
                 "id": "6cd80610-fbbe-420d-82d6-4103c30bdaff",
@@ -331,6 +339,14 @@
             "Value": {
                 "id": "403c01b0-623d-4fa5-b419-0218472f7f3d",
                 "resourcePath": "views\\7e173d63-c635-4b01-aace-4b92681dccc0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7fa902e3-4ddd-407b-8a63-241dc7e4765a",
+            "Value": {
+                "id": "8c566800-5098-46cc-92ef-ae3985ead727",
+                "resourcePath": "views\\7fa902e3-4ddd-407b-8a63-241dc7e4765a.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -647,6 +663,14 @@
             }
         },
         {
+            "Key": "f2b21731-d18d-4578-bfaa-2a8e3ac2a9d5",
+            "Value": {
+                "id": "4b346791-7b49-4eda-84bb-8839ec60c1f1",
+                "resourcePath": "scripts\\action_pick_up\\action_pick_up.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "29d35fa5-53d9-4b03-86e6-1c6f0a00a2b4",
@@ -688,17 +712,19 @@
         }
     ],
     "script_order": [
-        "4540c275-c207-4bc8-a012-6c7e7f66e00a",
-        "3e3c9759-58f2-4af5-ba14-2e892b55fba6",
         "a7e34252-25d2-4c3a-938b-bcbe4d50e340",
         "cce29017-78f8-4874-89eb-a9426617f90e",
         "5bc3f335-ddd4-412a-8f50-798d8877a1e6",
         "933aa60f-7de9-4213-a2ae-4ad301cebe2a",
         "ae9655a0-f336-4954-a0d7-73a31034ccb3",
+        "16269d34-852a-4c64-8a62-801efc38386e",
+        "f2b21731-d18d-4578-bfaa-2a8e3ac2a9d5",
+        "05a338f4-097e-4d50-8d67-eb0d1dc2e1de",
+        "4540c275-c207-4bc8-a012-6c7e7f66e00a",
+        "3e3c9759-58f2-4af5-ba14-2e892b55fba6",
         "072ce89b-4bc9-4986-852c-c2d6ceb941fb",
         "d260ef93-2f29-49a7-b609-946236085b87",
-        "eeaf97eb-90ce-4a16-aafb-7686b1f5da53",
-        "16269d34-852a-4c64-8a62-801efc38386e"
+        "eeaf97eb-90ce-4a16-aafb-7686b1f5da53"
     ],
     "tutorial": ""
 }

@@ -19,6 +19,7 @@ dialog_choice_list[1,6] = ""
 dialog_choice_list[1,7] = "" 
 
 create_event_initialise_dialog_holder(id, dialog_body_text_list, dialog_character_list, dialog_choice_list);
+variable_global_set("context_menu_engine", noone);
 /*
 Will initialise the following object variables:
 
