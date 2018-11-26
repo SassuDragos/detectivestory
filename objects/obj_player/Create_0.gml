@@ -18,3 +18,4 @@ enum ContextMenuItemType {
 }
 
 variable_global_set("actions_allowed", true);
+variable_global_set("context_menu_engine", noone);

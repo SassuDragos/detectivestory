@@ -5,5 +5,4 @@ for (var typeIndex = 0; typeIndex < inputTypeListLength; typeIndex += 1) {
 
 variable_global_set("context_menu_engine", noone);
 
-obj_player.canMove = true
 global.actions_allowed = true;
