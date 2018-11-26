@@ -1,6 +1,5 @@
 // Block player
-obj_player.canMove = false;
-global.actions_allowed = true;
+global.actions_allowed = false;
 
 // Initialise UI elements
 textBoxObject = instance_create_layer(room_width/2 - 200, room_height/2 + 70 , "layer_dialog", obj_textbox);

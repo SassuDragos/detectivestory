@@ -108,7 +108,7 @@
             "value": "down",
             "varName": "side",
             "varType": 2
-        }
+		}
     ],
     "solid": false,
     "spriteId": "ff947035-d3b8-467d-a3de-68ac12bc1dce",
