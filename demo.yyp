@@ -191,7 +191,6 @@
             }
         },
         {
-
             "Key": "42b0279f-3a84-4ccb-b914-1d99a8f576de",
             "Value": {
                 "id": "ac4586c6-bae1-4a64-a721-ccfa9fcf14a1",
@@ -256,7 +255,6 @@
             }
         },
         {
-
             "Key": "6179d48c-cb2d-4f0e-b146-a689e6b862fb",
             "Value": {
                 "id": "c5d488ea-1dad-4105-a536-674dfb9f69a7",
@@ -454,6 +452,14 @@
                 "id": "0db7196a-ece2-4d65-aaf8-4e1cdb3302d7",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a176d439-1c2d-49dc-8558-1a0e56529655",
+            "Value": {
+                "id": "f000a3a9-f542-43ba-8618-0d232efa8c82",
+                "resourcePath": "rooms\\room_test_movement\\room_test_movement.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
