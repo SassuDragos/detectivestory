@@ -7,11 +7,12 @@ if (choiceListLength > 0)
 	bottomMargin = startingY + backgroundHeight; 
     var x1 = room_width/2 - 400 + backgroundBorder;
     var x2 = room_width/2 + 400 - backgroundBorder;
-	
-    for (var i = 0; i < upperPos - lowerPos; i++)
-    {
-        var pos = lowerPos + i;
-        var y1 = startingY + i * 20;
+	var scrollOffset = min(upperPos - lowerPos, choiceListLength);
+
+
+    for (var index = 0; index < scrollOffset; index++) {
+        var pos = lowerPos + index;
+        var y1 = startingY + index * 20;
         var y2 = min(y1 + 19, bottomMargin);
 		draw_set_colour(c_white);
         draw_rectangle(x1, y1, x2, y2, 1);
@@ -26,11 +27,10 @@ if (choiceListLength > 0)
         {   		
 			draw_set_colour(c_red);
             draw_rectangle(x1, y1, x2, y2, 1);
-            if (mouse_check_button_pressed(mb_left))
-            {
-				// Selection actions
-                //showList = false;
-                //selectedValue = choice_list[pos];
+			if (mouse_check_button_pressed(mb_left)) {
+                // action_choice_selected(index + scrollOffset);
+                action_choice_selected();
+
             }
         }
     }
