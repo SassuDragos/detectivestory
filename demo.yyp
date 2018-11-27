@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "52caf782-efd7-47d9-a32e-5210c58f1707",
+            "Value": {
+                "id": "2d18dd3e-0865-44b5-92bc-3991dec7c89d",
+                "resourcePath": "objects\\obj_obstacle\\obj_obstacle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5bc3f335-ddd4-412a-8f50-798d8877a1e6",
             "Value": {
                 "id": "6d5d1986-dab7-46a5-acaf-a6983ddf2871",
