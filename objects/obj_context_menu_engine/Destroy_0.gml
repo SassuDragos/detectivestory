@@ -5,4 +5,6 @@ for (var typeIndex = 0; typeIndex < inputTypeListLength; typeIndex += 1) {
 
 variable_global_set("context_menu_engine", noone);
 
-global.actions_allowed = true;
+if (global.dialog_engine == noone) {
+    global.actions_allowed = true;    
+}

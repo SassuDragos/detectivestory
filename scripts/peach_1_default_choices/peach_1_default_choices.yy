@@ -1,8 +1,8 @@
 {
-    "id": "2a5a8eaa-7584-424d-8378-ed22ac386998",
+    "id": "4dcb1bbd-b8c7-4e85-8783-f028f4949183",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "action_choice_selected",
+    "name": "peach_1_default_choices",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -7,12 +7,3 @@ reset_destination_y = camera_get_view_height(view_camera[0]) + 1;
 // Set current destination to unreachable points
 destination_x = reset_destination_x;
 destination_y = reset_destination_y;
-
-enum ContextMenuItemType {
-	GOTO, 
-	PICK_UP,
-	DISCUSS
-}
-
-variable_global_set("actions_allowed", true);
-variable_global_set("context_menu_engine", noone);

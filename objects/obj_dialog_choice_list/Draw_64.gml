@@ -7,17 +7,18 @@ if (choiceListLength > 0)
 	bottomMargin = startingY + backgroundHeight; 
     var x1 = room_width/2 - 400 + backgroundBorder;
     var x2 = room_width/2 + 400 - backgroundBorder;
-	var scrollOffset = min(upperPos - lowerPos, choiceListLength);
-
-
-    for (var index = 0; index < scrollOffset; index++) {
+	    
+    //var scrollOffset = min(upperPos - lowerPos, choiceListLength);
+    //TODO: THIS IS A HACK: While this draw method is executed, a script may change the choice_list => You need to check it at every for step. . 
+        
+    for (var index = 0; index < min(upperPos - lowerPos, array_length_1d(choice_list)); index++) {
         var pos = lowerPos + index;
         var y1 = startingY + index * 20;
         var y2 = min(y1 + 19, bottomMargin);
 		draw_set_colour(c_white);
         draw_rectangle(x1, y1, x2, y2, 1);
        
-        var entry = choice_list[pos];
+		var entry = choice_list[pos];
 		
 		draw_set_halign(fa_left);
 		draw_set_colour(c_yellow);
@@ -28,9 +29,12 @@ if (choiceListLength > 0)
 			draw_set_colour(c_red);
             draw_rectangle(x1, y1, x2, y2, 1);
 			if (mouse_check_button_pressed(mb_left)) {
-                // action_choice_selected(index + scrollOffset);
-                action_choice_selected();
-
+				//Reset scroll position
+                lowerPos = 0;
+                upperPos = 4;
+                
+                // Resolve options
+                script_execute(obj_dialog_engine.dialogResolver, entry); 
             }
         }
     }
