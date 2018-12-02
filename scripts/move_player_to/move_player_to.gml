@@ -7,7 +7,20 @@ if(global.actions_allowed) {
 	spd = spd < 6 ? spd + 3 : 6;
 	
 	if(!mp_grid_path(global.path_grid, path, x, y, destination_x, destination_y, true)) {
-		show_debug_message("This is not convenient at all...");	
+		var potential_x;
+		var potential_y;
+		var foundNearest = false;
+		for(var i = 1; i < 100; ++i) {
+			if(ds_grid_get_disk_max(global.ds_path_grid, destination_x, destination_y, i) == 0) {
+				foundNearest = true;
+				potential_x = ds_grid_value_disk_x(global.ds_path_grid, destination_x, destination_y, i, 0);
+				potential_y = ds_grid_value_disk_y(global.ds_path_grid, destination_x, destination_y, i, 0);
+				break;
+			}
+		}
+		if(foundNearest) {
+			mp_potential_path(path, potential_x, potential_y, 3, 4, 0);
+		}
 	} else {
 		path_set_kind(path, 1);
 		path_set_precision(path, 8);
