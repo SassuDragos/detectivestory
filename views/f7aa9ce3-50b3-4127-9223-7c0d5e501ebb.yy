@@ -5,7 +5,11 @@
     "name": "f7aa9ce3-50b3-4127-9223-7c0d5e501ebb",
     "children": [
         "155d5c22-ef92-428c-bfb6-7f84b74dae6e",
-        "3fd7db95-3a19-45a2-8661-cc9470563725"
+        "3fd7db95-3a19-45a2-8661-cc9470563725",
+        "5fd0376c-829f-4a17-8a4a-5344d75cd83d",
+        "631c4efb-0ca9-40ac-a5e8-1b51db149af8",
+        "1192fbee-6faf-4bf7-8584-23851b0a39bd",
+        "5aea47fb-8a62-4031-bf09-4e2d3d6d2f7e"
     ],
     "filterType": "GMObject",
     "folderName": "npcs",
