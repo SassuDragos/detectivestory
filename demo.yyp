@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "2013d79b-815a-4481-932b-e4c46dda6aec",
+            "Value": {
+                "id": "ebfacdc3-b134-473f-a5d9-e4b97cf0d321",
+                "resourcePath": "scripts\\get_background_question_body_text\\get_background_question_body_text.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22a752a5-be40-4706-b04b-d655b8c72dc1",
             "Value": {
                 "id": "455e6382-c8f7-41f3-8a2e-f9f66f2e4879",
@@ -2695,6 +2703,7 @@
         "e4367f19-8e16-4a78-a130-45a65bc5f823",
         "6bc847b4-ff1d-4816-9719-cc73841b65df",
         "3e8ace62-172e-4bec-b3fc-97c7e4cb5f5a",
+        "2013d79b-815a-4481-932b-e4c46dda6aec",
         "3966916c-6095-4dfb-87dd-0212a0714bb5",
         "f975b827-c4ff-434b-8f26-957f7247550e",
         "3666e2f6-d70b-442c-931e-c1bb9e7312ed",
