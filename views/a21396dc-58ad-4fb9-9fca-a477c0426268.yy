@@ -9,7 +9,7 @@
         "c12dc8c6-16c4-49e7-9941-779c4dd69c19"
     ],
     "filterType": "GMScript",
-    "folderName": "default",
+    "folderName": "Stage 1",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
