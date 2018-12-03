@@ -8,7 +8,7 @@ var dialog_character = [];
 var dialog_choices = [];
 var result = [];
 
-dialog_body[0] = "People are so alienated from their own soul that when they finally meet their sould they think it`s from another star system.";
+dialog_body[0] = "People are so alienated from their own soul that when they finally meet their soul they think it`s from another star system.";
 dialog_character[0] = obj_michigan;
 
 var choices = michigan_1_default_choices();
