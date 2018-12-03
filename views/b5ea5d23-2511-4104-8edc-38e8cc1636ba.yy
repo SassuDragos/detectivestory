@@ -5,7 +5,8 @@
     "name": "b5ea5d23-2511-4104-8edc-38e8cc1636ba",
     "children": [
         "32bb2162-0849-4e0e-8bd5-8a429f030621",
-        "5f9ae07c-a92e-4026-96cd-4e554dc129f9"
+        "5f9ae07c-a92e-4026-96cd-4e554dc129f9",
+        "1c95a8d8-4fe8-4978-99b9-6c657fdbe258"
     ],
     "filterType": "GMScript",
     "folderName": "stage 2",
