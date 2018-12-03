@@ -6,5 +6,5 @@ for (var typeIndex = 0; typeIndex < inputTypeListLength; typeIndex += 1) {
 variable_global_set("context_menu_engine", noone);
 
 if (global.dialog_engine == noone) {
-    global.actions_allowed = true;    
+	obj_game_manager.alarm[11] = room_speed / 2
 }

@@ -1,0 +1,1 @@
+global.actions_allowed = true;    
