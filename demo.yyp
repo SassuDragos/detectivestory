@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "05351eef-1d56-44d9-b5f0-118a8223c214",
-            "Value": {
-                "id": "d7faa29f-9fb6-4457-b1c4-9162d4e86116",
-                "resourcePath": "sprites\\spr_girl_avatar\\spr_girl_avatar.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "05a338f4-097e-4d50-8d67-eb0d1dc2e1de",
             "Value": {
                 "id": "bbc9e970-dec1-4d49-82c1-e0889137de39",
@@ -699,14 +691,6 @@
             "Value": {
                 "id": "ece85f3f-804d-45a0-ac85-0e13cb45d124",
                 "resourcePath": "sprites\\spr_corner\\spr_corner.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "42b0279f-3a84-4ccb-b914-1d99a8f576de",
-            "Value": {
-                "id": "ac4586c6-bae1-4a64-a721-ccfa9fcf14a1",
-                "resourcePath": "sprites\\spr_bird_cage\\spr_bird_cage.yy",
                 "resourceType": "GMSprite"
             }
         },
