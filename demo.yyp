@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "3da9195e-2e50-49af-b6cc-12c53983314f",
+            "Value": {
+                "id": "2cd288b7-919e-476b-8177-739203f6f635",
+                "resourcePath": "views\\3da9195e-2e50-49af-b6cc-12c53983314f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3dc92bf2-c13c-42a9-84c9-d9b65ce438ce",
             "Value": {
                 "id": "79208daa-825e-4637-9bc9-e3fb5704bec1",
@@ -964,6 +972,14 @@
                 "id": "b6589307-e184-4d51-99e3-813f77e5a04f",
                 "resourcePath": "objects\\obj_father_clock\\obj_father_clock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "55384abc-e5a7-4a2b-a426-1e74be9e3dc9",
+            "Value": {
+                "id": "0f20a265-c8a7-41b2-bd7c-51f4ddde5da2",
+                "resourcePath": "scripts\\partner_detective_2_dialog_content_init\\partner_detective_2_dialog_content_init.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1612,6 +1628,22 @@
                 "id": "b9617731-f8cf-4125-8e11-93eb45cd9d8b",
                 "resourcePath": "sprites\\spr_detective_walking_left\\spr_detective_walking_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9681b20d-5d20-4e47-9dcd-799ca8b6e113",
+            "Value": {
+                "id": "ef398632-0337-45e6-b22f-99dd63f1d6dd",
+                "resourcePath": "scripts\\partner_detective_2_dialog_resolver\\partner_detective_2_dialog_resolver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "974e0b38-de54-4600-a745-985b439a8b1b",
+            "Value": {
+                "id": "59350e21-e6f0-477b-8cba-24574ddf55f0",
+                "resourcePath": "scripts\\partner_detective_2_default_choices\\partner_detective_2_default_choices.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2700,6 +2732,9 @@
         "6fb70758-2c76-40f9-a9e3-14dd1eba9e5f",
         "f34cbafd-071e-4a26-8f7f-c7ee5a29e2da",
         "c12dc8c6-16c4-49e7-9941-779c4dd69c19",
+        "974e0b38-de54-4600-a745-985b439a8b1b",
+        "55384abc-e5a7-4a2b-a426-1e74be9e3dc9",
+        "9681b20d-5d20-4e47-9dcd-799ca8b6e113",
         "e4367f19-8e16-4a78-a130-45a65bc5f823",
         "6bc847b4-ff1d-4816-9719-cc73841b65df",
         "3e8ace62-172e-4bec-b3fc-97c7e4cb5f5a",
