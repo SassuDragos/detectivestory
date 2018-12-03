@@ -9,7 +9,6 @@ var dialog_choices = [];
 var result = [];
 
 dialog_body[0] = "What an awful event! How could this happen to us?";
-//TODO: Replace with peach
 dialog_character[0] = obj_clementine;
 
 var choices = clementine_1_default_choices();
