@@ -1,8 +1,8 @@
 {
-    "id": "dad96c1d-6456-4fda-9083-9a25677d8b5b",
+    "id": "8d335c5e-4a86-4fdf-a7eb-fe5b24d24ad5",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "action_player_go_to",
+    "name": "room_picker_resolver",
     "IsCompatibility": false,
     "IsDnD": false
 }

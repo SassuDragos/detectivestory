@@ -14,7 +14,7 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 		switch(ds_list_find_value(inputTypeList, typeIndex)) {
 			case ContextMenuItemType.GOTO:
 				var listItem = instance_create_layer(itemX, itemY, "layer_dialog", obj_context_menu_item);
-				listItem.action = action_player_go_to;
+				listItem.action = action_go_to;
 
 				listItem.text = "Go To";
 				listItem.type = ContextMenuItemType.GOTO;
