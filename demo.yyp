@@ -218,7 +218,7 @@
             "Key": "155d5c22-ef92-428c-bfb6-7f84b74dae6e",
             "Value": {
                 "id": "c6dd6d8f-9f9e-4d4b-b4a9-6a71faba1572",
-                "resourcePath": "objects\\obj_some_character\\obj_some_character.yy",
+                "resourcePath": "objects\\obj_clementine\\obj_clementine.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -447,11 +447,35 @@
             }
         },
         {
+            "Key": "33906cc1-988d-4562-8b5f-ff2d5d35e63c",
+            "Value": {
+                "id": "d6a9f5a9-694d-419f-be7e-944ee1f9305d",
+                "resourcePath": "sprites\\spr_clementine_avatar\\spr_clementine_avatar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "33e40e60-a8a1-438e-9bae-0336a01d7c6a",
             "Value": {
                 "id": "e635b9ff-c0e3-422e-b349-02f3be676ba4",
                 "resourcePath": "objects\\obj_potion\\obj_potion.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "34413b0e-fcf7-4df6-99db-84367a7f1344",
+            "Value": {
+                "id": "b5794112-e132-4343-8cb1-471b76643e7c",
+                "resourcePath": "views\\34413b0e-fcf7-4df6-99db-84367a7f1344.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "34ffae67-e60f-4f72-bd55-8682e5df96d8",
+            "Value": {
+                "id": "d3c5803c-01f1-475f-8581-707b6190bf74",
+                "resourcePath": "sprites\\spr_clementine_full\\spr_clementine_full.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -698,7 +722,7 @@
             "Key": "4dcb1bbd-b8c7-4e85-8783-f028f4949183",
             "Value": {
                 "id": "276338d8-9d18-4f8d-a647-8e034bfd64da",
-                "resourcePath": "scripts\\peach_1_default_choices\\peach_1_default_choices.yy",
+                "resourcePath": "scripts\\clementine_1_default_choices\\clementine_1_default_choices.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1183,6 +1207,14 @@
             }
         },
         {
+            "Key": "849fa3e4-fd05-43e6-9dcf-a2ad14c25775",
+            "Value": {
+                "id": "51713dda-3222-4dd8-88a9-ced04b776245",
+                "resourcePath": "views\\849fa3e4-fd05-43e6-9dcf-a2ad14c25775.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "85790790-f3aa-41b2-9bd2-9e993ebcc067",
             "Value": {
                 "id": "f0acafb0-9b37-431c-b934-066c291e216b",
@@ -1394,7 +1426,7 @@
             "Key": "9fb1a85f-0b89-496b-b1b4-47691ac3cd7a",
             "Value": {
                 "id": "d0dcb545-c562-4779-a877-eee7b0e3789d",
-                "resourcePath": "scripts\\peach_1_dialog_content_init\\peach_1_dialog_content_init.yy",
+                "resourcePath": "scripts\\clementine_1_dialog_content_init\\clementine_1_dialog_content_init.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1642,7 +1674,7 @@
             "Key": "bdfd1506-064e-4c28-bc88-2e9074403341",
             "Value": {
                 "id": "2c951e70-9f21-4364-b61b-df428c447650",
-                "resourcePath": "scripts\\peach_1_dialog_resolver\\peach_1_dialog_resolver.yy",
+                "resourcePath": "scripts\\clementine_1_dialog_resolver\\clementine_1_dialog_resolver.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2051,6 +2083,14 @@
             "Value": {
                 "id": "f34c56fa-74f1-4d49-9bf5-41c689be99e2",
                 "resourcePath": "views\\f78dca56-b328-4017-ba49-f5af460430f5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7aa9ce3-50b3-4127-9223-7c0d5e501ebb",
+            "Value": {
+                "id": "30d355d3-d130-4b4c-884c-9df0b503fa98",
+                "resourcePath": "views\\f7aa9ce3-50b3-4127-9223-7c0d5e501ebb.yy",
                 "resourceType": "GMFolder"
             }
         },

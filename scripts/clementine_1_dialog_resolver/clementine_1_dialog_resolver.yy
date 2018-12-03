@@ -1,8 +1,8 @@
 {
-    "id": "9fb1a85f-0b89-496b-b1b4-47691ac3cd7a",
+    "id": "bdfd1506-064e-4c28-bc88-2e9074403341",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "peach_1_dialog_content_init",
+    "name": "clementine_1_dialog_resolver",
     "IsCompatibility": false,
     "IsDnD": false
 }

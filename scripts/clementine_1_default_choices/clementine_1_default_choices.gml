@@ -1,4 +1,4 @@
-/// @function peach_1_default_choices() -> List: String (Choices)
+/// @function clementine_1_default_choices() -> List: String (Choices)
 
 //TODO: HOW TO CHECK INVETORY? Set this up
 var hasBruiserRingInInventory = true;

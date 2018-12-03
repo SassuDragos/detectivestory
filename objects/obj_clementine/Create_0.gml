@@ -1,5 +1,5 @@
 create_event_initialise_character(id, "Joanne", c_green, spr_girl_avatar);
-create_event_initialise_dialog_holder(id, peach_1_dialog_content_init, peach_1_dialog_resolver);
+create_event_initialise_dialog_holder(id, clementine_1_dialog_content_init, clementine_1_dialog_resolver);
 
 /*
 Will initialise the following object variables:

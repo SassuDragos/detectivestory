@@ -2,7 +2,7 @@
     "id": "155d5c22-ef92-428c-bfb6-7f84b74dae6e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_some_character",
+    "name": "obj_clementine",
     "eventList": [
         {
             "id": "8305334b-e144-4ebc-8fb0-96194ebbcd7a",
@@ -58,6 +58,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "05351eef-1d56-44d9-b5f0-118a8223c214",
+    "spriteId": "34ffae67-e60f-4f72-bd55-8682e5df96d8",
     "visible": true
 }

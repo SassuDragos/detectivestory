@@ -7,7 +7,7 @@
         "6bcf093e-7d3f-47c9-b172-4a0a98dca820"
     ],
     "filterType": "GMScript",
-    "folderName": "peach",
+    "folderName": "clementine",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
