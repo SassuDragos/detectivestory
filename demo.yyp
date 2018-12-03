@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "0c403412-ecff-4be5-852a-19aff0cdad69",
+            "Value": {
+                "id": "11ce019d-8889-43e4-953e-d4fb0b231350",
+                "resourcePath": "sprites\\spr_partner_detective_full\\spr_partner_detective_full.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c472eb9-69e5-4174-bc2e-8ca552863888",
             "Value": {
                 "id": "b8a028fb-4a0f-4f67-af01-5fee3ee713a1",
@@ -180,6 +188,14 @@
                 "id": "f55680f9-4e6a-4a83-8cfb-9b7c400b37a8",
                 "resourcePath": "scripts\\stop_player_movement\\stop_player_movement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0da05956-7b31-4378-a3d8-189307895b89",
+            "Value": {
+                "id": "65f822f4-d4ed-4ff9-a7e7-7f12c131d7b7",
+                "resourcePath": "views\\0da05956-7b31-4378-a3d8-189307895b89.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -635,6 +651,14 @@
             "Value": {
                 "id": "d18c4831-ba81-4cf4-b6be-624c13c6ff4f",
                 "resourcePath": "objects\\obj_hole_wall\\obj_hole_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3fd7db95-3a19-45a2-8661-cc9470563725",
+            "Value": {
+                "id": "93507047-7fad-43eb-9144-1d3a0cd2d3fb",
+                "resourcePath": "objects\\obj_partner_detective\\obj_partner_detective.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1211,6 +1235,14 @@
             "Value": {
                 "id": "697a71f8-d064-488c-a42b-2b38911f750d",
                 "resourcePath": "sprites\\spr_detective_running_left\\spr_detective_running_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "83fab274-7564-4ff7-86b0-35e62cee50eb",
+            "Value": {
+                "id": "46136db1-a5e9-4ed6-bc84-1347f8056239",
+                "resourcePath": "sprites\\spr_partner_detective_avatar\\spr_partner_detective_avatar.yy",
                 "resourceType": "GMSprite"
             }
         },
