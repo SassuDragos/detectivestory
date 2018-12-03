@@ -3,16 +3,11 @@ if (currentDialogStep == 0 && string_length(textBoxObject.text_body) == 0) {
 	var text = bodyTextSequence[currentDialogStep];
     var characters = charactersSequence[currentDialogStep];
     var choices = get_row_from_2darray(choiceSequence, currentDialogStep);
-    setup_dialog_data(text, characters, choices);
-
+    setup_dialog_displayed_data(text, characters, choices);
 }
-
 
 /*
 	argument[0]: String = Text for dialog sequence
 	argument[1]: Object: Interactor = Character for dialog sequence (HAVE TITLE + AVATAR)
 	argument[2]: String = Choice dialog sequence (seach choice is eparated by '@')
-	argument[3]: TextBox 
-	argument[4]: AvatarBox	
-	argumnet[5]: ChoiceBox
 */

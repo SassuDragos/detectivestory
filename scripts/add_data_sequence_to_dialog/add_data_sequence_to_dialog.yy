@@ -1,8 +1,8 @@
 {
-    "id": "5bc3f335-ddd4-412a-8f50-798d8877a1e6",
+    "id": "f84ba40e-edca-4e09-9310-c019e689ed91",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "setup_dialog_data",
+    "name": "add_data_sequence_to_dialog",
     "IsCompatibility": false,
     "IsDnD": false
 }

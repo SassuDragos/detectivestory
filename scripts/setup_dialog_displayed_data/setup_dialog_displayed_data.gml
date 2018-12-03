@@ -1,4 +1,4 @@
-/// @function setup_dialog_data
+/// @function setup_dialog_displayed_data
 
 // To be called exclusively from dialog_eningine
 /*

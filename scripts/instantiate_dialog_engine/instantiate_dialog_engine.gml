@@ -1,4 +1,4 @@
-/// @function instantiate_dialog(bodyTextList, characterLists, choiceLists)
+/// @function instantiate_dialog_engine(bodyTextList, characterLists, choiceLists)
 
 /*
 	argument[0]: Body text sequence

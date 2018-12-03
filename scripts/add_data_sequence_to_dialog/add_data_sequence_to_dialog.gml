@@ -1,4 +1,4 @@
-/// @function add_sequence_to_dialog(newBodies, newCharacters, newChoices)
+/// @function add_data_sequence_to_dialog(newBodies, newCharacters, newChoices)
 
 var nextDialogStep = global.dialog_engine.currentDialogStep + 1;
 var newSequenceSize = array_length_1d(argument0);
