@@ -26,7 +26,7 @@ ds_map_add(cluesMap, "asked_bruise", false);
 ds_map_add(cluesMap, "gave_toad_pizza", false);
 ds_map_add(cluesMap, "knows_toad_took_shrooms", false)
 ds_map_add(cluesMap, "has_convinced_mitch", false)
-
+ds_map_add(cluesMap, "no_of_background_questions_on_partner", 0);
 variable_global_set("cluesMap", cluesMap);
 
 var availableLocationsList = ds_list_create();
