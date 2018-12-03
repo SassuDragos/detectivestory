@@ -80,6 +80,7 @@ switch(selectedDialogChoice) {
 			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
 		}
 		ds_map_set(global.cluesMap, "knows_about_clementine_dealing", true); 
+		global.game_stage = 2; 
 	case "Finish `conversation`":
 		break;
 }

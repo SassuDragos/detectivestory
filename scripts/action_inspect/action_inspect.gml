@@ -1,15 +1,12 @@
 
 
-if (variable_global_exists("organigram"))
-   {
-		room_goto(organigram_room);
-   }else if (variable_global_exists("deliveryLedger"))
-		{
-		room_goto(deliveryLedger_room);
-		}else if(variable_global_exists("safePaper"))
-		{
-			room_goto(SafePaper_room);
-		}else if(variable_global_exists("safePaperBurnt"))
-		{
-			room_goto(SafePaperBurnt_room);
-		}
+//TODO: Find a better way to compare objects other then sprites
+if (argument0.sprite_index == spr_board) {
+	room_goto(organigram_room);
+} else if (argument0.sprite_index == spr_deliveryBook) {
+	room_goto(deliveryLedger_room);
+} else if (argument0.sprite_index == spr_safePaper) {
+	room_goto(SafePaper_room);
+} else if (argument0.sprite_index == spr_safePaper) {
+	room_goto(SafePaperBurnt_room);
+}

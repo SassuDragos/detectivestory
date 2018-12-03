@@ -1,5 +1,3 @@
-variable_global_set("organigram",0);
-
 var menuList = ds_list_create();
 
 ds_list_add(menuList, ContextMenuItemType.INSPECT);

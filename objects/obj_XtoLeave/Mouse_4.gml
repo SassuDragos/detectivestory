@@ -1,3 +1,4 @@
 room_goto(room_pizzaria);
-initialize_global_variables();
+
+variable_global_set("actions_allowed", true);
 

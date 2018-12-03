@@ -12,14 +12,7 @@ enum RoomChoices {
 	APARTMENTS,
 }
 
-/*
-enum InspectChoices {
-	ORGANIGRAM = false,
-	DELIVERY = false,
-	SAFEPAPER = false,
-	SAFEPAPERBURNT = false
-}
-*/
+
 
 variable_global_set("actions_allowed", true);
 
@@ -35,7 +28,7 @@ ds_map_add(cluesMap, "knows_mario_wears_ring",false)
 ds_map_add(cluesMap, "asked_bruise", false);
 
 // TOAD
-ds_map_add(cluesMap, "gave_toad_pizza", false);
+ds_map_add(cluesMap, "gave_toad_pizza", true);
 ds_map_add(cluesMap, "knows_toad_took_shrooms", false)
 ds_map_add(cluesMap, "has_convinced_mitch", false)
 ds_map_add(cluesMap, "knows_about_clementine_dealing", false)
@@ -48,3 +41,6 @@ var availableLocationsList = ds_list_create();
 ds_list_add(availableLocationsList, RoomChoices.TOADS)
 variable_global_set("available_locations_list", availableLocationsList);
 
+variable_global_set("game_stage", 1);
+
+variable_global_set("deliveryLedger", 0);

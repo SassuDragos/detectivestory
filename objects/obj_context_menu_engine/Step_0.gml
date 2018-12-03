@@ -31,8 +31,6 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 			case ContextMenuItemType.PICK_UP:
 				var listItem = instance_create_layer(itemX, itemY, "layer_dialog", obj_context_menu_item);
 				listItem.action = action_pick_up;
-				
-				
 
 				listItem.text = "Pick up";
 				listItem.type = ContextMenuItemType.PICK_UP;
@@ -45,7 +43,6 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 				listItem.text = "Inspect";
 				listItem.type = ContextMenuItemType.INSPECT;
 				buttonList[typeIndex] = listItem;
-			
 		}
 	}
 	

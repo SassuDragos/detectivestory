@@ -2,7 +2,7 @@
     "id": "bab7168c-83be-46b7-857a-1aecb3fcb10d",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_XtoLeave",
+    "name": "spr_X_close_screen",
     "For3D": false,
     "HTile": false,
     "VTile": false,
