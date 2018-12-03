@@ -2303,6 +2303,14 @@
             }
         },
         {
+            "Key": "e4367f19-8e16-4a78-a130-45a65bc5f823",
+            "Value": {
+                "id": "1a8adead-586e-4757-bdfd-791bb8dee40e",
+                "resourcePath": "scripts\\instantiate_partner_no_rooms_discovered_hint\\instantiate_partner_no_rooms_discovered_hint.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e4645508-bdaf-4dd0-b658-6015e4a0e6cd",
             "Value": {
                 "id": "0924028a-a20a-478b-8690-a96785d9ba48",
@@ -2659,6 +2667,7 @@
         "6fb70758-2c76-40f9-a9e3-14dd1eba9e5f",
         "f34cbafd-071e-4a26-8f7f-c7ee5a29e2da",
         "c12dc8c6-16c4-49e7-9941-779c4dd69c19",
+        "e4367f19-8e16-4a78-a130-45a65bc5f823",
         "6bc847b4-ff1d-4816-9719-cc73841b65df",
         "3e8ace62-172e-4bec-b3fc-97c7e4cb5f5a",
         "3966916c-6095-4dfb-87dd-0212a0714bb5",

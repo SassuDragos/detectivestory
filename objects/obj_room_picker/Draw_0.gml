@@ -2,8 +2,7 @@
 draw_sprite(spr_room_picker_background,0,x,y);
 
 var choiceListLength = ds_list_size(choiceList);
-if (choiceListLength > 0)
-{	
+if (choiceListLength > 0) {	
 	var backgroundBorder = 4;
 	var backgroundHeight = sprite_get_height(spr_choice_list_background) - 2 * backgroundBorder;
 	var startingY = y + backgroundBorder;

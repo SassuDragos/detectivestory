@@ -2,11 +2,22 @@
 // You can write your code in this editor
 
 choiceList = ds_list_create();
-ds_list_copy(choiceList, global.available_locations_list);
-ds_list_add(choiceList, RoomChoices.TOADS)
+var availableRooms = global.available_locations_list;
 
+switch(room) {
+	case room_pizzaria:
+		if (ds_list_find_index(availableRooms, RoomChoices.TOADS) != -1) {
+			ds_list_add(choiceList, RoomChoices.TOADS) }
+		break;
+	case room_house_toad:
+			ds_list_add(choiceList, RoomChoices.PIZZERIA)
+		break;
+}
 
-
+if (ds_list_size(choiceList) == 0) {
+	instantiate_partner_no_rooms_discovered_hint();
+	instance_destroy(self);
+}
 lowerPos = 0;
 upperPos = 4;
 
