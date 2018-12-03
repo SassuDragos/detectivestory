@@ -1,3 +1,6 @@
+// Draw textbox
+// draw_sprite(spr_choice_list_background,0,x,y);
+
 var choiceListLength = array_length_1d(choice_list);
 if (choiceListLength > 0)
 {	
