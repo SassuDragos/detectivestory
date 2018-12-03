@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "4cf2c6bf-87c7-46d5-b568-b6f3fc211fe7",
+            "Value": {
+                "id": "e7f7450f-1925-4e29-9638-bdace9ac07eb",
+                "resourcePath": "objects\\obj_XtoLeave\\obj_XtoLeave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4d12de5e-3f17-4d8f-936a-0b3741d8f98f",
             "Value": {
                 "id": "4061fde6-74b2-43ff-9fbd-1ec9c3b5985c",
@@ -1751,6 +1759,14 @@
             }
         },
         {
+            "Key": "a32a90d8-3784-45b0-ac37-a476497da93e",
+            "Value": {
+                "id": "58327ef4-f4c4-49bc-9b56-57b2871571af",
+                "resourcePath": "scripts\\action_inspect\\action_inspect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a357ee00-976c-445b-a5b5-08ef7cba5dea",
             "Value": {
                 "id": "38841516-f0b0-471b-baaf-d024bda4d76d",
@@ -1955,6 +1971,14 @@
             "Value": {
                 "id": "87edab6e-6699-4319-be87-e9de00572d78",
                 "resourcePath": "sprites\\spr_fridge_white\\spr_fridge_white.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bab7168c-83be-46b7-857a-1aecb3fcb10d",
+            "Value": {
+                "id": "a18d124f-af65-4ac4-8bc9-4d6b7588d017",
+                "resourcePath": "sprites\\spr_XtoLeave\\spr_XtoLeave.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2661,6 +2685,7 @@
         "f2b21731-d18d-4578-bfaa-2a8e3ac2a9d5",
         "05a338f4-097e-4d50-8d67-eb0d1dc2e1de",
         "dad96c1d-6456-4fda-9083-9a25677d8b5b",
+        "a32a90d8-3784-45b0-ac37-a476497da93e",
         "4dcb1bbd-b8c7-4e85-8783-f028f4949183",
         "9fb1a85f-0b89-496b-b1b4-47691ac3cd7a",
         "bdfd1506-064e-4c28-bc88-2e9074403341",

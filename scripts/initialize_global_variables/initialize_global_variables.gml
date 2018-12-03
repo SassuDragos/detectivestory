@@ -1,13 +1,23 @@
 enum ContextMenuItemType {
 	GOTO, 
 	PICK_UP,
-	DISCUSS
+	DISCUSS,
+	INSPECT
 }
 
 enum RoomChoices {
 	TOADS,
 	PIZZERIA
 }
+
+/*
+enum InspectChoices {
+	ORGANIGRAM = false,
+	DELIVERY = false,
+	SAFEPAPER = false,
+	SAFEPAPERBURNT = false
+}
+*/
 
 variable_global_set("actions_allowed", true);
 

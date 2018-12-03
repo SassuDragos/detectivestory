@@ -1,4 +1,4 @@
-variable_global_set("organigram",0);
+variable_global_set("deliveryLedger",0);
 
 var menuList = ds_list_create();
 
