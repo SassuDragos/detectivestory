@@ -5,7 +5,8 @@
     "name": "d58dcd9d-2dca-440b-bab0-0310f175e91d",
     "children": [
         "3c264e2d-b0b3-44e8-a0e6-1b7f26e04f3a",
-        "4cf2c6bf-87c7-46d5-b568-b6f3fc211fe7"
+        "4cf2c6bf-87c7-46d5-b568-b6f3fc211fe7",
+        "834b587c-5bd6-4d66-86ff-2ec0ef181e0f"
     ],
     "filterType": "GMObject",
     "folderName": "room_navigation",

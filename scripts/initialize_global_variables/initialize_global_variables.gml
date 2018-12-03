@@ -7,7 +7,9 @@ enum ContextMenuItemType {
 
 enum RoomChoices {
 	TOADS,
-	PIZZERIA
+	PIZZERIA,
+	STORAGE,
+	APARTMENTS,
 }
 
 /*

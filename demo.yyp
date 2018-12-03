@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "19e46d92-39cb-4f35-b18b-0622154c6a41",
+            "Value": {
+                "id": "4e788155-e4d0-439f-a228-7b613b73cada",
+                "resourcePath": "objects\\obj_stairs_pizzeria\\obj_stairs_pizzeria.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ac3660f-a8e6-4895-bf9c-f7b94fd899e1",
             "Value": {
                 "id": "1d266d4a-087d-40d1-bf3f-8254a16f0c02",
@@ -1436,6 +1444,14 @@
                 "id": "4d342022-2ad8-4c33-acc3-44fd49af5469",
                 "resourcePath": "sprites\\spr_window_blue\\spr_window_blue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "834b587c-5bd6-4d66-86ff-2ec0ef181e0f",
+            "Value": {
+                "id": "6a37a068-0c14-4bc4-9482-63750f3c4698",
+                "resourcePath": "objects\\obj_room_picker_inside\\obj_room_picker_inside.yy",
+                "resourceType": "GMObject"
             }
         },
         {
