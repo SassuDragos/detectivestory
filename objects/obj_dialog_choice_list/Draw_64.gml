@@ -1,12 +1,12 @@
 var choiceListLength = array_length_1d(choice_list);
 if (choiceListLength > 0)
 {	
-	backgroundBorder = 4;
-	backgroundHeight = self.sprite_height - 2 * backgroundBorder;
-	startingY = room_height/2 + 270 + backgroundBorder;
-	bottomMargin = startingY + backgroundHeight; 
-    var x1 = room_width/2 - 400 + backgroundBorder;
-    var x2 = room_width/2 + 400 - backgroundBorder;
+	var backgroundBorder = 4;
+	var backgroundHeight = sprite_get_height(spr_choice_list_background) - 2 * backgroundBorder;
+	var startingY = y + backgroundBorder;
+	var bottomMargin = startingY + backgroundHeight; 
+    var x1 = x + backgroundBorder;
+    var x2 = x + sprite_get_width(spr_choice_list_background) - 2 * backgroundBorder;
 	    
     //var scrollOffset = min(upperPos - lowerPos, choiceListLength);
     //TODO: THIS IS A HACK: While this draw method is executed, a script may change the choice_list => You need to check it at every for step. . 
