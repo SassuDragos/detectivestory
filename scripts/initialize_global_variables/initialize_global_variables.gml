@@ -20,6 +20,7 @@ variable_global_set("movement_manager", movementManager)
 var cluesMap = ds_map_create();
 ds_map_add(cluesMap,"knows_mario_wears_ring",false)
 ds_map_add(cluesMap,"asked_bruise", false);
+ds_map_add(cluesMap,"gave_toad_pizza", false);
 variable_global_set("cluesMap", cluesMap);
 
 var availableLocationsList = ds_list_create();

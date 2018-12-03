@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_michigan",
     "eventList": [
-        
+        {
+            "id": "681b713a-240f-4f56-a980-55b75f3eddc1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5aea47fb-8a62-4031-bf09-4e2d3d6d2f7e"
+        },
+        {
+            "id": "3db4ff6c-59a4-4b10-8271-cda0c3dfa6c7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 6,
+            "m_owner": "5aea47fb-8a62-4031-bf09-4e2d3d6d2f7e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

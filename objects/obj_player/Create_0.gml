@@ -1,4 +1,4 @@
-create_event_initialise_character(id, "Player", c_red, spr_detective_avatar);
+create_event_initialise_character(id, "Don, Detective Don Nuts", c_red, spr_detective_avatar);
 
 // Set the checking destinations to unclickable points
 reset_destination_x = camera_get_view_width(view_camera[0]) + 1;

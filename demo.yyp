@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "32bb2162-0849-4e0e-8bd5-8a429f030621",
+            "Value": {
+                "id": "20ababb9-5a14-480d-ae55-0dce4d080d01",
+                "resourcePath": "scripts\\michigan_2_default_choices\\michigan_2_default_choices.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "33906cc1-988d-4562-8b5f-ff2d5d35e63c",
             "Value": {
                 "id": "d6a9f5a9-694d-419f-be7e-944ee1f9305d",
@@ -583,6 +591,14 @@
             }
         },
         {
+            "Key": "3666e2f6-d70b-442c-931e-c1bb9e7312ed",
+            "Value": {
+                "id": "627f0efd-0170-475b-851f-dc8e801792be",
+                "resourcePath": "scripts\\michigan_1_dialog_resolver\\michigan_1_dialog_resolver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3730394a-ba42-45ee-a5b3-edc52ca04188",
             "Value": {
                 "id": "5b2f838e-95f9-4b64-8667-c30a3e0d1891",
@@ -604,6 +620,14 @@
                 "id": "90c5099b-9810-442a-9def-84ecbc5153b7",
                 "resourcePath": "sprites\\spr_sidetable\\spr_sidetable.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3966916c-6095-4dfb-87dd-0212a0714bb5",
+            "Value": {
+                "id": "5eb74bec-1419-4b29-8b58-e8e5ff849b25",
+                "resourcePath": "scripts\\michigan_1_default_choices\\michigan_1_default_choices.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -988,6 +1012,14 @@
                 "id": "f430dd10-9f98-4e3e-82bb-fb1234b209b4",
                 "resourcePath": "objects\\obj_wall_storage_corner\\obj_wall_storage_corner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5f9ae07c-a92e-4026-96cd-4e554dc129f9",
+            "Value": {
+                "id": "434a604c-faa7-4627-b37d-79363ef1da25",
+                "resourcePath": "scripts\\michigan_2_dialog_content_init\\michigan_2_dialog_content_init.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1647,6 +1679,14 @@
             }
         },
         {
+            "Key": "9f356a73-1ec7-4d53-8510-6e5a176120ce",
+            "Value": {
+                "id": "3724e74d-7155-4b8b-be2b-9d74bbf7d480",
+                "resourcePath": "views\\9f356a73-1ec7-4d53-8510-6e5a176120ce.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9fb1a85f-0b89-496b-b1b4-47691ac3cd7a",
             "Value": {
                 "id": "d0dcb545-c562-4779-a877-eee7b0e3789d",
@@ -1844,6 +1884,14 @@
                 "id": "055b99fa-37bd-454e-9c60-e6b32bb427d6",
                 "resourcePath": "tilesets\\tileset3\\tileset3.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "b5ea5d23-2511-4104-8edc-38e8cc1636ba",
+            "Value": {
+                "id": "c63e6a63-a38f-471a-a0eb-8453f833acda",
+                "resourcePath": "views\\b5ea5d23-2511-4104-8edc-38e8cc1636ba.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2503,6 +2551,14 @@
             }
         },
         {
+            "Key": "f975b827-c4ff-434b-8f26-957f7247550e",
+            "Value": {
+                "id": "535d2c32-a2ae-446e-9f15-86cc774ace6f",
+                "resourcePath": "scripts\\michigan_1_dialog_content_init\\michigan_1_dialog_content_init.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fc047cc8-2ee8-48b5-8925-92fef157ff8b",
             "Value": {
                 "id": "0b42ee9f-4b15-4549-baa9-e9e5217f09c5",
@@ -2597,6 +2653,11 @@
         "c12dc8c6-16c4-49e7-9941-779c4dd69c19",
         "6bc847b4-ff1d-4816-9719-cc73841b65df",
         "3e8ace62-172e-4bec-b3fc-97c7e4cb5f5a",
+        "3966916c-6095-4dfb-87dd-0212a0714bb5",
+        "f975b827-c4ff-434b-8f26-957f7247550e",
+        "3666e2f6-d70b-442c-931e-c1bb9e7312ed",
+        "32bb2162-0849-4e0e-8bd5-8a429f030621",
+        "5f9ae07c-a92e-4026-96cd-4e554dc129f9",
         "cce29017-78f8-4874-89eb-a9426617f90e",
         "3e3c9759-58f2-4af5-ba14-2e892b55fba6",
         "a7e34252-25d2-4c3a-938b-bcbe4d50e340",
