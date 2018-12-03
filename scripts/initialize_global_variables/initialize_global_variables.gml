@@ -36,9 +36,13 @@ ds_map_add(cluesMap, "asked_bruise", false);
 ds_map_add(cluesMap, "gave_toad_pizza", false);
 ds_map_add(cluesMap, "knows_toad_took_shrooms", false)
 ds_map_add(cluesMap, "has_convinced_mitch", false)
-ds_map_add(cluesMap, "no_of_background_questions_on_partner", 0);
+ds_map_add(cluesMap, "knows_about_clementine_dealing", false)
 variable_global_set("cluesMap", cluesMap);
 
+// Partner
+ds_map_add(cluesMap, "no_of_background_questions_on_partner", 0);
+
 var availableLocationsList = ds_list_create();
+ds_list_add(availableLocationsList, RoomChoices.TOADS)
 variable_global_set("available_locations_list", availableLocationsList);
 
