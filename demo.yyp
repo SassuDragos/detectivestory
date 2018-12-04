@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "32808af1-9376-48da-aa62-2d94c2f41c31",
+            "Value": {
+                "id": "5502163f-1395-48b7-ab9f-90afd9281cff",
+                "resourcePath": "scripts\\leonardo_1_dialog_resolver\\leonardo_1_dialog_resolver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "329588da-c372-4e15-9aab-3aa0af8fe487",
             "Value": {
                 "id": "7c38e8a8-8d68-4dcf-843f-a204c597016c",
@@ -868,6 +876,14 @@
                 "id": "ce9741e9-5b39-4716-a8ec-c3ca5a69152e",
                 "resourcePath": "objects\\obj_carpet_red\\obj_carpet_red.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "40d5d467-1947-4381-a55a-1f8693d6b28f",
+            "Value": {
+                "id": "ac9e898e-5f77-456a-9d63-c08e8a570356",
+                "resourcePath": "views\\40d5d467-1947-4381-a55a-1f8693d6b28f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2039,6 +2055,14 @@
             }
         },
         {
+            "Key": "a7cd7271-8741-4fc0-b39b-55c6e7c9ac05",
+            "Value": {
+                "id": "093d44e1-a310-4054-951b-5f71cee531cc",
+                "resourcePath": "scripts\\leonardo_1_default_choices\\leonardo_1_default_choices.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a7e34252-25d2-4c3a-938b-bcbe4d50e340",
             "Value": {
                 "id": "7c76c9af-54c0-4155-8b65-f4b311d5c016",
@@ -2148,6 +2172,14 @@
                 "id": "8410ac59-a33f-458a-866a-21a2e0a7c1f3",
                 "resourcePath": "sprites\\spr_textbox_background\\spr_textbox_background.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b2be8629-d8f0-41ec-bc3f-7ff3786ebd16",
+            "Value": {
+                "id": "d888bc7c-f44f-4fe6-8032-7ddef0b0c25e",
+                "resourcePath": "scripts\\leonardo_1_dialog_content_init\\leonardo_1_dialog_content_init.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3040,6 +3072,9 @@
         "ca9d297e-0976-42b3-8e07-d247e28db48d",
         "885a0ccd-b9f3-424c-8c2d-64574b187e05",
         "bf27d6ce-052c-4b8c-bd9f-4ed16d83468d",
+        "a7cd7271-8741-4fc0-b39b-55c6e7c9ac05",
+        "b2be8629-d8f0-41ec-bc3f-7ff3786ebd16",
+        "32808af1-9376-48da-aa62-2d94c2f41c31",
         "dcdd82fd-134a-4df0-8ce6-0a5c34d9c155",
         "af480d7a-b663-4af0-9b54-9dc858304482",
         "25327314-66f5-4ccd-8d55-1159616330b3",
