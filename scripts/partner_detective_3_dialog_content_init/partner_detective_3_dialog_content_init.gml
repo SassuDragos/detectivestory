@@ -23,7 +23,7 @@ ds_list_shuffle(funnyDialogBodies);
 dialog_body[0] = ds_list_find_value(funnyDialogBodies, 0);
 dialog_character[0] = obj_partner_detective;
 
-var choices = partner_detective_2_default_choices();
+var choices = partner_detective_3_default_choices();
 for (var index = 0; index < ds_list_size(choices); index ++) {
 	dialog_choices[0, index] = ds_list_find_value(choices, index);
 }
