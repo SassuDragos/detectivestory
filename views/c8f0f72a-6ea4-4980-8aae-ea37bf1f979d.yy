@@ -12,7 +12,8 @@
         "8f5606fb-663f-4621-8892-5ec178e770fb",
         "c49c1feb-66ea-499a-b2cb-00059baf134a",
         "ceec08f5-2965-4364-b705-ad986d44fb5a",
-        "ed2305d1-2d3b-4eda-991d-78240ea58817"
+        "ed2305d1-2d3b-4eda-991d-78240ea58817",
+        "68daac55-c511-4423-8ef1-9edfb9caa904"
     ],
     "filterType": "GMObject",
     "folderName": "living_room",

@@ -1335,6 +1335,14 @@
             }
         },
         {
+            "Key": "68daac55-c511-4423-8ef1-9edfb9caa904",
+            "Value": {
+                "id": "ce003151-0540-42ba-9fb9-6cc2d19c3705",
+                "resourcePath": "objects\\obj_door_mario\\obj_door_mario.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "69025a23-ccc6-461c-a496-bee36c02aa2c",
             "Value": {
                 "id": "8a206406-09bb-40ed-a966-3b4af5931ace",

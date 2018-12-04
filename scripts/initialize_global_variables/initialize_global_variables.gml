@@ -2,7 +2,8 @@ enum ContextMenuItemType {
 	GOTO, 
 	PICK_UP,
 	DISCUSS,
-	INSPECT
+	INSPECT, 
+	ENTER_ROOM
 }
 
 enum RoomChoices {
@@ -45,6 +46,6 @@ var availableLocationsList = ds_list_create();
 
 variable_global_set("available_locations_list", availableLocationsList);
 
-variable_global_set("game_stage", 1);
+variable_global_set("game_stage", 2);
 
 variable_global_set("has_discovered_leonardo", false);
