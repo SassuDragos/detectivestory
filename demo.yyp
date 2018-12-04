@@ -1055,6 +1055,14 @@
             }
         },
         {
+            "Key": "4e660de7-e227-44cb-8ff4-415e28feabda",
+            "Value": {
+                "id": "49aceaf2-08dd-456f-9d75-934651f31858",
+                "resourcePath": "scripts\\action_enter_room\\action_enter_room.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4ea39e6b-acbb-4a21-be4f-09d8d0115cd6",
             "Value": {
                 "id": "236d3c7f-d667-4adc-9707-1eb47aa899e8",
@@ -3094,6 +3102,7 @@
         "05a338f4-097e-4d50-8d67-eb0d1dc2e1de",
         "dad96c1d-6456-4fda-9083-9a25677d8b5b",
         "a32a90d8-3784-45b0-ac37-a476497da93e",
+        "4e660de7-e227-44cb-8ff4-415e28feabda",
         "4dcb1bbd-b8c7-4e85-8783-f028f4949183",
         "9fb1a85f-0b89-496b-b1b4-47691ac3cd7a",
         "bdfd1506-064e-4c28-bc88-2e9074403341",
