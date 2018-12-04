@@ -108,7 +108,7 @@ switch(selectedDialogChoice) {
 		
 		ds_list_add(global.available_locations_list, RoomChoices.APARTMENTS);
 		ds_list_add(global.available_locations_list, RoomChoices.STORAGE);
-		new_dialog_body_sequence[1] = "Uhm... Sure! Just give me one second to open the door, as it seems they locked it. *after dropping the key on the flower a couple of times, she runs to the door and slowly opens it*. I will stay here, I don`t want clients to see all this mess.";
+		new_dialog_body_sequence[1] = "Uhm... Sure! Just give me one second to open the door, as it seems they locked it. *after dropping the key on the floor a couple of times, she runs to the door and slowly opens it*. I will stay here, I don`t want clients to see all this mess.";
 		new_dialog_character_sequence[1] = obj_violet;
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
 			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
