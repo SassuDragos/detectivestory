@@ -51,3 +51,5 @@ variable_global_set("available_locations_list", availableLocationsList);
 variable_global_set("game_stage", 2);
 
 variable_global_set("has_discovered_leonardo", false);
+
+variable_global_set("interrogation_enabled", false); 

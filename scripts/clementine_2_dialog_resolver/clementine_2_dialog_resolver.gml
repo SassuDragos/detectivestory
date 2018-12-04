@@ -20,8 +20,9 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1,0] = "Ask if Marcelo knew"
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
+			new_dialog_choice_sequence[1,index + 1] = ds_list_find_value(defaultDialogChoices,index);
 		}
+		break; 
 	case "Ask if Marcelo knew":
 		new_dialog_body_sequence[0] = "Did Marcelo know about your drug dealing?"
 		new_dialog_character_sequence[0] = obj_player.id;
@@ -31,8 +32,9 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1,0] = "Ask who is the drug source"
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
+			new_dialog_choice_sequence[1,index + 1] = ds_list_find_value(defaultDialogChoices,index);
 		}
+		break;
 	case "Ask who is the drug source":
 		new_dialog_body_sequence[0] = "So... the one who supplied you the drugs, who is he? Did he come here?"
 		new_dialog_character_sequence[0] = obj_player.id;
@@ -44,6 +46,12 @@ switch(selectedDialogChoice) {
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
 			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
 		}
+		
+		if (!variable_global_exists("interrogation_enabled")) {
+			variable_global_set("interrogation_enabled", true)
+		}
+		global.interrogation_enabled = true;
+		break; 
 	case "Ask if Elliot is the bruiser":
 		new_dialog_body_sequence[0] = "So... did Elliot live those marks on your face? Did he come here?"
 		new_dialog_character_sequence[0] = obj_player.id;
@@ -54,7 +62,7 @@ switch(selectedDialogChoice) {
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
 			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
 		}
-		
+		break; 
 	case "Ask for background":
 		new_dialog_body_sequence[0] = "Who are you? What is your relationship with Marcelo?"
 		new_dialog_character_sequence[0] = obj_player.id;
