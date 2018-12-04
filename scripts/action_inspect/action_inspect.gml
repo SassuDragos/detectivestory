@@ -4,9 +4,11 @@
 if (argument0.sprite_index == spr_board) {
 	room_goto(organigram_room);
 } else if (argument0.sprite_index == spr_deliveryBook) {
-	room_goto(deliveryLedger_room);
+	room_goto(deliveryLedgerImcomplete);
 } else if (argument0.sprite_index == spr_safePaper) {
 	room_goto(SafePaper_room);
 } else if (argument0.sprite_index == spr_safePaper) {
 	room_goto(SafePaperBurnt_room);
+}else if(argument0.sprite_index == spr_marcelo_full){
+	//room_goto();
 }
