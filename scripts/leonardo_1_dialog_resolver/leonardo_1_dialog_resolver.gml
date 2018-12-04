@@ -13,12 +13,12 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[0] = obj_player.id;
 		new_dialog_choice_sequence[0,0] = "Check answer..."
 	
-		new_dialog_body_sequence[1] = "Ah, my wife let you in. That was so terrible, who would do that to him?"
+		new_dialog_body_sequence[1] = "Ah, my wife let you in... Yeah, this was such an unpredictible event... so terrible, who would do that to him?"
 		new_dialog_character_sequence[1] = obj_leonardo.id;
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index + 1] = ds_list_find_value(defaultDialogChoices,index);
+			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
 		}
-		
+		break;
 	case "Clementine’s Whereabouts":
 		new_dialog_body_sequence[0] = "Where is Clementine?"
 		new_dialog_character_sequence[0] = obj_player.id;
