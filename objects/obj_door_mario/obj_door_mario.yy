@@ -1,18 +1,18 @@
 {
-    "id": "eec32cb4-0ccb-428b-a7cf-2d9c07e10134",
+    "id": "68daac55-c511-4423-8ef1-9edfb9caa904",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_deliveryBook",
+    "name": "obj_door_mario",
     "eventList": [
         {
-            "id": "dac54909-3fa3-4e75-9bc6-07eb1baa2db3",
+            "id": "788262aa-b252-4109-9908-40ed057f19ec",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 6,
-            "m_owner": "eec32cb4-0ccb-428b-a7cf-2d9c07e10134"
+            "m_owner": "68daac55-c511-4423-8ef1-9edfb9caa904"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "1bf9301e-aac9-48f9-85b9-6daee47c2b17",
     "visible": true
 }
