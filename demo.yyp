@@ -775,6 +775,14 @@
             }
         },
         {
+            "Key": "391ec0eb-f264-4021-a1c4-062d9a7301d9",
+            "Value": {
+                "id": "18672978-62c8-45c5-8539-e287205abd82",
+                "resourcePath": "views\\30a7cc39-7c45-479c-9101-3001a4ad2232-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3966916c-6095-4dfb-87dd-0212a0714bb5",
             "Value": {
                 "id": "5eb74bec-1419-4b29-8b58-e8e5ff849b25",
@@ -2215,19 +2223,19 @@
             }
         },
         {
-            "Key": "a3b71b21-073b-47e9-a1a4-61615f4d38ea",
-            "Value": {
-                "id": "6b2575aa-66f3-40fd-8ffa-855995fc8f7b",
-                "resourcePath": "sprites\\spr_marcelo_full\\spr_marcelo_full.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a38d1bc0-3625-4e01-997a-3d2c6e09e94b",
             "Value": {
                 "id": "46a73faf-30c1-4b25-928b-aafebafee43a",
                 "resourcePath": "objects\\obj_interrogate\\obj_interrogate.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a3b71b21-073b-47e9-a1a4-61615f4d38ea",
+            "Value": {
+                "id": "6b2575aa-66f3-40fd-8ffa-855995fc8f7b",
+                "resourcePath": "sprites\\spr_marcelo_full\\spr_marcelo_full.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2583,19 +2591,19 @@
             }
         },
         {
-            "Key": "c5fb3ff6-f319-4dcf-a941-5b123f5cb82a",
-            "Value": {
-                "id": "c093a59b-c983-4991-9cec-fce85eb55a5e",
-                "resourcePath": "sprites\\spr_good_end\\spr_good_end.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c59acd0d-66b5-43e8-9e4b-16dddd5be148",
             "Value": {
                 "id": "2cb423c5-ca5d-4fe5-a6ab-49d29c14df80",
                 "resourcePath": "scripts\\pipe_dialog_resolver\\pipe_dialog_resolver.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c5fb3ff6-f319-4dcf-a941-5b123f5cb82a",
+            "Value": {
+                "id": "c093a59b-c983-4991-9cec-fce85eb55a5e",
+                "resourcePath": "sprites\\spr_good_end\\spr_good_end.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

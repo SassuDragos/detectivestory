@@ -40,8 +40,9 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "I just took some shrooms, relax I`m being cooperative so don`t be so dramatic."
 		new_dialog_character_sequence[1] = obj_michigan;
+		new_dialog_choice_sequence[1, 0]= "Ask about dealer"
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
+			new_dialog_choice_sequence[1,index + 1 ] = ds_list_find_value(defaultDialogChoices, index);
 		}
 		
 		break;	
