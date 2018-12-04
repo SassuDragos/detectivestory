@@ -1,4 +1,4 @@
-if(destination_x != reset_destination_x) {
+if(destination_x != reset_destination_x && global.actions_allowed) {
 	
 	if((side == "left" && x <= destination_x) || (side == "right" && x >= destination_x) ||
 	   (side == "up" && y <= destination_y) || (side == "down" && y >= destination_y)) {
