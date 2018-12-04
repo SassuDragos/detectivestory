@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_deliveryBook",
     "eventList": [
-        
+        {
+            "id": "dac54909-3fa3-4e75-9bc6-07eb1baa2db3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "eec32cb4-0ccb-428b-a7cf-2d9c07e10134"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "f4a3c9e1-e437-4633-a6fa-9751e58f621c",
     "visible": true
 }

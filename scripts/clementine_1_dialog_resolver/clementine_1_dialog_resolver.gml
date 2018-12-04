@@ -24,7 +24,7 @@ switch(selectedDialogChoice) {
 		
 		break;
 	case "Check for alibi":
-		new_dialog_body_sequence[0] = "Where were you at 10:15? Did you see anything?"
+		new_dialog_body_sequence[0] = "Where were you at 22:15? Did you see anything?"
 		new_dialog_character_sequence[0] = obj_player.id
 		new_dialog_choice_sequence[0,0] = "Check answer..."
 		

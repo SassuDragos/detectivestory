@@ -7,4 +7,10 @@ switch(argument0) {
 	case RoomChoices.PIZZERIA:
 		room_goto(room_pizzaria);
 		break;
+	case RoomChoices.STORAGE:
+		room_goto(room_storage);
+		break;
+	case RoomChoices.APARTMENTS:
+		room_goto(living_room);
+		break;
 }

@@ -3,6 +3,7 @@ var distancePlayerToDialogHolder = point_distance(destinationObject.x, destinati
 
 if(distancePlayerToDialogHolder < 150){
     script_execute(onCompleteAction, destinationObject);
-} else {
-    global.movement_manager.alarm[11] = room_speed / 2
+} else if (attempts > 0){
+	attempts --;
+	global.movement_manager.alarm[11] = room_speed / 2
 }

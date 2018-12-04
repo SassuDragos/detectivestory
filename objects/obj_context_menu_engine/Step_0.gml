@@ -36,6 +36,13 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 				listItem.type = ContextMenuItemType.PICK_UP;
 				buttonList[typeIndex] = listItem;
 				break;
+			case ContextMenuItemType.INSPECT:
+				var listItem = instance_create_layer(itemX, itemY, "layer_dialog", obj_context_menu_item);
+				listItem.action = action_inspect;		
+				
+				listItem.text = "Inspect";
+				listItem.type = ContextMenuItemType.INSPECT;
+				buttonList[typeIndex] = listItem;
 		}
 	}
 	

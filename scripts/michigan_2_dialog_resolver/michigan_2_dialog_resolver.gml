@@ -76,7 +76,11 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "Okay I’ll tell you, geez, I’m high I just got confused, it’s a blond girl, she always brings some grub."
 		new_dialog_character_sequence[1] = obj_michigan;
-		
+		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
+			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
+		}
+		ds_map_set(global.cluesMap, "knows_about_clementine_dealing", true); 
+		global.game_stage = 2; 
 	case "Finish `conversation`":
 		break;
 }

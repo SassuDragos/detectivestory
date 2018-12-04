@@ -11,7 +11,7 @@
         "87624c23-36d0-4ebf-a9ac-b2afb32a1281"
     ],
     "filterType": "GMSprite",
-    "folderName": "Backgrounds",
+    "folderName": "backgrounds",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
