@@ -1,0 +1,1 @@
+AddObjectToInventory(obj_ring)

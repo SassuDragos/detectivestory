@@ -1,5 +1,5 @@
 {
-    "id": "1192fbee-6faf-4bf7-8584-23851b0a39bd",
+    "id": "71589465-5027-4b01-9e0a-1ba7d1ea4cb2",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_marcelo",
@@ -17,7 +17,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "52caf782-efd7-47d9-a32e-5210c58f1707",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9a1f11e1-ab1c-40ae-b2e8-ebf79cf7b507",
+    "spriteId": "a3b71b21-073b-47e9-a1a4-61615f4d38ea",
     "visible": true
 }

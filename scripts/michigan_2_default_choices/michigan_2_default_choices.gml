@@ -5,7 +5,7 @@ var choiceList = ds_list_create();
 ds_list_add(choiceList, "Ask for background");
 
 //TODO: Check if ring is in invetory
-if(true) {
+if(ds_map_find_value(global.cluesMap, "has_bruiser_ring_in_inventory")) {
 	ds_list_add(choiceList, "Ask about ring");
 }
 

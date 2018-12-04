@@ -34,7 +34,6 @@ ds_map_add(cluesMap, "gave_toad_pizza", false);
 ds_map_add(cluesMap, "knows_toad_took_shrooms", false)
 ds_map_add(cluesMap, "has_convinced_mitch", false)
 ds_map_add(cluesMap, "knows_about_clementine_dealing", false)
-variable_global_set("cluesMap", cluesMap);
 variable_global_set("picked_pizza", false);
 
 // Partner
@@ -43,6 +42,13 @@ ds_map_add(cluesMap, "no_of_background_questions_on_partner", 0);
 // Violet
 ds_map_add(cluesMap, "upstairs_inquiry_unlocked", false);
 ds_map_add(cluesMap, "upstairs_ask_for_permission_unlocked", false);
+
+//// ITEM CLUES
+
+// Ring
+ds_map_add(cluesMap, "has_bruiser_ring_in_inventory", false);
+
+variable_global_set("cluesMap", cluesMap);
 
 var availableLocationsList = ds_list_create();
 

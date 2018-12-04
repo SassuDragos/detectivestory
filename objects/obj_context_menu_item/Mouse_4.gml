@@ -1,10 +1,17 @@
-var menuHolder = global.context_menu_engine.attachedObject;
+if(room != interrogation_room) {
+	var menuHolder = global.context_menu_engine.attachedObject;
 
-var distancePlayerToMenuHolder = point_distance(menuHolder.x, menuHolder.y, obj_player.x, obj_player.y)
+	var distancePlayerToMenuHolder = point_distance(menuHolder.x, menuHolder.y, obj_player.x, obj_player.y)
 
-instance_destroy(obj_context_menu_engine);
+	instance_destroy(obj_context_menu_engine);
 
-script_execute(action, menuHolder);
+	script_execute(action, menuHolder);
+	
+} else {
+	
+	room_goto(room_bad_ending);
+	
+}
 
 /*
 if(distancePlayerToMenuHolder < 100){
