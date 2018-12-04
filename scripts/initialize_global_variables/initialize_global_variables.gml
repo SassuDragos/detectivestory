@@ -45,6 +45,6 @@ var availableLocationsList = ds_list_create();
 ds_list_add(availableLocationsList, RoomChoices.TOADS)
 variable_global_set("available_locations_list", availableLocationsList);
 
-variable_global_set("game_stage", 1);
+variable_global_set("game_stage", 2);
 
 variable_global_set("has_discovered_leonardo", false);
