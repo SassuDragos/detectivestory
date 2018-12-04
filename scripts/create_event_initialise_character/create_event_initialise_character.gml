@@ -9,7 +9,9 @@
 dialog_owner = argument[0];
 dialog_owner.name = argument[1];
 dialog_owner.text_color = argument[2];
-dialog_owner.avatar = argument[3]; 
+if(argument_count > 3) {
+	dialog_owner.avatar = argument[3];
+}
 
 /*
 Exemple:

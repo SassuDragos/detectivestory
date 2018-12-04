@@ -2,7 +2,7 @@
 {
     "name": "room_pizzaria",
     "id": "30a7cc39-7c45-479c-9101-3001a4ad2232",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

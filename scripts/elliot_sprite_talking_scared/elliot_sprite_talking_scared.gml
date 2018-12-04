@@ -1,0 +1,1 @@
+obj_elliot.sprite_index = spr_elliot_talking_scared;

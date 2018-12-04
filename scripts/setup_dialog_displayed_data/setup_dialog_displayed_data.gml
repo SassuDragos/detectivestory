@@ -22,8 +22,12 @@ global.dialog_engine.textBoxObject.text_line_height = string_height(dialogText);
 //TODO
 with (dialogCharacterId) {
     global.dialog_engine.textBoxObject.name = name;
-    global.dialog_engine.textBoxObject.color = text_color;        
-    global.dialog_engine.avatarBoxObject.sprite_index = avatar;
+    global.dialog_engine.textBoxObject.color = text_color;
+	if(variable_instance_exists(self, "avatar")) {
+		global.dialog_engine.avatarBoxObject.sprite_index = avatar;
+	} else {
+		global.dialog_engine.avatarBoxObject.sprite_index = noone;
+	}
 }
 
 if array_length_1d(dialogChoices) > 0 {
@@ -33,4 +37,8 @@ if array_length_1d(dialogChoices) > 0 {
 } else {
     global.dialog_engine.choiceBoxObject.visible = false;
     global.dialog_engine.choiceBoxObject.choice_list = [];
+}
+
+if(argument_count > 3) {
+	script_execute(argument[3])
 }
