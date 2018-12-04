@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "b7d31bf2-b514-4c95-afc6-3b77d08a4b23",
     "children": [
-        "9a1f11e1-ab1c-40ae-b2e8-ebf79cf7b507"
+        "a3b71b21-073b-47e9-a1a4-61615f4d38ea"
     ],
     "filterType": "GMSprite",
     "folderName": "marcelo",

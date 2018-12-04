@@ -4,11 +4,16 @@ var selectedDialogChoice = argument0;
 var defaultDialogChoices = elliot_ir_default_choices();
 
 var hasDiscussedAboutDrugBusiness = ds_map_find_value(global.cluesMap, "asked_drug_business");
+var hasBruiserRingInInventory = ds_map_find_value(global.cluesMap, "has_bruiser_ring_in_inventory");
 
 var new_dialog_body_sequence = []
 var new_dialog_character_sequence = []
 var new_dialog_choice_sequence = []
 var new_dialog_behaviour_sequence = [];
+
+if(hasBruiserRingInInventory && ds_list_find_index(defaultDialogChoices, "Ask about ring") == -1) {
+	ds_list_add(defaultDialogChoices, "Ask about ring");
+}		
 	
 switch(selectedDialogChoice) {
 	case "Ask for background":

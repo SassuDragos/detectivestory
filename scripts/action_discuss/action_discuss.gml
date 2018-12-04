@@ -5,5 +5,5 @@ var dialogHolder = argument0;
 instantiate_dialog_engine(	dialogHolder.body_text_sequence,
 							dialogHolder.charaters_sequence,
 							dialogHolder.choice_option_sequence,
-							dialogHolder.dialog_resolver);        
+							variable_instance_exists(dialogHolder, "dialog_resolver") ? dialogHolder.dialog_resolver : noone);        
 
