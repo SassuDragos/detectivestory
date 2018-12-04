@@ -19,7 +19,7 @@ switch(room) {
 }
 
 if (ds_list_size(choiceList) == 0) {
-	partner_detective_no_locations_discovered();
+	partner_detective_ask_for_permision_first();
 	instance_destroy(self);
 }
 lowerPos = 0;

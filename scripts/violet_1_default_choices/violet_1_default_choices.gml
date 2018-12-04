@@ -2,6 +2,7 @@
 
 var choiceList = ds_list_create();
 
+
 ds_list_add(choiceList, "Clementine’s Whereabouts");
 ds_list_add(choiceList, "Ask about background");
 ds_list_add(choiceList, "Ask role in the pizzeria");
