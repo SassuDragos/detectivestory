@@ -37,6 +37,10 @@ variable_global_set("cluesMap", cluesMap);
 // Partner
 ds_map_add(cluesMap, "no_of_background_questions_on_partner", 0);
 
+// Violet
+ds_map_add(cluesMap, "upstairs_inquiry_unlocked", false);
+ds_map_add(cluesMap, "upstairs_ask_for_permission_unlocked", false);
+
 var availableLocationsList = ds_list_create();
 ds_list_add(availableLocationsList, RoomChoices.TOADS)
 variable_global_set("available_locations_list", availableLocationsList);

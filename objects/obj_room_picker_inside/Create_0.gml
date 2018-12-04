@@ -6,15 +6,20 @@ var availableRooms = global.available_locations_list;
 
 switch(room) {
 	case room_pizzaria:
-		if (ds_list_find_index(availableRooms, RoomChoices.APARTMENTS) != -1) {
-			ds_list_add(choiceList, RoomChoices.APARTMENTS) }
 		if (ds_list_find_index(availableRooms, RoomChoices.STORAGE) != -1) {
 			ds_list_add(choiceList, RoomChoices.STORAGE) }	
+		if (ds_list_find_index(availableRooms, RoomChoices.APARTMENTS) != -1) {
+			ds_list_add(choiceList, RoomChoices.APARTMENTS) }	
 		break;
 	case living_room:
 			ds_list_add(choiceList, RoomChoices.PIZZERIA)
 		if (ds_list_find_index(availableRooms, RoomChoices.STORAGE) != -1) {
 			ds_list_add(choiceList, RoomChoices.STORAGE) }
+		break;
+		
+	case room_storage:
+			ds_list_add(choiceList, RoomChoices.PIZZERIA)
+			ds_list_add(choiceList, RoomChoices.APARTMENTS)
 		break;
 }
 

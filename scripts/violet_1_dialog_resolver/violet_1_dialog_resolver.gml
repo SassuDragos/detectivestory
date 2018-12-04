@@ -15,9 +15,13 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "I think she is upstairs. She said she wants to rest a little. Poor girl, she loved Marcelo so much."
 		new_dialog_character_sequence[1] = obj_violet;
+		
+		ds_map_set(global.cluesMap, "upstairs_inquiry_unlocked", true)
+		new_dialog_choice_sequence[1,0] = "More details about upstairs";
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
+			new_dialog_choice_sequence[1,index + 1] = ds_list_find_value(defaultDialogChoices,index);
 		}
+		
 		break;
 	case "Ask about background":
 		new_dialog_body_sequence[0] = "Who are you? What is your relationship with Marcelo?"
@@ -77,6 +81,38 @@ switch(selectedDialogChoice) {
 			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
 		};
 		break;
+	case "More details about upstairs":
+		new_dialog_body_sequence[0] = "But what is upstairs?"
+		new_dialog_character_sequence[0] = obj_player;
+		new_dialog_choice_sequence[0,0] = "Check answer..."
+		
+		new_dialog_body_sequence[1] = "Well, at the first floor we keep our cooking materials. These days, for some reason, there are a lot of mushrooms deposited up there. And we leave at the second floor.";
+		new_dialog_character_sequence[1] = obj_violet;
+		ds_map_set(global.cluesMap, "upstairs_ask_for_permission_unlocked", true)
+		
+		var upstairsHasNotBeenUnlockedBefore = ds_list_find_index(global.available_locations_list, RoomChoices.APARTMENTS) == -1;
+		var initialIndex = 0;
+		if (upstairsHasNotBeenUnlockedBefore) {
+			new_dialog_choice_sequence[1,0] = "Ask to go and check upstairs";
+			initialIndex = 1;
+		}
+		
+		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
+			new_dialog_choice_sequence[1,index+initialIndex] = ds_list_find_value(defaultDialogChoices,index);
+		};
+		break;
+	case "Ask to go and check upstairs":
+		new_dialog_body_sequence[0] = "Could we please check the upper floors?"
+		new_dialog_character_sequence[0] = obj_player;
+		new_dialog_choice_sequence[0,0] = "Check answer..."
+		
+		ds_list_add(global.available_locations_list, RoomChoices.APARTMENTS);
+		ds_list_add(global.available_locations_list, RoomChoices.STORAGE);
+		new_dialog_body_sequence[1] = "Uhm... Sure! Just give me one second to open the door, as it seems they locked it. *after dropping the key on the flower a couple of times, she runs to the door and slowly opens it*. I will stay here, I don`t want clients to see all this mess.";
+		new_dialog_character_sequence[1] = obj_violet;
+		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
+			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
+		};
 	case "Finish `conversation`":
 		break;
 }
