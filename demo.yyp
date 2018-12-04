@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "39156df2-756b-4d2e-a448-c507ea5d0bcb",
+            "Value": {
+                "id": "2a1947b0-d85a-4956-aa2e-ed2534e5f9ea",
+                "resourcePath": "scripts\\action_givepizza\\action_givepizza.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3966916c-6095-4dfb-87dd-0212a0714bb5",
             "Value": {
                 "id": "5eb74bec-1419-4b29-8b58-e8e5ff849b25",
@@ -3151,6 +3159,7 @@
         "dad96c1d-6456-4fda-9083-9a25677d8b5b",
         "a32a90d8-3784-45b0-ac37-a476497da93e",
         "4e660de7-e227-44cb-8ff4-415e28feabda",
+        "39156df2-756b-4d2e-a448-c507ea5d0bcb",
         "4dcb1bbd-b8c7-4e85-8783-f028f4949183",
         "9fb1a85f-0b89-496b-b1b4-47691ac3cd7a",
         "bdfd1506-064e-4c28-bc88-2e9074403341",

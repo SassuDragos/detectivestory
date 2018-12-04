@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_pizza",
     "eventList": [
-        
+        {
+            "id": "bd275001-9007-4b5e-86a8-dec77f1173c8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "fc1bec07-464d-4b62-92c6-5612f55b6e6f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

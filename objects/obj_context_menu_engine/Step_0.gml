@@ -50,6 +50,13 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 				listItem.text = "Enter room";
 				listItem.type = ContextMenuItemType.ENTER_ROOM;
 				buttonList[typeIndex] = listItem;
+			case ContextMenuItemType.GIVEPIZZA: 
+				var listItem = instance_create_layer(itemX, itemY, "layer_dialog", obj_context_menu_item);
+				listItem.action = action_givepizza;		
+				
+				listItem.text = "Give Pizza";
+				listItem.type = ContextMenuItemType.GIVEPIZZA;
+				buttonList[typeIndex] = listItem;
 		}
 	}
 	

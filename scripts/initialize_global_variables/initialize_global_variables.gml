@@ -3,7 +3,8 @@ enum ContextMenuItemType {
 	PICK_UP,
 	DISCUSS,
 	INSPECT, 
-	ENTER_ROOM
+	ENTER_ROOM,
+	GIVEPIZZA
 }
 
 enum RoomChoices {
@@ -29,11 +30,12 @@ ds_map_add(cluesMap, "knows_mario_wears_ring",false)
 ds_map_add(cluesMap, "asked_bruise", false);
 
 // TOAD
-ds_map_add(cluesMap, "gave_toad_pizza", true);
+ds_map_add(cluesMap, "gave_toad_pizza", false);
 ds_map_add(cluesMap, "knows_toad_took_shrooms", false)
 ds_map_add(cluesMap, "has_convinced_mitch", false)
 ds_map_add(cluesMap, "knows_about_clementine_dealing", false)
 variable_global_set("cluesMap", cluesMap);
+variable_global_set("picked_pizza", false);
 
 // Partner
 ds_map_add(cluesMap, "no_of_background_questions_on_partner", 0);
