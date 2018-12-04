@@ -1535,6 +1535,14 @@
             }
         },
         {
+            "Key": "885a0ccd-b9f3-424c-8c2d-64574b187e05",
+            "Value": {
+                "id": "cf0ea6fc-2dd0-46a3-b070-02c5bdb4b809",
+                "resourcePath": "scripts\\violet_1_dialog_content_init\\violet_1_dialog_content_init.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8888bdbb-33e5-4aca-a773-e348c1541f4a",
             "Value": {
                 "id": "1d8a8eac-1bd5-4c72-ae56-fa9186dc08d5",
@@ -1879,6 +1887,14 @@
             }
         },
         {
+            "Key": "a7fe8049-3380-4ee8-9b29-5f5600d60e47",
+            "Value": {
+                "id": "2167d45a-6f9d-4dd8-a3f5-bfdd453e9a4c",
+                "resourcePath": "views\\a7fe8049-3380-4ee8-9b29-5f5600d60e47.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "800e318b-39fd-4669-b2da-a2efc7a0be3a",
@@ -2079,6 +2095,14 @@
             }
         },
         {
+            "Key": "bf27d6ce-052c-4b8c-bd9f-4ed16d83468d",
+            "Value": {
+                "id": "574e4b43-33ad-4cf2-a047-8efecf9a4ffd",
+                "resourcePath": "scripts\\violet_1_dialog_resolver\\violet_1_dialog_resolver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bf31c170-58b1-48db-b05c-0ebdb6611871",
             "Value": {
                 "id": "f646cc1c-4c9c-4499-aa7a-790acfed7ac7",
@@ -2132,6 +2156,14 @@
                 "id": "b58d9b32-6b77-4936-9386-e44be2230eaf",
                 "resourcePath": "sprites\\spr_safePaperObj\\spr_safePaperObj.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ca9d297e-0976-42b3-8e07-d247e28db48d",
+            "Value": {
+                "id": "89f5dab9-1b8f-48a6-a7ee-69dd66fcbf9c",
+                "resourcePath": "scripts\\violet_1_default_choices\\violet_1_default_choices.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2402,7 +2434,7 @@
             "Key": "e4367f19-8e16-4a78-a130-45a65bc5f823",
             "Value": {
                 "id": "1a8adead-586e-4757-bdfd-791bb8dee40e",
-                "resourcePath": "scripts\\instantiate_partner_no_rooms_discovered_hint\\instantiate_partner_no_rooms_discovered_hint.yy",
+                "resourcePath": "scripts\\partner_detective_no_locations_discovered\\partner_detective_no_locations_discovered.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2777,6 +2809,9 @@
         "32bb2162-0849-4e0e-8bd5-8a429f030621",
         "5f9ae07c-a92e-4026-96cd-4e554dc129f9",
         "1c95a8d8-4fe8-4978-99b9-6c657fdbe258",
+        "ca9d297e-0976-42b3-8e07-d247e28db48d",
+        "885a0ccd-b9f3-424c-8c2d-64574b187e05",
+        "bf27d6ce-052c-4b8c-bd9f-4ed16d83468d",
         "cce29017-78f8-4874-89eb-a9426617f90e",
         "3e3c9759-58f2-4af5-ba14-2e892b55fba6",
         "a7e34252-25d2-4c3a-938b-bcbe4d50e340",

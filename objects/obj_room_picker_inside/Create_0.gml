@@ -19,7 +19,7 @@ switch(room) {
 }
 
 if (ds_list_size(choiceList) == 0) {
-	instantiate_partner_no_rooms_discovered_hint();
+	partner_detective_no_locations_discovered();
 	instance_destroy(self);
 }
 lowerPos = 0;
