@@ -42,9 +42,9 @@ ds_map_add(cluesMap, "upstairs_inquiry_unlocked", false);
 ds_map_add(cluesMap, "upstairs_ask_for_permission_unlocked", false);
 
 var availableLocationsList = ds_list_create();
-ds_list_add(availableLocationsList, RoomChoices.TOADS)
+
 variable_global_set("available_locations_list", availableLocationsList);
 
-variable_global_set("game_stage", 2);
+variable_global_set("game_stage", 1);
 
 variable_global_set("has_discovered_leonardo", false);
