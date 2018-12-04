@@ -28,7 +28,7 @@ ds_map_add(cluesMap, "knows_mario_wears_ring",false)
 ds_map_add(cluesMap, "asked_bruise", false);
 
 // TOAD
-ds_map_add(cluesMap, "gave_toad_pizza", false);
+ds_map_add(cluesMap, "gave_toad_pizza", true);
 ds_map_add(cluesMap, "knows_toad_took_shrooms", false)
 ds_map_add(cluesMap, "has_convinced_mitch", false)
 ds_map_add(cluesMap, "knows_about_clementine_dealing", false)

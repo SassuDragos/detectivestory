@@ -12,9 +12,9 @@ switch(argument0) {
 		return "Pizzeria";
 		break;
 	case RoomChoices.STORAGE:
-		return "First Floor";
+		return "Second Floor";
 		break;
 	case RoomChoices.APARTMENTS:
-		return "Second Floor";
+		return "Third Floor";
 		break;
 }

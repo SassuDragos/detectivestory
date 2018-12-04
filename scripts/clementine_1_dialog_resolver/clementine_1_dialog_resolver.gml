@@ -28,7 +28,7 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[0] = obj_player.id
 		new_dialog_choice_sequence[0,0] = "Check answer..."
 		
-		new_dialog_body_sequence[1] = "I was delivering a pizza at that time. When I arrived, he was… well… *cries for a while*"
+		new_dialog_body_sequence[1] = "I was delivering a pizza at that time. When I arrived, he was... well... *cries for a while*"
 		new_dialog_character_sequence[1] = obj_clementine.id
 		new_dialog_choice_sequence[1,0] = "Ask about address"
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
@@ -41,7 +41,7 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[0] = obj_player.id
 		new_dialog_choice_sequence[0,0] = "Check answer..."
 		
-		new_dialog_body_sequence[1] = "*covers face abruptly* I fell on a door knob… really, I`m a bit clumsy sometimes."
+		new_dialog_body_sequence[1] = "*covers face abruptly* I fell on a door knob really, I`m a bit clumsy sometimes."
 		new_dialog_character_sequence[1] = obj_clementine.id
 		new_dialog_choice_sequence[1,0] = "Inquire if Marcelo is the bruiser";
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
