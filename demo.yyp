@@ -2191,14 +2191,6 @@
             }
         },
         {
-            "Key": "b68a57c6-0e51-43e8-945c-027e46e66491",
-            "Value": {
-                "id": "f22632e2-78e0-47c2-8d29-2cf6b79020f8",
-                "resourcePath": "objects\\obj_dialog_choice_list\\obj_dialog_choice_list.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b6fcf058-bfa8-4583-9639-e3d7f1912532",
             "Value": {
                 "id": "c722a2cc-b944-48c5-957c-cc44564492a0",
@@ -2343,6 +2335,14 @@
             }
         },
         {
+            "Key": "c919f267-0617-4580-bc3c-f9bf13adfbaf",
+            "Value": {
+                "id": "eda3e26d-788f-477d-827e-725485022087",
+                "resourcePath": "objects\\obj_dialog_choice_list\\obj_dialog_choice_list.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ca49397f-18ca-4b9d-b8e1-884d16257b51",
             "Value": {
                 "id": "b58d9b32-6b77-4936-9386-e44be2230eaf",
@@ -2372,14 +2372,6 @@
                 "id": "f952e566-6b49-4ff2-b1d8-dd97b49a2241",
                 "resourcePath": "scripts\\create_event_initialise_dialog_holder\\create_event_initialise_dialog_holder.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "cd057ae9-6162-4a0f-bf53-1e36e1c40cc6",
-            "Value": {
-                "id": "f21fc9dd-a45f-4360-a723-ddb7fc172d4e",
-                "resourcePath": "sprites\\spr_choice_list_background\\spr_choice_list_background.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2436,6 +2428,14 @@
                 "id": "a04af51c-1545-4159-ac56-1b81d55b93b2",
                 "resourcePath": "scripts\\AddObjectToInventory\\AddObjectToInventory.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d36316df-a0ed-4956-9577-37eacbea9a71",
+            "Value": {
+                "id": "bf7f8933-5949-4852-9188-8c40627c6222",
+                "resourcePath": "sprites\\spr_choice_list_background\\spr_choice_list_background.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,7 +1,7 @@
 /// @function clementine_1_dialog_resolver(selected_dialog_choice) 
 
 var selectedDialogChoice = argument0;
-var defaultDialogChoices = obj_elliot.dialog_choices;
+var defaultDialogChoices = elliot_ir_default_choices();
 
 var hasDiscussedAboutDrugBusiness = ds_map_find_value(global.cluesMap, "asked_drug_business");
 
