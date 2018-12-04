@@ -33,7 +33,7 @@ switch(selectedDialogChoice) {
 		
 		break;
 	case "Opinion on Marcelo":
-		new_dialog_body_sequence[0] = "What do you think about Michigan?"
+		new_dialog_body_sequence[0] = "What do you think about Marcelo?"
 		new_dialog_character_sequence[0] = obj_player;
 		new_dialog_choice_sequence[0,0] = "Check answer..."
 		
