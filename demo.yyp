@@ -2447,6 +2447,14 @@
             }
         },
         {
+            "Key": "b6bf07d9-6a08-478f-a472-79cb4a89d8d3",
+            "Value": {
+                "id": "26824b8a-9228-4103-b9c8-e6f96edf19ab",
+                "resourcePath": "shaders\\sha_bw\\sha_bw.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "b6fcf058-bfa8-4583-9639-e3d7f1912532",
             "Value": {
                 "id": "c722a2cc-b944-48c5-957c-cc44564492a0",

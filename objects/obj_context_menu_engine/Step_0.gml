@@ -43,6 +43,7 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 				listItem.text = "Inspect";
 				listItem.type = ContextMenuItemType.INSPECT;
 				buttonList[typeIndex] = listItem;
+				break;
 			case ContextMenuItemType.ENTER_ROOM: 
 				var listItem = instance_create_layer(itemX, itemY, "layer_dialog", obj_context_menu_item);
 				listItem.action = action_enter_room;		
@@ -50,6 +51,7 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 				listItem.text = "Enter room";
 				listItem.type = ContextMenuItemType.ENTER_ROOM;
 				buttonList[typeIndex] = listItem;
+				break;
 			case ContextMenuItemType.GIVEPIZZA: 
 				var listItem = instance_create_layer(itemX, itemY, "layer_dialog", obj_context_menu_item);
 				listItem.action = action_givepizza;		
@@ -57,6 +59,7 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 				listItem.text = "Give Pizza";
 				listItem.type = ContextMenuItemType.GIVEPIZZA;
 				buttonList[typeIndex] = listItem;
+				break;
 		}
 	}
 	
@@ -68,6 +71,6 @@ var pointNotInRectangle = !point_in_rectangle(mouse_x, mouse_y, menuX, menuY, me
 var mouseActionTriggered = (mouse_check_button_pressed(mb_left) || mouse_check_button_pressed(mb_middle) || mouse_check_button_pressed(mb_right))
 
 if (mouseActionTriggered && pointNotInRectangle) {
-	instance_destroy();
+	instance_destroy(self);
 }
 
