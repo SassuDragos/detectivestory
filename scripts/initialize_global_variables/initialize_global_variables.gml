@@ -52,6 +52,8 @@ variable_global_set("cluesMap", cluesMap);
 
 var availableLocationsList = ds_list_create();
 
+ds_list_add(availableLocationsList, RoomChoices.PIZZERIA);
+
 variable_global_set("available_locations_list", availableLocationsList);
 
 variable_global_set("game_stage", 1);

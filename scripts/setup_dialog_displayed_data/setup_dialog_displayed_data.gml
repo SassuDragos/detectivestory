@@ -17,6 +17,7 @@ var dialogCharacterId = argument[1];
 var dialogChoices = argument[2];
 
 global.dialog_engine.textBoxObject.text_body = dialogText;
+global.dialog_engine.textBoxObject.newSequence = true;
 global.dialog_engine.textBoxObject.text_line_height = string_height(dialogText);
 
 //TODO

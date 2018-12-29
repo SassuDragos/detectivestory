@@ -4,8 +4,15 @@
 //draw textbox
 draw_sprite(spr_textbox_background,0,x,y);
 
+if(newSequence) {
+	char_count = 0;
+	newSequence = false;
+}
+
 //increse characters
-if(char_count < string_length(text_body)) char_count += 0.5;
+if(char_count < string_length(text_body)) {
+	char_count += 0.5;
+}
 
 //draw name
 //draw_set_font(font_name);

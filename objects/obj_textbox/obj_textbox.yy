@@ -111,6 +111,20 @@
             "value": "0",
             "varName": "text_line_height",
             "varType": 0
+        },
+        {
+            "id": "b2aa30e5-6255-4889-b117-17c4add26c34",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "newSequence",
+            "varType": 3
         }
     ],
     "solid": false,
