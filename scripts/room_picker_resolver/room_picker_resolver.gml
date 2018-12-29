@@ -11,6 +11,6 @@ switch(argument0) {
 		room_goto(room_storage);
 		break;
 	case RoomChoices.APARTMENTS:
-		room_goto(living_room);
+		room_goto(room_living);
 		break;
 }

@@ -1,6 +1,6 @@
 
 {
-    "name": "interrogation_room",
+    "name": "room_interrogation",
     "id": "882a559a-40a0-430c-9cb8-0314149bad4d",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

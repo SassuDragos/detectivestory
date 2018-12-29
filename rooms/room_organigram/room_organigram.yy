@@ -1,6 +1,6 @@
 
 {
-    "name": "organigram_room",
+    "name": "room_organigram",
     "id": "1b4b0459-5531-4036-86bb-9dfa0ecce903",
     "creationCodeFile": "",
     "inheritCode": false,

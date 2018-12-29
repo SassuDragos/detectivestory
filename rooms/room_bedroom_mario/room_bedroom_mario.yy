@@ -1,6 +1,6 @@
 
 {
-    "name": "bedroom_mario",
+    "name": "room_bedroom_mario",
     "id": "8c051d5f-928b-48f8-8072-cf38e8d8dfac",
     "creationCodeFile": "",
     "inheritCode": false,

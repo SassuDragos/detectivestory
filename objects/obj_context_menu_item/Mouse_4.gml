@@ -1,4 +1,4 @@
-if(room != interrogation_room) {
+if(room != room_interrogation) {
 	var menuHolder = global.context_menu_engine.attachedObject;
 
 	var distancePlayerToMenuHolder = point_distance(menuHolder.x, menuHolder.y, obj_player.x, obj_player.y)
@@ -8,9 +8,7 @@ if(room != interrogation_room) {
 	script_execute(action, menuHolder);
 	
 } else {
-	
 	room_goto(room_bad_ending);
-	
 }
 
 /*

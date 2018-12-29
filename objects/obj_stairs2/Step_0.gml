@@ -7,7 +7,7 @@ switch(room) {
 			layer = layer_get_id("Instances");
 		}
 		break;
-	case living_room:
+	case room_living:
 		if(ds_list_find_index(global.available_locations_list, RoomChoices.STORAGE) > -1) {
 			layer = layer_get_id("Instances");
 		}

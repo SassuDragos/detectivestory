@@ -1,6 +1,6 @@
 
 {
-    "name": "body_inspection_room",
+    "name": "room_body_inspection",
     "id": "ee0ea217-47d3-43f9-9b48-59bf69c7139b",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

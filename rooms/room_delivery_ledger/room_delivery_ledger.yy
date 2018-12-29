@@ -1,6 +1,6 @@
 
 {
-    "name": "deliveryLedger_room",
+    "name": "room_delivery_ledger",
     "id": "1f5336de-c12a-4b6a-83ac-d4f7168bc2ac",
     "creationCodeFile": "",
     "inheritCode": false,

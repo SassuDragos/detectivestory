@@ -11,7 +11,7 @@ switch(room) {
 		if (ds_list_find_index(availableRooms, RoomChoices.APARTMENTS) != -1) {
 			ds_list_add(choiceList, RoomChoices.APARTMENTS) }	
 		break;
-	case living_room:
+	case room_living:
 			ds_list_add(choiceList, RoomChoices.PIZZERIA)
 		if (ds_list_find_index(availableRooms, RoomChoices.STORAGE) != -1) {
 			ds_list_add(choiceList, RoomChoices.STORAGE) }

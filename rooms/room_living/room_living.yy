@@ -1,6 +1,6 @@
 
 {
-    "name": "living_room",
+    "name": "room_living",
     "id": "754dc0b6-bb4d-4234-b849-28579535a729",
     "creationCodeFile": "",
     "inheritCode": false,

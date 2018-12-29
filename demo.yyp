@@ -234,7 +234,7 @@
             "Key": "0d0e8874-81b3-443b-80df-7bbcdd8e7700",
             "Value": {
                 "id": "7009519b-62b6-4895-9220-36c3617dca9d",
-                "resourcePath": "rooms\\SafePaperBurnt_room\\SafePaperBurnt_room.yy",
+                "resourcePath": "rooms\\room_safePaper_burnt\\room_safePaper_burnt.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -402,7 +402,7 @@
             "Key": "1b4b0459-5531-4036-86bb-9dfa0ecce903",
             "Value": {
                 "id": "3d90b531-3c68-4577-8159-69baf294d105",
-                "resourcePath": "rooms\\organigram_room\\organigram_room.yy",
+                "resourcePath": "rooms\\room_organigram\\room_organigram.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -450,7 +450,7 @@
             "Key": "1f5336de-c12a-4b6a-83ac-d4f7168bc2ac",
             "Value": {
                 "id": "4f7a43f8-4ea6-4243-aad7-4676decfd9ba",
-                "resourcePath": "rooms\\deliveryLedger_room\\deliveryLedger_room.yy",
+                "resourcePath": "rooms\\room_delivery_ledger\\room_delivery_ledger.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1170,7 +1170,7 @@
             "Key": "529301dd-2b76-408f-8e8a-8cbd22492a04",
             "Value": {
                 "id": "13ab5003-1d25-4748-90f5-9e904269d263",
-                "resourcePath": "rooms\\bedroom_luigi\\bedroom_luigi.yy",
+                "resourcePath": "rooms\\room_bedroom_luigi\\room_bedroom_luigi.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1554,7 +1554,7 @@
             "Key": "6f0c9047-673b-48c0-86b8-ccf9f0742d55",
             "Value": {
                 "id": "133d2a79-9542-4095-beb9-09fd24c2c93f",
-                "resourcePath": "rooms\\deliveryLedgerImcomplete\\deliveryLedgerImcomplete.yy",
+                "resourcePath": "rooms\\room_delivery_ledger_incomplete\\room_delivery_ledger_incomplete.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1610,7 +1610,7 @@
             "Key": "754dc0b6-bb4d-4234-b849-28579535a729",
             "Value": {
                 "id": "6d236933-2168-462e-a05e-d4bcbd718ead",
-                "resourcePath": "rooms\\living_room\\living_room.yy",
+                "resourcePath": "rooms\\room_living\\room_living.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1890,7 +1890,7 @@
             "Key": "882a559a-40a0-430c-9cb8-0314149bad4d",
             "Value": {
                 "id": "840bfc7e-2f7e-43fe-a8dc-bfe981976aa8",
-                "resourcePath": "rooms\\interrogation_room\\interrogation_room.yy",
+                "resourcePath": "rooms\\room_interrogation\\room_interrogation.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1930,7 +1930,7 @@
             "Key": "8c051d5f-928b-48f8-8072-cf38e8d8dfac",
             "Value": {
                 "id": "a0c881a0-7083-4714-9d43-8a822fc6249d",
-                "resourcePath": "rooms\\bedroom_mario\\bedroom_mario.yy",
+                "resourcePath": "rooms\\room_bedroom_mario\\room_bedroom_mario.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -3082,7 +3082,7 @@
             "Key": "ee0ea217-47d3-43f9-9b48-59bf69c7139b",
             "Value": {
                 "id": "c7aa3aed-7cf4-4bf6-bef7-fe27b6b47cc8",
-                "resourcePath": "rooms\\body_inspection_room\\body_inspection_room.yy",
+                "resourcePath": "rooms\\room_body_inspection\\room_body_inspection.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -3354,7 +3354,7 @@
             "Key": "ff7ecb04-4402-4541-bdf4-356bedf0d5a2",
             "Value": {
                 "id": "9ff071af-fb8e-4b8e-a580-b0616a1fa22a",
-                "resourcePath": "rooms\\SafePaper_room\\SafePaper_room.yy",
+                "resourcePath": "rooms\\room_safePaper\\room_safePaper.yy",
                 "resourceType": "GMRoom"
             }
         },

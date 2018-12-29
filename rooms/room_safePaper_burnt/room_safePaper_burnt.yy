@@ -1,6 +1,6 @@
 
 {
-    "name": "SafePaperBurnt_room",
+    "name": "room_safePaper_burnt",
     "id": "0d0e8874-81b3-443b-80df-7bbcdd8e7700",
     "creationCodeFile": "",
     "inheritCode": false,

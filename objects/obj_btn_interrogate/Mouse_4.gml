@@ -1,1 +1,1 @@
-room_goto(interrogation_room);
+room_goto(room_interrogation);
