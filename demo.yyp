@@ -554,7 +554,7 @@
             "Key": "2984b0c7-4b3c-4a65-a18f-0d193c213c60",
             "Value": {
                 "id": "b959ab88-6dd6-4763-aa50-21bffbad6053",
-                "resourcePath": "objects\\dummy\\dummy.yy",
+                "resourcePath": "objects\\obj_interrogation_button_spawner\\obj_interrogation_button_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
