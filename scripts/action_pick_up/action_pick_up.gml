@@ -1,2 +1,2 @@
 argument0.visible = false;
-global.picked_pizza = true;
+ds_map_set(global.cluesMap, "picked_pizza", true)

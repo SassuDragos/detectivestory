@@ -1,1 +1,0 @@
-global.path_grid = mp_grid_create(0, 0, 32, 32, 30, 30);

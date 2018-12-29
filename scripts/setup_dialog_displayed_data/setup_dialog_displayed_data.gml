@@ -11,7 +11,6 @@
 */
 
 
-//TODO: Rename this script to setup_dialog_displayed_data
 var dialogText = argument[0];
 var dialogCharacterId = argument[1];
 var dialogChoices = argument[2];

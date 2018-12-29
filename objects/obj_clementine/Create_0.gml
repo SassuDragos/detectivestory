@@ -1,11 +1,9 @@
 create_event_initialise_character(id, "Clementine Grzyb Tubi", c_green, spr_clementine_avatar);
-if (!variable_global_exists("game_stage")) {
-	initialize_global_variables();
-}
+
 if (global.game_stage == 1){
-create_event_initialise_dialog_holder(id, clementine_1_dialog_content_init, clementine_1_dialog_resolver);
+	create_event_initialise_dialog_holder(id, clementine_1_dialog_content_init, clementine_1_dialog_resolver);
 } else {
-create_event_initialise_dialog_holder(id, clementine_2_dialog_content_init, clementine_2_dialog_resolver);
+	create_event_initialise_dialog_holder(id, clementine_2_dialog_content_init, clementine_2_dialog_resolver);
 }
 /*
 Will initialise the following object variables:

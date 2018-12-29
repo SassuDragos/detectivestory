@@ -21,5 +21,3 @@ with(dialog_owner) {
     dialog_resolver = argument[2]
 }
 
-//[TODO] TEMPORARY. SHOULD BE IN INIT ROOM
-variable_global_set("dialog_engine", noone);

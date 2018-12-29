@@ -1,8 +1,4 @@
 create_event_initialise_character(id, "Max, Detective Pepsi Max", c_green, spr_partner_detective_avatar);
-//TODO: quickfix because clues map is not setup before. We need init room and then remove this:
-if (!variable_global_exists("cluesMap")) {
-	initialize_global_variables();
-}
 
 var upstairsUnlocked = ds_list_find_index(global.available_locations_list, RoomChoices.STORAGE);
 if (upstairsUnlocked) {

@@ -1,12 +1,10 @@
 var menuList = ds_list_create()
+var hasPickedPizza = ds_map_find_value(global.cluesMap, "picked_pizza")
+var gaveToadPizza = ds_map_find_value(global.cluesMap, "gave_toad_pizza")
 
-if !variable_global_exists("picked_pizza"){
-initialize_global_variables()	
+ds_list_add(menuList, ContextMenuItemType.DISCUSS)
+if(hasPickedPizza == true && gaveToadPizza == false){	
+	ds_list_add(menuList, ContextMenuItemType.GIVEPIZZA);
 }
-if(global.picked_pizza == true && ds_map_find_value(global.cluesMap, "gave_toad_pizza") == false){
-	
-ds_list_add(menuList, ContextMenuItemType.GIVEPIZZA);
-}
-ds_list_add(menuList, ContextMenuItemType.DISCUSS);
 
 instantiate_context_menu(self, mouse_x, mouse_y, menuList);
