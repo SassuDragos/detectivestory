@@ -367,14 +367,6 @@
             }
         },
         {
-            "Key": "19e46d92-39cb-4f35-b18b-0622154c6a41",
-            "Value": {
-                "id": "4e788155-e4d0-439f-a228-7b613b73cada",
-                "resourcePath": "objects\\obj_stairs_pizzeria\\obj_stairs_pizzeria.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1ac3660f-a8e6-4895-bf9c-f7b94fd899e1",
             "Value": {
                 "id": "1d266d4a-087d-40d1-bf3f-8254a16f0c02",
@@ -796,6 +788,14 @@
                 "id": "5eb74bec-1419-4b29-8b58-e8e5ff849b25",
                 "resourcePath": "scripts\\michigan_1_default_choices\\michigan_1_default_choices.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "39fbea69-0762-4117-9be0-cd2220c04fc7",
+            "Value": {
+                "id": "a8e573a7-0ea7-4a41-a175-55841693a9f8",
+                "resourcePath": "rooms\\room_parent\\room_parent.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2484,6 +2484,14 @@
                 "id": "87e7f004-f8ee-48ef-8c87-672554bc2dc6",
                 "resourcePath": "objects\\obj_register\\obj_register.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b927701a-06e8-475f-812d-404a8b659321",
+            "Value": {
+                "id": "77d13bfe-d51f-414a-acbb-e90cf7f51594",
+                "resourcePath": "views\\39fbea69-0762-4117-9be0-cd2220c04fc7-room.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

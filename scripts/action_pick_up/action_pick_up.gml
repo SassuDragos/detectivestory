@@ -1,2 +1,3 @@
-argument0.visible = false;
+AddObjectToInventory(argument0);
+// TODO: We have to make this generic...
 ds_map_set(global.cluesMap, "picked_pizza", true)

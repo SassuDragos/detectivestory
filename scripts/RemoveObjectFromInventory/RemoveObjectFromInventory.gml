@@ -1,1 +1,1 @@
-ds_list_delete(obj_inventory.items, ds_list_find_index(obj_inventory.items, argument0));
+ds_list_delete(global.inventory_items, ds_list_find_index(global.inventory_items, argument0));

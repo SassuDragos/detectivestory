@@ -10,7 +10,7 @@ var new_dialog_behaviour_sequence = [];
 switch(selectedDialogChoice) {
 	case "Add ring to inventory":
 		change_clue_status("has_bruiser_ring_in_inventory", true)
-		instance_destroy(obj_ring)
+		AddObjectToInventory(global.dialog_engine.target)
 		break;
 }
 

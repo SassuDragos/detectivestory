@@ -61,3 +61,5 @@ variable_global_set("available_locations_list", availableLocationsList);
 variable_global_set("game_stage", 1);
 
 variable_global_set("interrogation_enabled", false); 
+
+variable_global_set("inventory_items", ds_list_create());

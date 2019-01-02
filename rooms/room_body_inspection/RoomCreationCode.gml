@@ -5,5 +5,9 @@ if(ds_map_find_value(global.cluesMap, "has_bruiser_ring_in_inventory")) {
 }
 
 if(ds_map_find_value(global.cluesMap, "has_weapon_in_inventory")) {
-	instance_destroy(obj_pipe)
+	with obj_pipe {
+		if(layer != -1) {
+			instance_destroy(id)	
+		}
+	}
 }

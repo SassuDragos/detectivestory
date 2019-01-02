@@ -15,8 +15,7 @@
         "d8769fe6-645d-4049-9cf8-8702e1930fd1",
         "fc1bec07-464d-4b62-92c6-5612f55b6e6f",
         "fdf05449-f26c-432d-9b74-6fc6ae743150",
-        "7427befe-f242-468d-ad94-00cffb3dfcbc",
-        "19e46d92-39cb-4f35-b18b-0622154c6a41"
+        "7427befe-f242-468d-ad94-00cffb3dfcbc"
     ],
     "filterType": "GMObject",
     "folderName": "pizzaria",

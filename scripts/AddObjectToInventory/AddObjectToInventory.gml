@@ -1,8 +1,11 @@
 object = argument0;
 
-ds_list_add(obj_inventory.items,object);
-layer_add_instance("Inventory_Layer", object);
-object.depth--;
-object.collider = noone;
-object.inInventory = true;
+var copy = instance_create_layer(object.x, object.y, object.layer, object.object_index);
+instance_destroy(object);
+ds_list_add(global.inventory_items,copy);
+layer_add_instance("layer_inventory", copy);
+copy.persistent = true;
+copy.depth--;
+copy.collider = noone;
+copy.inInventory = true;
 obj_inventory.hasChanged = true;

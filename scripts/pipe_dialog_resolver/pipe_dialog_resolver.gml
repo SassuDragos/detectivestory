@@ -10,7 +10,7 @@ var new_dialog_behaviour_sequence = [];
 switch(selectedDialogChoice) {
 	case "Add bent pipe to inventory":
 		change_clue_status("has_weapon_in_inventory", true);
-		instance_destroy(obj_pipe);
+		AddObjectToInventory(global.dialog_engine.target);
 		break;
 }
 
