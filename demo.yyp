@@ -794,7 +794,7 @@
             "Key": "39fbea69-0762-4117-9be0-cd2220c04fc7",
             "Value": {
                 "id": "a8e573a7-0ea7-4a41-a175-55841693a9f8",
-                "resourcePath": "rooms\\room_parent\\room_parent.yy",
+                "resourcePath": "rooms\\room_hud\\room_hud.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1599,6 +1599,14 @@
             }
         },
         {
+            "Key": "7463116d-7491-4ba1-9861-eb97194f8177",
+            "Value": {
+                "id": "a438d18d-ed51-46ed-ae03-9cfcbe13d2d0",
+                "resourcePath": "fonts\\fnt_darling\\fnt_darling.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "7518a0b3-3603-445d-90f2-ea64adeacb44",
             "Value": {
                 "id": "81bc6dca-ba82-4c14-a2fc-e6c1c73295ef",
@@ -1660,6 +1668,14 @@
                 "id": "d2f780f6-fc47-472b-b0b7-b4674e614f27",
                 "resourcePath": "sprites\\spr_baskets\\spr_baskets.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7b5fde34-e46f-4fc0-8195-d2a5a705c792",
+            "Value": {
+                "id": "804e6462-aa3c-4940-88e0-85a4621eccb9",
+                "resourcePath": "objects\\obj_room_name\\obj_room_name.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3003,6 +3019,14 @@
             "Value": {
                 "id": "0924028a-a20a-478b-8690-a96785d9ba48",
                 "resourcePath": "sprites\\spr_michigan_avatar\\spr_michigan_avatar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e4e34198-d947-4281-bd00-541ca4e2f9bc",
+            "Value": {
+                "id": "7932917b-7d53-4f76-89c2-0ab7c2b3ae4c",
+                "resourcePath": "sprites\\sprite115\\sprite115.yy",
                 "resourceType": "GMSprite"
             }
         },

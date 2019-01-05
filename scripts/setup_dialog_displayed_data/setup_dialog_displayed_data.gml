@@ -33,6 +33,7 @@ with (dialogCharacterId) {
 if array_length_1d(dialogChoices) > 0 {
     global.dialog_engine.choiceBoxObject.sprite_index = spr_choice_list_background;
     global.dialog_engine.choiceBoxObject.choice_list = dialogChoices;
+	global.dialog_engine.choiceBoxObject.newOptions = true;
     global.dialog_engine.choiceBoxObject.text_line_height = string_height(dialogText);
 } else {
     global.dialog_engine.choiceBoxObject.visible = false;
