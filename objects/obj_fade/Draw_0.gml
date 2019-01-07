@@ -12,6 +12,7 @@ if(start || room_to_go > 0) {
 	if(image_alpha == 1) {
 		room_goto(room_to_go);
 		room_to_go = 0;
+		start = true;
 	} else if(image_alpha == 0) {
 		start = false;
 		global.actions_allowed = true;
