@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 
-pipe_pickup();
+if(!inInventory) {
+	pipe_pickup();
+}

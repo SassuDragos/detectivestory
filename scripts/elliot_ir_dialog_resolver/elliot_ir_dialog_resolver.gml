@@ -171,7 +171,7 @@ switch(selectedDialogChoice) {
 		
 		break;
 	case "I guess we're done here":
-		room_goto(room_good_ending);
+		fade_change_to_room(room_good_ending);
 		return;
 }
 

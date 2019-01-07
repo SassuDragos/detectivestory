@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-ring_pickup();
+event_inherited();
+
+if(!inInventory) {
+	ring_pickup();
+}

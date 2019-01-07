@@ -1,0 +1,91 @@
+{
+    "id": "056a53c2-efa6-4856-ae5c-5b11152de7b8",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_fade",
+    "eventList": [
+        {
+            "id": "9bc6efe0-605f-4480-adbd-2319f99c5408",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "056a53c2-efa6-4856-ae5c-5b11152de7b8"
+        },
+        {
+            "id": "342aeeb6-efc4-43e9-9d97-86a939566cb5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "056a53c2-efa6-4856-ae5c-5b11152de7b8"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "67b4057d-fa7b-47d3-b3c8-c5960bb854c3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "fade_speed",
+            "varType": 0
+        },
+        {
+            "id": "e5475bec-9c8a-4a9c-9a69-42d965c70de1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "start",
+            "varType": 3
+        },
+        {
+            "id": "2709f7fe-7337-486d-a071-b0a364a761d1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "room_to_go",
+            "varType": 1
+        }
+    ],
+    "solid": false,
+    "spriteId": "9297a530-e416-4bc6-b9e8-efafcae4dc8b",
+    "visible": true
+}

@@ -1,1 +1,1 @@
-room_goto(room_bedroom_mario);
+fade_change_to_room(room_bedroom_mario);

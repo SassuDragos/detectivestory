@@ -5,19 +5,29 @@
     "name": "obj_pizza",
     "eventList": [
         {
-            "id": "bd275001-9007-4b5e-86a8-dec77f1173c8",
+            "id": "02fec0d6-0d3e-4644-ad1b-9cfc134eb491",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "fc1bec07-464d-4b62-92c6-5612f55b6e6f"
+        },
+        {
+            "id": "55d7376d-0832-4a7d-8b67-00dd496d4829",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
             "eventtype": 6,
             "m_owner": "fc1bec07-464d-4b62-92c6-5612f55b6e6f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "a97c7477-0a60-48dd-b66a-02bc89f4a2eb",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -2,15 +2,15 @@
 
 switch(argument0) {
 	case RoomChoices.TOADS:
-		room_goto(room_house_toad);
+		fade_change_to_room(room_house_toad);
 		break;
 	case RoomChoices.PIZZERIA:
-		room_goto(room_pizzaria);
+		fade_change_to_room(room_pizzaria);
 		break;
 	case RoomChoices.STORAGE:
-		room_goto(room_storage);
+		fade_change_to_room(room_storage);
 		break;
 	case RoomChoices.APARTMENTS:
-		room_goto(room_living);
+		fade_change_to_room(room_living);
 		break;
 }

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "056a53c2-efa6-4856-ae5c-5b11152de7b8",
+            "Value": {
+                "id": "f2082a7f-9677-42ce-8c8a-7080e5c8f8a4",
+                "resourcePath": "objects\\obj_fade\\obj_fade.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "05a338f4-097e-4d50-8d67-eb0d1dc2e1de",
             "Value": {
                 "id": "bbc9e970-dec1-4d49-82c1-e0889137de39",
@@ -620,6 +628,14 @@
                 "id": "961ad1f3-2fa4-414c-91ef-ba360ddf8c9e",
                 "resourcePath": "sprites\\spr_tile_red\\spr_tile_red.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2f1ab803-c0a8-4304-a63b-9266f10e46fc",
+            "Value": {
+                "id": "3b97d95b-1c64-47d6-8d2e-efecb112b877",
+                "resourcePath": "scripts\\fade_change_to_room\\fade_change_to_room.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2020,6 +2036,14 @@
                 "id": "094e7f9d-dd3b-4f58-b6ac-91ff51558b0a",
                 "resourcePath": "tilesets\\tileset1\\tileset1.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "9297a530-e416-4bc6-b9e8-efafcae4dc8b",
+            "Value": {
+                "id": "a18f73db-21b1-4272-aec8-0e8012333861",
+                "resourcePath": "sprites\\spr_fade\\spr_fade.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3482,7 +3506,8 @@
         "ae9655a0-f336-4954-a0d7-73a31034ccb3",
         "4540c275-c207-4bc8-a012-6c7e7f66e00a",
         "dedb18c3-55f5-44dd-8b04-312504be195f",
-        "692c7e09-7e0a-49c4-945f-26289a7c5bce"
+        "692c7e09-7e0a-49c4-945f-26289a7c5bce",
+        "2f1ab803-c0a8-4304-a63b-9266f10e46fc"
     ],
     "tutorial": ""
 }

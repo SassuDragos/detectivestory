@@ -1,3 +1,4 @@
+instance_create_layer(285, 0, layer_fade, obj_fade);
 
 partner_detective_body_information();
 

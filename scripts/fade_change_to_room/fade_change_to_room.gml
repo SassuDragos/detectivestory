@@ -1,0 +1,1 @@
+obj_fade.room_to_go = argument0;

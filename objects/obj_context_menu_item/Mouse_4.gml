@@ -8,7 +8,7 @@ if(room != room_interrogation) {
 	script_execute(action, menuHolder);
 	
 } else {
-	room_goto(room_bad_ending);
+	fade_change_to_room(room_bad_ending);
 }
 
 /*
