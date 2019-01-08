@@ -41,7 +41,11 @@ if (choiceListLength > 0)
                 upperPos = 4;
                 
                 // Resolve options
-                script_execute(obj_dialog_engine.dialogResolver, entry); 
+                if(obj_dialog_engine.dialogResolver) {
+					script_execute(obj_dialog_engine.dialogResolver, entry);
+				} else {
+					
+				}
             }
         }
     }

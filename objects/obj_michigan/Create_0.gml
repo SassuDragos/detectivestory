@@ -5,3 +5,4 @@ if (hasGaveToadPizza) {
 } else {
 	create_event_initialise_dialog_holder(id, michigan_1_dialog_content_init, michigan_1_dialog_resolver);
 }
+ds_list_add(contextMenuList, ContextMenuItemType.DISCUSS);

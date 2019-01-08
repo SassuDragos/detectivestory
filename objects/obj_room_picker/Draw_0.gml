@@ -37,6 +37,8 @@ if (choiceListLength > 0) {
                 
                 // Resolve options
                 room_picker_resolver(entry);
+				
+				instance_destroy();
             }
         }
     }

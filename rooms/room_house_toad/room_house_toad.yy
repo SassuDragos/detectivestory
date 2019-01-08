@@ -3,7 +3,7 @@
     "name": "room_house_toad",
     "id": "76c878dc-789a-478a-93d9-57bd102491af",
     "creationCodeFile": "",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": true,
     "instanceCreationOrderIDs": [
@@ -548,7 +548,7 @@
         "clearDisplayBuffer": true,
         "clearViewBackground": true,
         "enableViews": true,
-        "inheritViewSettings": true,
+        "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"
     }

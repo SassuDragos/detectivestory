@@ -2,9 +2,9 @@
 
 if(inInventory) {
 	grab = false;
-	if(place_empty(x,y) || place_meeting(x,y,obj_inventory)) {
+	if(!place_meeting(x,y,obj_interactable)) {
 		ReAddObjectToInventory();
-		obj_player.move = true;
+		alarm[0] = 5;
 	}
 //depth = 0;
 }

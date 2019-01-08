@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-choiceList = ds_list_create();
 var availableRooms = global.available_locations_list;
 
 switch(room) {

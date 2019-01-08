@@ -4,10 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
-if(inInventory) {
+/*if(inInventory) {
 	if(place_meeting(x,y,obj_michigan)) {
 		action_givepizza();
 		RemoveObjectFromInventory(self, true);
 	}
-}
+}*/
 

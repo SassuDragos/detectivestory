@@ -9,7 +9,7 @@ var dialog_choices = [];
 var result = [];
 
 
-dialog_body[0] = "This pizza is so good. Thank`s a lot!";
+dialog_body[0] = "So what can I do for you, detective?";
 dialog_character[0] = obj_michigan;
 
 var choices = michigan_2_default_choices();

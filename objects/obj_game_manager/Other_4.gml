@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 global.path_grid = mp_grid_create(0, 0, room_width/32, room_height/32, 32, 32);
 
 with(obj_obstacle) {
@@ -18,3 +20,4 @@ var l = layer_get_id("layer_bg_scene");
 var l2 = layer_get_id("layer_disabled_items");
 layer_shader(l, sha_bw);
 layer_shader(l2, sha_bw);
+	

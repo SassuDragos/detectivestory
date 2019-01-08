@@ -5,6 +5,8 @@ if (global.game_stage == 1){
 } else {
 	create_event_initialise_dialog_holder(id, clementine_2_dialog_content_init, clementine_2_dialog_resolver);
 }
+
+ds_list_add(contextMenuList, ContextMenuItemType.DISCUSS);
 /*
 Will initialise the following object variables:
 

@@ -5,19 +5,19 @@
     "name": "obj_board",
     "eventList": [
         {
-            "id": "fb267546-d550-4b6e-a6d4-ddb4379c3472",
+            "id": "e37ccfcd-fc63-4a7e-8671-6a61ea236b9a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "7427befe-f242-468d-ad94-00cffb3dfcbc"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "aa835f2d-6c3d-4201-96b6-ebb283320cd2",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

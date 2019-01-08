@@ -5,19 +5,19 @@
     "name": "obj_door_mario",
     "eventList": [
         {
-            "id": "788262aa-b252-4109-9908-40ed057f19ec",
+            "id": "84183f14-55f4-4f1e-a71e-e048d54516be",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "68daac55-c511-4423-8ef1-9edfb9caa904"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "aa835f2d-6c3d-4201-96b6-ebb283320cd2",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

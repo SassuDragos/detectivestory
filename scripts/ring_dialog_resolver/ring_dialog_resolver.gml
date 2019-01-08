@@ -2,9 +2,9 @@
 
 var selectedDialogChoice = argument0;
 
-var new_dialog_body_sequence = []
-var new_dialog_character_sequence = []
-var new_dialog_choice_sequence = []
+var new_dialog_body_sequence = [];
+var new_dialog_character_sequence = [];
+var new_dialog_choice_sequence = [];
 var new_dialog_behaviour_sequence = [];
 
 switch(selectedDialogChoice) {

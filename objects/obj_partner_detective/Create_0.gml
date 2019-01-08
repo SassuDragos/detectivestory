@@ -9,6 +9,8 @@ if (upstairsUnlocked) {
 	create_event_initialise_dialog_holder(id, partner_detective_1_dialog_content_init, partner_detective_1_dialog_resolver);
 }
 
+ds_list_add(contextMenuList, ContextMenuItemType.DISCUSS);
+
 /*
 Will initialise the following object variables:
 

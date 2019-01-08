@@ -43,26 +43,6 @@
             "enumb": 0,
             "eventtype": 1,
             "m_owner": "45c083a2-b230-4489-87b9-4efce9cf951b"
-        },
-        {
-            "id": "41950ecd-d0fb-4007-9145-13998abd89d9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 5,
-            "eventtype": 7,
-            "m_owner": "45c083a2-b230-4489-87b9-4efce9cf951b"
-        },
-        {
-            "id": "e84c1cfe-d37f-4dce-bd2b-db837811f583",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 7,
-            "m_owner": "45c083a2-b230-4489-87b9-4efce9cf951b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -126,20 +106,6 @@
             "varType": 2
         },
         {
-            "id": "9312ea24-4778-44d2-ab49-fcf21392cfbb",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "path_add()",
-            "varName": "path",
-            "varType": 4
-        },
-        {
             "id": "0d870ead-8f27-4970-ac48-4e3db105e2f7",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -152,6 +118,20 @@
             "value": "0",
             "varName": "spd",
             "varType": 0
+        },
+        {
+            "id": "3aea990c-e3ae-46b5-b9ff-4fd80fb29144",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "path_add()",
+            "varName": "path",
+            "varType": 4
         }
     ],
     "solid": false,

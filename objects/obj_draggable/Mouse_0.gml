@@ -11,7 +11,7 @@ if(inInventory) {
 	original_x = x;
 	original_y = y;
 
-	obj_player.move = false;
+	global.actions_allowed = false;
 }
 
 
