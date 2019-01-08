@@ -19,7 +19,7 @@
         {
             "name": "UI",
             "id": "49aeb0ac-bce0-4918-93b8-fd3001a01474",
-            "depth": 0,
+            "depth": -15101,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -36,7 +36,7 @@
                     "assets": [
 
                     ],
-                    "depth": 100,
+                    "depth": -15001,
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
@@ -52,7 +52,7 @@
                     "m_serialiseFrozen": false,
                     "modelName": "GMRAssetLayer",
                     "mvc": "1.0",
-                    "userdefined_depth": false,
+                    "userdefined_depth": true,
                     "visible": true
                 },
                 {
@@ -78,7 +78,7 @@
                     "m_serialiseFrozen": false,
                     "modelName": "GMRInstanceLayer",
                     "mvc": "1.0",
-                    "userdefined_depth": false,
+                    "userdefined_depth": true,
                     "visible": true
                 },
                 {

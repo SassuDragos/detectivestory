@@ -17,6 +17,8 @@ for (var index = 0; index < newSequenceSize; index = index+1) {
     }
 	if(argument_count > 3) {
 		var behaviourSequence = argument[3];
-		global.dialog_engine.behaviourSequence[nextDialogStep+index] = behaviourSequence[index];	
+		if(array_length_1d(behaviourSequence) > index) {
+			global.dialog_engine.behaviourSequence[nextDialogStep+index] = behaviourSequence[index];
+		}
 	}
 }

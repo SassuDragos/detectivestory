@@ -6,6 +6,7 @@ var defaultDialogChoices = violet_1_default_choices();
 var new_dialog_body_sequence = []
 var new_dialog_character_sequence = []
 var new_dialog_choice_sequence = []
+var new_dialog_behaviour_sequence = []
 	
 switch(selectedDialogChoice) {
 	case "Clementine’s Whereabouts":
@@ -106,8 +107,8 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[0] = obj_player;
 		new_dialog_choice_sequence[0,0] = "Check answer..."
 		
-		ds_list_add(global.available_locations_list, RoomChoices.APARTMENTS);
-		ds_list_add(global.available_locations_list, RoomChoices.STORAGE);
+		new_dialog_behaviour_sequence[0] = upstairs_available;
+		
 		new_dialog_body_sequence[1] = "Uhm... Sure! Just give me one second to open the door, as it seems they locked it. *after dropping the key on the floor a couple of times, she runs to the door and slowly opens it*. I will stay here, I don`t want clients to see all this mess.";
 		new_dialog_character_sequence[1] = obj_violet;
 		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
@@ -117,6 +118,6 @@ switch(selectedDialogChoice) {
 		break;
 }
 
-add_data_sequence_to_dialog(new_dialog_body_sequence, new_dialog_character_sequence, new_dialog_choice_sequence);
+add_data_sequence_to_dialog(new_dialog_body_sequence, new_dialog_character_sequence, new_dialog_choice_sequence, new_dialog_behaviour_sequence);
 move_to_next_dialog_step();
 

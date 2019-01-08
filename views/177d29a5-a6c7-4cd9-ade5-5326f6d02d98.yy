@@ -12,7 +12,7 @@
         "d9b7f5d9-a96b-4536-868a-9a96b7b591d4"
     ],
     "filterType": "GMScript",
-    "folderName": "sprite_change",
+    "folderName": "behaviours",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
