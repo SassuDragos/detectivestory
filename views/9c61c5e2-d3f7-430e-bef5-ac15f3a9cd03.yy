@@ -10,7 +10,8 @@
         "8f8c96a0-e76d-48f6-b3bf-4aad0b243d28",
         "545cacfa-6512-4709-be91-a701f1944387",
         "3f593659-4f5b-458a-86ca-bbc5b45c91fc",
-        "dc12ba1b-927c-4b79-824e-a0d5bb8089c5"
+        "dc12ba1b-927c-4b79-824e-a0d5bb8089c5",
+        "c49fba69-6070-4272-9d48-a2ea0a035d2b"
     ],
     "filterType": "GMObject",
     "folderName": "environment",
