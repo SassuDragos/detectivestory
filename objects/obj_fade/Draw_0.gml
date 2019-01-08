@@ -5,8 +5,6 @@ if(start || room_to_go > 0) {
 	
 	global.actions_allowed = false;
 	
-	//visible = true;
-	
 	var factor = start ? -0.1 : 0.1;
 	image_alpha = clamp(image_alpha + (factor / fade_speed), 0, 1);
 	if(image_alpha == 1) {
@@ -16,7 +14,7 @@ if(start || room_to_go > 0) {
 	} else if(image_alpha == 0) {
 		start = false;
 		global.actions_allowed = true;
-		//visible = false;
+		fade_speed = original_fade_speed;
 	}
 	
 }

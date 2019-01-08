@@ -7,4 +7,4 @@ var dialogChoiceOptionSequence = ["Add ring to inventory"];
 instantiate_dialog_engine(	dialogBodySequence,
 							dialogCharacterSequence,
 							dialogChoiceOptionSequence,
-							ring_dialog_resolver);        
+							ring_dialog_resolver);

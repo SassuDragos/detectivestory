@@ -12,12 +12,12 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 6,
-            "m_owner": "1192fbee-6faf-4bf7-8584-23851b0a39bd"
+            "m_owner": "71589465-5027-4b01-9e0a-1ba7d1ea4cb2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "c67fd3f9-d666-4dc0-9114-2d788b55549d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

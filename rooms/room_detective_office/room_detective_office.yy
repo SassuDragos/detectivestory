@@ -1,6 +1,6 @@
 
 {
-    "name": "detective_office",
+    "name": "room_detective_office",
     "id": "2876f4ce-db40-4fce-a8a3-5ac279df7912",
     "creationCodeFile": "",
     "inheritCode": false,

@@ -12,7 +12,7 @@ if(global.dialog_engine == noone){
     global.dialog_engine.charactersSequence = argument[1];
     global.dialog_engine.choiceSequence = argument[2];
 	global.dialog_engine.behaviourSequence = argument_count > 4 ? argument[4] : [];
-    global.dialog_engine.dialogResolver = argument[3]
+    global.dialog_engine.dialogResolver = argument[3];
 	global.dialog_engine.target = self;
 	global.dialog_engine.currentDialogStep = 0;
 }

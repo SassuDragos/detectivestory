@@ -570,7 +570,7 @@
             "Key": "2876f4ce-db40-4fce-a8a3-5ac279df7912",
             "Value": {
                 "id": "0c119860-6221-4e18-9fe3-25825370b18e",
-                "resourcePath": "rooms\\detective_office\\detective_office.yy",
+                "resourcePath": "rooms\\room_detective_office\\room_detective_office.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2812,6 +2812,14 @@
                 "id": "c093a59b-c983-4991-9cec-fce85eb55a5e",
                 "resourcePath": "sprites\\spr_good_end\\spr_good_end.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c67fd3f9-d666-4dc0-9114-2d788b55549d",
+            "Value": {
+                "id": "1ddd818b-4abe-4b9f-b2ae-88a2d963ffd4",
+                "resourcePath": "objects\\obj_character\\obj_character.yy",
+                "resourceType": "GMObject"
             }
         },
         {
