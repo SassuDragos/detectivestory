@@ -1311,6 +1311,14 @@
             }
         },
         {
+            "Key": "54f43ad8-9566-491b-b8e9-c4c0c80efcf9",
+            "Value": {
+                "id": "e896c709-b7e0-459f-a51e-e21cc22f55d4",
+                "resourcePath": "objects\\obj_avatar_bg\\obj_avatar_bg.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "54f6e999-939e-433f-9825-ccd681c72695",
             "Value": {
                 "id": "b6589307-e184-4d51-99e3-813f77e5a04f",
@@ -2743,6 +2751,14 @@
             }
         },
         {
+            "Key": "bb0289d7-f148-46b9-b58e-17705d967ae9",
+            "Value": {
+                "id": "2a4fe660-12f7-409c-982c-dc1708c2394a",
+                "resourcePath": "sprites\\spr_avatar_bg\\spr_avatar_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bc5e8bcf-fbf4-4859-a906-ec41e7d2b639",
             "Value": {
                 "id": "da7b3541-4397-4a57-894f-45d31816f9a2",
@@ -3744,6 +3760,8 @@
         "3d59af45-f729-456c-b958-5ec26accd230",
         "d9b7f5d9-a96b-4536-868a-9a96b7b591d4",
         "db20ef37-f2d3-4062-bc3c-563a2ed563df",
+        "933aa60f-7de9-4213-a2ae-4ad301cebe2a",
+        "ae9655a0-f336-4954-a0d7-73a31034ccb3",
         "2809b730-192a-4d58-bf55-18b8801d6fb2",
         "477dd279-6c60-408b-8ce7-25e198369f22",
         "c59acd0d-66b5-43e8-9e4b-16dddd5be148",
@@ -3759,8 +3777,6 @@
         "dedb18c3-55f5-44dd-8b04-312504be195f",
         "8d335c5e-4a86-4fdf-a7eb-fe5b24d24ad5",
         "24eaae48-15c7-4ec2-a6af-fb0b970052d5",
-        "933aa60f-7de9-4213-a2ae-4ad301cebe2a",
-        "ae9655a0-f336-4954-a0d7-73a31034ccb3",
         "4540c275-c207-4bc8-a012-6c7e7f66e00a",
         "692c7e09-7e0a-49c4-945f-26289a7c5bce",
         "2f1ab803-c0a8-4304-a63b-9266f10e46fc",

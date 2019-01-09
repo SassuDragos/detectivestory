@@ -25,5 +25,5 @@ draw_text(x + box_width/2 + addX , y + 2*addY, name);
 draw_set_halign(fa_left);
 draw_set_colour(c_white);
 textPart = string_copy(text_body, 1, char_count);
-draw_text_ext(x + addX, y + text_line_height + 4*addY, textPart, text_line_height, box_width);
+draw_text_ext(x + addX, y + text_line_height + 3*addY, textPart, text_line_height, box_width);
 
