@@ -20,18 +20,6 @@ switch(selectedDialogChoice) {
 		}
 		
 		break;
-	case "Ask about ring":
-		new_dialog_body_sequence[0] = "Is this ring yours, or do you know it’s owner?"
-		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
-		
-		new_dialog_body_sequence[1] = "Nah man, I never wear rings."
-		new_dialog_character_sequence[1] = obj_michigan;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		}
-		
-		break;
 	case "Pressure about what he ingested":
 		new_dialog_body_sequence[0] = "If you don’t want to make it worse for yourself, you best tell me what made you so… you know dopey!"
 		new_dialog_character_sequence[0] = obj_player;

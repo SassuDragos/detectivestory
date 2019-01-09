@@ -90,17 +90,6 @@ switch(selectedDialogChoice) {
 			new_dialog_choice_sequence[1,index+initialIndex] = ds_list_find_value(defaultDialogChoices,index);
 		};
 		break;
-	case "Ask about ring":
-		new_dialog_body_sequence[0] = "Is this ring yours, or do you know it’s owner?"
-		new_dialog_character_sequence[0] = obj_player.id;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
-		
-		new_dialog_body_sequence[1] = "No, I only wear my wedding ring.";
-		new_dialog_character_sequence[1] = obj_leonardo.id;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		};
-		break;
 	case "Finish `conversation`":
 		break;
 }

@@ -148,28 +148,6 @@ switch(selectedDialogChoice) {
 		new_dialog_behaviour_sequence[1] = elliot_sprite_still_scared;
 		
 		break;
-	case "Ask about ring":
-		change_clue_status("asked_elliot_ring", true);
-		new_dialog_body_sequence[0] = "Is this ring yours, or do you know it’s owner?"
-		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
-		
-		new_dialog_behaviour_sequence[0] = elliot_sprite_talking_calm;
-		
-		new_dialog_body_sequence[1] = "*surprised* Yeah, where did you find it? Shit I probably shouldn’t have said that"
-		new_dialog_character_sequence[1] = obj_elliot.id
-		if(ds_map_find_value(global.cluesMap, "asked_elliot_money") &&
-		   ds_map_find_value(global.cluesMap, "asked_elliot_alibi")) {
-			ds_list_insert(defaultDialogChoices, 0, "I guess we're done here");
-		}
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices, index);
-		}
-		
-		new_dialog_behaviour_sequence[1] = elliot_sprite_still_calm;
-		
-		
-		break;
 	case "I guess we're done here":
 		fade_change_to_room(room_good_ending);
 		return;

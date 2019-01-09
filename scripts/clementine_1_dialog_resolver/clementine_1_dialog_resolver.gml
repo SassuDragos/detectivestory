@@ -60,17 +60,6 @@ switch(selectedDialogChoice) {
 			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices, index);
 		}
 		break;
-	case "Ask about ring":
-		new_dialog_body_sequence[0] = "Is this ring yours, or do you know it’s owner?"
-		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
-		
-		new_dialog_body_sequence[1] = "No, I have never seen it before."
-		new_dialog_character_sequence[1] = obj_clementine.id
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices, index);
-		}
-		break;
 	case "Inquire if Marcelo is the bruiser":
 		new_dialog_body_sequence[0] = "Was Marcelo the one who hit you?"
 		new_dialog_character_sequence[0] = obj_player.id

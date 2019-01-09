@@ -1,4 +1,4 @@
 create_event_initialise_character(id, "Violet Tubi", c_green, spr_violet_avatar);
-create_event_initialise_dialog_holder(id, violet_1_dialog_content_init, violet_1_dialog_resolver);
+create_event_initialise_dialog_holder(id, violet_1_dialog_content_init, violet_1_dialog_resolver, violet_1_default_choices());
 
 ds_list_add(contextMenuList, ContextMenuItemType.DISCUSS);

@@ -70,17 +70,6 @@ switch(selectedDialogChoice) {
 			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
 		};
 	
-		break; 
-	case "Ask about ring":
-		new_dialog_body_sequence[0] = "Is this ring yours, or do you know it’s owner?"
-		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
-		
-		new_dialog_body_sequence[1] = "Let me see it  *investigates ring*, no, I don’t know who this belongs to.";
-		new_dialog_character_sequence[1] = obj_violet;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		};
 		break;
 	case "More details about upstairs":
 		new_dialog_body_sequence[0] = "But what is upstairs?"

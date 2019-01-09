@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.action_allowed = true;
+global.actions_allowed = true;

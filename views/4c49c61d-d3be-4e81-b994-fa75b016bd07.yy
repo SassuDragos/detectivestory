@@ -8,7 +8,8 @@
         "3da9195e-2e50-49af-b6cc-12c53983314f",
         "56cf7b17-c1af-493b-879a-e27b80fee160",
         "cdf24714-0413-4afc-b93e-774a43c8f970",
-        "2013d79b-815a-4481-932b-e4c46dda6aec"
+        "2013d79b-815a-4481-932b-e4c46dda6aec",
+        "569012b2-9feb-4611-b4d9-b5862086831a"
     ],
     "filterType": "GMScript",
     "folderName": "partner_detective",

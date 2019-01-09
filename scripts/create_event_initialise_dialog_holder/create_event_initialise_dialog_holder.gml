@@ -18,6 +18,9 @@ with(dialog_owner) {
     body_text_sequence = characterDialogData[0];
     charaters_sequence = characterDialogData[1];
     choice_option_sequence = characterDialogData[2];
-    dialog_resolver = argument[2]
+    dialog_resolver = argument[2];
+	if(argument_count > 3) {
+		dialog_choices = argument[3];
+	}
 }
 

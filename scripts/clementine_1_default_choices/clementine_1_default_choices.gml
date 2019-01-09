@@ -4,9 +4,9 @@
 var hasBruiserRingInInventory =  ds_map_find_value(global.cluesMap, "has_bruiser_ring_in_inventory");
 
 var choiceList = ds_list_create();
-if (hasBruiserRingInInventory) {
+/*if (hasBruiserRingInInventory) {
 	ds_list_add(choiceList, "Ask about ring");
-}
+}*/
 
 ds_list_add(choiceList, "Ask for background");
 ds_list_add(choiceList, "Check for alibi");
