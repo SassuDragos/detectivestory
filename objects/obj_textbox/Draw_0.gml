@@ -18,12 +18,12 @@ if(char_count < string_length(text_body)) {
 //draw_set_font(font_name);
 draw_set_halign(fa_center);
 draw_set_colour(color);
-draw_text(x + box_width/2 + addX , y + 2*addY, name); 
+draw_text(x - (sprite_get_width(spr_textbox_background) / 2) + box_width/2 + addX , y - (sprite_get_height(spr_textbox_background) / 2) + 2*addY, name); 
 
 //draw dialog
 //draw_set_font(font_game);
 draw_set_halign(fa_left);
 draw_set_colour(c_white);
 textPart = string_copy(text_body, 1, char_count);
-draw_text_ext(x + addX, y + text_line_height + 4*addY, textPart, text_line_height, box_width);
+draw_text_ext(x - (sprite_get_width(spr_textbox_background) / 2) + addX, y - (sprite_get_height(spr_textbox_background) / 2) + text_line_height + 4*addY, textPart, text_line_height, box_width);
 
