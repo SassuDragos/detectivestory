@@ -9,8 +9,8 @@ var camera_xoffset = camera_get_view_x(view_camera[0]);
 var camera_yoffset = camera_get_view_y(view_camera[0]);
 
 textBoxObject = instance_create_layer(camera_xoffset + camera_width/2 + sprite_get_width(spr_avatar_frame)/2, camera_yoffset + camera_height - 150, "layer_dialog", obj_textbox);
-avatarBgObject = instance_create_layer(textBoxObject.x - sprite_get_width(spr_avatar_frame) + 10, textBoxObject.y + 10, "layer_dialog", obj_avatar_bg);
 avatarBorderObject = instance_create_layer(camera_xoffset + camera_width/2 - sprite_get_width(spr_textbox_background) / 2, textBoxObject.y, "layer_dialog", obj_avatar_frame);
+avatarBgObject = instance_create_layer(avatarBorderObject.x, avatarBorderObject.y, "layer_dialog", obj_avatar_bg);
 avatarBoxObject = instance_create_layer(avatarBorderObject.x, avatarBorderObject.y, "layer_dialog", obj_avatar_container);
 avatarBoxObject.depth--;
 avatarBorderObject.depth = avatarBoxObject.depth - 1;
