@@ -7,7 +7,8 @@
         "24eaae48-15c7-4ec2-a6af-fb0b970052d5",
         "20a0e699-0fe2-4a0d-9c21-3c620cf706e1",
         "9221ce31-baa0-4c7c-8584-5c63fde30ad6",
-        "5093a018-d0b2-456d-bb8a-2dd0754a4d24"
+        "5093a018-d0b2-456d-bb8a-2dd0754a4d24",
+        "3bf516a1-8a4f-479b-a290-1f20b05cccd4"
     ],
     "filterType": "GMScript",
     "folderName": "room_navigation",

@@ -21,10 +21,11 @@ if (choiceListLength > 0)
         
     for (var index = 0; index < array_length_1d(choice_list); index++) {
         var pos = lowerPos + index;
-        var y1 = startingY + index * 20;
+        var y1 = startingY + index * 25;
         var y2 = min(y1 + 19, bottomMargin);
-		draw_set_colour(c_white);
-        draw_rectangle(x1, y1, x2, y2, 1);
+		draw_sprite(spr_dialog_choice, 0, x + sprite_get_width(spr_dialog_choice) / 2, y1 + sprite_get_height(spr_dialog_choice) / 2)
+		//draw_set_colour(c_white);
+        //draw_rectangle(x1, y1, x2, y2, 1);
        
 		var entry = choice_list[pos];
 		
@@ -34,8 +35,8 @@ if (choiceListLength > 0)
        
         if (point_in_rectangle(mouse_x, mouse_y, x1, y1, x2, y2) && entry != "")
         {   		
-			draw_set_colour(c_red);
-            draw_rectangle(x1, y1, x2, y2, 1);
+			draw_set_colour(c_black);
+            draw_rectangle(x, y1, x2 + backgroundBorder, y2, 1);
 			if (mouse_check_button_pressed(mb_left)) {
 				//Reset scroll position
                 lowerPos = 0;

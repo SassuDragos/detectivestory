@@ -19,5 +19,5 @@ avatarBgObject = instance_create_layer(avatarBorderObject.x, avatarBorderObject.
 avatarBoxObject = instance_create_layer(avatarBorderObject.x, avatarBorderObject.y, "layer_dialog", obj_avatar_container);
 avatarBoxObject.depth--;
 avatarBorderObject.depth = avatarBoxObject.depth - 1;
-choiceBoxObject = instance_create_layer(camera_xoffset + camera_width/2 + sprite_get_width(spr_textbox_background) / 2 - 50, textBoxObject.y, "layer_dialog", obj_dialog_choice_list);
+choiceBoxObject = instance_create_layer(camera_xoffset + camera_width/2 + sprite_get_width(spr_textbox_background) / 2 + 75, textBoxObject.y + sprite_get_height(spr_textbox_background) / 2, "layer_dialog", obj_dialog_choice_list);
 choiceBoxObject.depth = textBoxObject.depth - 1;
