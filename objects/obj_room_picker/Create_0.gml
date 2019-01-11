@@ -1,22 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var availableRooms = global.available_locations_list;
-
-switch(room) {
-	case room_pizzaria:
-		if (ds_list_find_index(availableRooms, RoomChoices.TOADS) != -1) {
-			ds_list_add(choiceList, RoomChoices.TOADS) }
-		break;
-	case room_house_toad:
-			ds_list_add(choiceList, RoomChoices.PIZZERIA)
-		break;
-}
-
-if (ds_list_size(choiceList) == 0) {
-	partner_detective_no_locations_discovered();
-	instance_destroy(self);
-}
 lowerPos = 0;
 upperPos = 4;
 

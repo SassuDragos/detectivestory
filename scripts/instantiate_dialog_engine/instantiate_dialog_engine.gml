@@ -15,4 +15,5 @@ if(global.dialog_engine == noone){
     global.dialog_engine.dialogResolver = argument_count > 3 && argument[3] != noone ? argument[3] : default_dialog_resolver;
 	global.dialog_engine.target = self;
 	global.dialog_engine.currentDialogStep = 0;
+	global.dialog_engine.alarm[0] = 5;
 }

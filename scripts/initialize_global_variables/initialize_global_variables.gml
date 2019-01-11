@@ -8,12 +8,21 @@ enum ContextMenuItemType {
 }
 
 enum RoomChoices {
-	TOADS,
-	PIZZERIA,
-	STORAGE,
-	APARTMENTS,
+	TOADS = room_house_toad,
+	PIZZERIA = room_pizzaria,
+	STORAGE = room_storage,
+	APARTMENTS = room_living,
+	BEDROOM_MARIO = room_bedroom_mario,
+	BEDROOM_LUIGI = room_bedroom_luigi,
+	SAFE_ROOM// = room_safe_room
 }
 
+enum Where {
+	OUTSIDE,
+	INSIDE_UPSTAIRS,
+	INSIDE_DOWNSTAIRS,
+	INNER
+}
 
 variable_global_set("actions_allowed", true);
 variable_global_set("dialog_engine", noone);
@@ -52,11 +61,10 @@ ds_map_add(cluesMap, "has_bruiser_ring_in_inventory", false);
 
 variable_global_set("cluesMap", cluesMap);
 
-var availableLocationsList = ds_list_create();
-
-ds_list_add(availableLocationsList, RoomChoices.PIZZERIA);
-
-variable_global_set("available_locations_list", availableLocationsList);
+variable_global_set("available_locations_outside", ds_map_create());
+variable_global_set("available_locations_inside_up", ds_map_create());
+variable_global_set("available_locations_inside_down", ds_map_create());
+add_available_location(noone, Where.OUTSIDE, RoomChoices.PIZZERIA);
 
 variable_global_set("game_stage", 1);
 

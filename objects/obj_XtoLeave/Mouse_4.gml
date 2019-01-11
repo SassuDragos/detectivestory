@@ -2,7 +2,7 @@ switch(room) {
 	case room_body_inspection:
 		if(!ds_map_find_value(global.cluesMap, "has_bruiser_ring_in_inventory") ||
 		   !ds_map_find_value(global.cluesMap, "has_weapon_in_inventory")) {
-			   partner_detective_did_not_find_all_clues();
+			   character_says(obj_partner_detective, "I think you missed some important evidence...");
 			   return;
 		}
 	default:

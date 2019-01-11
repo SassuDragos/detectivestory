@@ -14,7 +14,7 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[0] = "Who are you?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = get_background_question_body_text(noOfBackgroundQuestions);
 		new_dialog_character_sequence[1] = obj_partner_detective;
@@ -27,7 +27,7 @@ switch(selectedDialogChoice) {
 	case "Opinion on the case":
 		new_dialog_body_sequence[0] = "What do you think about this case?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "I think we are going in the right direction."
 		new_dialog_character_sequence[1] = obj_partner_detective;
@@ -39,7 +39,7 @@ switch(selectedDialogChoice) {
 	case "Inquire about the smoking":
 		new_dialog_body_sequence[0] = "Why do you smoke?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "You are pushy about that, you know stress, and I look pretty cool doing it."
 		new_dialog_character_sequence[1] = obj_partner_detective;

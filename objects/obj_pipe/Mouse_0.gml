@@ -3,5 +3,7 @@
 event_inherited();
 
 if(!inInventory) {
-	pipe_pickup();
+	change_clue_status("has_weapon_in_inventory", true);
+	AddObjectToInventory(self);
+	character_says(obj_player, "This seems to be the murder weapon... I should take it to evidence.");
 }

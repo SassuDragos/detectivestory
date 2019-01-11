@@ -10,9 +10,8 @@ if (ds_map_find_value(global.cluesMap, "upstairs_inquiry_unlocked")) {
 }
 
 var canAskToUnlockUpstairs = ds_map_find_value(global.cluesMap, "upstairs_ask_for_permission_unlocked");
-var upstairsHasNotBeenUnlockedBefore = ds_list_find_index(global.available_locations_list, RoomChoices.APARTMENTS) == -1;
-
-if (canAskToUnlockUpstairs && upstairsHasNotBeenUnlockedBefore) {
+		
+if (canAskToUnlockUpstairs && is_location_available(room, Where.INSIDE_UPSTAIRS, RoomChoices.APARTMENTS)) {
 	ds_list_add(choiceList, "Ask to go and check upstairs");
 }
 
@@ -22,7 +21,7 @@ ds_list_add(choiceList, "Ask role in the pizzeria");
 ds_list_add(choiceList, "Check for alibi");
 //ds_list_add(choiceList, "Ask about ring");
 ds_list_add(choiceList, "Finish conversation");
-ds_list_add(choiceList, "");
-ds_list_add(choiceList, "");
+
+
 
 return choiceList

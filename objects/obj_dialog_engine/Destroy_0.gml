@@ -1,4 +1,5 @@
 instance_destroy(textBoxObject);
+instance_destroy(mouseClickObject);
 instance_destroy(avatarBoxObject);
 instance_destroy(avatarBorderObject);
 instance_destroy(avatarBgObject);

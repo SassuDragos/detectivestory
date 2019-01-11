@@ -6,6 +6,7 @@ if (choiceListLength > 0)
 {	
 	var backgroundBorder = 4;
 	var backgroundHeight = sprite_get_height(spr_choice_list_background) - 2 * backgroundBorder + (array_length_1d(choice_list) * 25);
+	image_yscale = choiceListLength / 4;
 	if(newOptions) {
 		newOptions = false;
 		y = originalY - backgroundHeight;
@@ -43,8 +44,11 @@ if (choiceListLength > 0)
                 // Resolve options
                 if(obj_dialog_engine.dialogResolver) {
 					script_execute(obj_dialog_engine.dialogResolver, entry);
-				} else {
-					
+				}
+				
+				if(global.dialog_engine) {
+					obj_dialog_engine.canClick = false;
+					obj_dialog_engine.alarm[0] = 5;
 				}
             }
         }

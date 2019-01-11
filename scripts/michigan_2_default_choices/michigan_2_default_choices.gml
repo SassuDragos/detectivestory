@@ -16,7 +16,7 @@ ds_list_add(choiceList, "Pressure about what he ingested")
 }*/
 
 ds_list_add(choiceList, "Finish conversation")
-ds_list_add(choiceList, "");
-ds_list_add(choiceList, "");
+
+
 
 return choiceList

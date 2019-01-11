@@ -6,12 +6,5 @@ if(!collision_obj) {
 	return;	
 }
 
-var dialogBodySequence = ["Humm... That doesn't seem to be right..."];
-var dialogCharacterSequence = [obj_player];
-var dialogChoiceOptionSequence = ["Ok"];
-
-instantiate_dialog_engine(	dialogBodySequence,
-								dialogCharacterSequence,
-								dialogChoiceOptionSequence);
-								
+character_says(obj_player, "Humm... That doesn't seem to be right...");
 ReAddObjectToInventory();

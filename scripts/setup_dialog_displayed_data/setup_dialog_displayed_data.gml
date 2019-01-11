@@ -35,6 +35,7 @@ if array_length_1d(dialogChoices) > 0 {
     global.dialog_engine.choiceBoxObject.choice_list = dialogChoices;
 	global.dialog_engine.choiceBoxObject.newOptions = true;
     global.dialog_engine.choiceBoxObject.text_line_height = string_height(dialogText);
+	global.dialog_engine.choiceBoxObject.visible = true;
 } else {
     global.dialog_engine.choiceBoxObject.visible = false;
     global.dialog_engine.choiceBoxObject.choice_list = [];

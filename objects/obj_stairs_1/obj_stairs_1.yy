@@ -4,30 +4,20 @@
     "mvc": "1.0",
     "name": "obj_stairs_1",
     "eventList": [
-        {
-            "id": "6c0fcda3-0801-4f3a-9715-d475bb6c5694",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "16ff9086-4137-4d6d-8eb6-f300e4676865"
-        },
-        {
-            "id": "d3c9adf8-fbbc-4606-9ca7-69738831b51e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "16ff9086-4137-4d6d-8eb6-f300e4676865"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "aa835f2d-6c3d-4201-96b6-ebb283320cd2",
+    "overriddenProperties": [
+        {
+            "id": "df9e25b2-12e3-4f56-8c0f-91cc1c93fe11",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8a0c620c-ba5f-4bb5-8071-f6a362d22693",
+            "propertyId": "94d9278b-229d-41af-80cd-805330761e29",
+            "value": "Where.INSIDE_UPSTAIRS"
+        }
+    ],
+    "parentObjectId": "8a0c620c-ba5f-4bb5-8071-f6a362d22693",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
