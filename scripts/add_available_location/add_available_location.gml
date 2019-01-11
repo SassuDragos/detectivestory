@@ -43,16 +43,16 @@ switch(where) {
 		if(ds_list_find_index(ds_map_find_value(global.available_locations_inside_up, the_room), location) == -1) {
 			ds_list_add(ds_map_find_value(global.available_locations_inside_up, the_room), location);
 		}
-		if(ds_list_find_index(ds_map_find_value(global.available_locations_inside_up, location), the_room) == -1) {
-			ds_list_add(ds_map_find_value(global.available_locations_inside_up, location), the_room);
+		if(ds_list_find_index(ds_map_find_value(global.available_locations_inside_down, location), the_room) == -1) {
+			ds_list_add(ds_map_find_value(global.available_locations_inside_down, location), the_room);
 		}
 		return;
 	case Where.INSIDE_DOWNSTAIRS:
 		if(ds_list_find_index(ds_map_find_value(global.available_locations_inside_down, the_room), location) == -1) {
 			ds_list_add(ds_map_find_value(global.available_locations_inside_down, the_room), location);
 		}
-		if(ds_list_find_index(ds_map_find_value(global.available_locations_inside_down, location), the_room) == -1) {
-			ds_list_add(ds_map_find_value(global.available_locations_inside_down, location), the_room);
+		if(ds_list_find_index(ds_map_find_value(global.available_locations_inside_up, location), the_room) == -1) {
+			ds_list_add(ds_map_find_value(global.available_locations_inside_up, location), the_room);
 		}
 		return;
 }
