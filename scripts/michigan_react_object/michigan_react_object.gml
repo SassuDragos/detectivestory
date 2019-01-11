@@ -10,8 +10,7 @@ var dialogBehaviourSequence = [];
 switch(collision_obj.object_index) {
 	case obj_pizza:
 		// React to pizza
-		dialogBodySequence[0] = "Oh thanks, I am quite hungry. And these pizzas are delicious!";
-		dialogCharacterSequence[0] = obj_michigan;
+		character_says(obj_michigan, "Oh thanks, I am quite hungry. And these pizzas are delicious!");
 		
 		RemoveObjectFromInventory(collision_obj, true);
 		
@@ -20,19 +19,19 @@ switch(collision_obj.object_index) {
 		// Update game state
 		ds_map_set(global.cluesMap, "gave_toad_pizza", true)
 		create_event_initialise_dialog_holder(obj_michigan, michigan_2_dialog_content_init, michigan_2_dialog_resolver);
-		dialogChoiceOptionSequence[0,0] = "Ok";
+		//dialogChoiceOptionSequence[0,0] = "Ok";
 		
-		break;
+		return;
 	case obj_ring:
 		// React to ring
 		dialogBodySequence[0] = "Is this ring yours, or do you know it’s owner?"
 		dialogCharacterSequence[0] = obj_player;
-		dialogChoiceOptionSequence[0,0] = "Check answer..."
+		//dialogChoiceOptionSequence[0,0] = "Check answer..."
 		
 		dialogBodySequence[1] = "Nah man, I never wear rings."
 		dialogCharacterSequence[1] = obj_michigan;
 		if(global.dialog_engine == noone) {
-			dialogChoiceOptionSequence[1,0] = "Ok";
+			//dialogChoiceOptionSequence[1,0] = "Ok";
 		} else {
 			for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
 				dialogChoiceOptionSequence[1,index] = ds_list_find_value(defaultDialogChoices, index);

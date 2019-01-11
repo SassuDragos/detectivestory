@@ -11,7 +11,7 @@ switch(selectedDialogChoice) {
 	case "What...?":
 		new_dialog_body_sequence[0] = "Hmm, hey dude, are you ok? You seem a bit ... absent..."
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "I`m not crazy, my reality is just different than yours."
 		new_dialog_character_sequence[1] = obj_michigan;

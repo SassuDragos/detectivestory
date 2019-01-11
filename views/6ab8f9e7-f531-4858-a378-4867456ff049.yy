@@ -6,7 +6,6 @@
     "children": [
         "6179d48c-cb2d-4f0e-b146-a689e6b862fb",
         "4d1f119e-93a6-47b6-a029-5b75df0f6bfb",
-        "1c28a9d3-2858-4079-b468-20eb4447ec2c",
         "a4c255d0-2033-46e7-900b-2e0215e152c3",
         "a5f4a4aa-d4a3-4423-928f-5f012a7169ea",
         "849fa3e4-fd05-43e6-9dcf-a2ad14c25775",
@@ -20,8 +19,7 @@
         "92f6e05b-bfdd-45e9-ab31-b2b6cdf039e9",
         "4251a563-8ff8-4f5d-a5e7-1960568acb8d",
         "873bdaa3-75c8-4900-bb38-4fb2d2602089",
-        "e4e34198-d947-4281-bd00-541ca4e2f9bc",
-        "9297a530-e416-4bc6-b9e8-efafcae4dc8b"
+        "577b547a-5d7c-4609-a6cc-e73ad5d4e789"
     ],
     "filterType": "GMSprite",
     "folderName": "sprites",

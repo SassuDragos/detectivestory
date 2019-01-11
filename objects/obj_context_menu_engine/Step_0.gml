@@ -8,8 +8,8 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 	var spriteHeight = sprite_get_height(spr_context_menu_item);
 	var spriteWidth = sprite_get_width(spr_context_menu_item);
 	for (var typeIndex = 0; typeIndex < inputTypeListLength; typeIndex += 1) {
-		var itemX = menuX;
-		var itemY = menuY + typeIndex * spriteHeight;
+		var itemX = menuX + spriteWidth / 2;
+		var itemY = menuY + typeIndex * spriteHeight + spriteHeight / 2;
 		var listItem = instance_create_layer(itemX, itemY, "layer_dialog", obj_context_menu_item);
 		var menuItemType = ds_list_find_value(inputTypeList, typeIndex);
 		switch(menuItemType) {

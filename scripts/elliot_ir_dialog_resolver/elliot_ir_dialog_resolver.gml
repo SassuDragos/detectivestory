@@ -20,7 +20,7 @@ switch(selectedDialogChoice) {
 	case "Ask for background":
 		new_dialog_body_sequence[0] = "Who are you? What is your relationship with Marcelo?";
 		new_dialog_character_sequence[0] = obj_player.id;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_behaviour_sequence[0] = elliot_sprite_talking_calm;
 		
@@ -36,7 +36,7 @@ switch(selectedDialogChoice) {
 	case "Confront about drug business":
 		new_dialog_body_sequence[0] = "We know you provide Clementine with drugs."
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_behaviour_sequence[0] = elliot_sprite_talking_calm;
 		
@@ -54,7 +54,7 @@ switch(selectedDialogChoice) {
 	case "Make him confess":
 		new_dialog_body_sequence[0] = "Don’t be a smart ass we have witnesses, that prove this “assumption”, so start talking!"
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_behaviour_sequence[0] = elliot_sprite_talking_playing_dumb;
 		
@@ -72,7 +72,7 @@ switch(selectedDialogChoice) {
 	case "Ask about alibi":
 		new_dialog_body_sequence[0] = "You were at the pizzeria yesterday at about 10 pm, weren’t you?"
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_behaviour_sequence[0] = elliot_sprite_talking_playing_dumb;
 		
@@ -90,7 +90,7 @@ switch(selectedDialogChoice) {
 	case "Let him know what happened":
 		new_dialog_body_sequence[0] = "Marcelo is dead, died at 10:15."
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_behaviour_sequence[0] = elliot_sprite_talking_scared;
 		
@@ -110,7 +110,7 @@ switch(selectedDialogChoice) {
 		change_clue_status("asked_elliot_money", true);
 		new_dialog_body_sequence[0] = "What money?"
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_behaviour_sequence[0] = elliot_sprite_talking_scared;
 		
@@ -131,7 +131,7 @@ switch(selectedDialogChoice) {
 		change_clue_status("asked_elliot_alibi", true);
 		new_dialog_body_sequence[0] = "Where were you at 10:15 then?"
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_behaviour_sequence[0] = elliot_sprite_talking_scared;
 		

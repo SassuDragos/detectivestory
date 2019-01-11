@@ -199,8 +199,8 @@ if global.numbercode = "2677" && keyboard_check_pressed(vk_enter)
 	//global.elecLock = false
 	//room_goto(room_pizzaria);
 	global.rightAnswer = true;
-	ds_list_add(global.available_locations_list, RoomChoices.TOADS);
-	room_goto(room_delivery_ledger)
+	add_available_location(noone, Where.OUTSIDE, RoomChoices.TOADS);
+	room_goto(room_delivery_ledger);
 }
 
 /*if global.elecLock == false

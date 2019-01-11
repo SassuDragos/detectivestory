@@ -10,7 +10,7 @@ ds_list_add(choiceList, "Opinion on Violet");
 ds_list_add(choiceList, "Opinion on Marcelo");
 ds_list_add(choiceList, "Opinion on Michigan");
 ds_list_add(choiceList, "Finish conversation");
-ds_list_add(choiceList, "");
-ds_list_add(choiceList, "");
+
+
 
 return choiceList

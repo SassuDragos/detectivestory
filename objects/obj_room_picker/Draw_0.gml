@@ -36,7 +36,7 @@ if (choiceListLength > 0) {
                 upperPos = 4;
                 
                 // Resolve options
-                room_picker_resolver(entry);
+                fade_change_to_room(entry);
 				
 				instance_destroy();
             }

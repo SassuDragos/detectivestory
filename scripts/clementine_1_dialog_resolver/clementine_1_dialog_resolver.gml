@@ -14,7 +14,7 @@ switch(selectedDialogChoice) {
 	case "Ask for background":
 		new_dialog_body_sequence[0] = "Who are you? What is your relationship with Marcelo?"
 		new_dialog_character_sequence[0] = obj_player.id;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		////new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "I’m Clementine Grzyb Tubi, *sobs* Marcelo was my husband *sobs*."
 		new_dialog_character_sequence[1] = obj_clementine.id;
@@ -26,7 +26,7 @@ switch(selectedDialogChoice) {
 	case "Check for alibi":
 		new_dialog_body_sequence[0] = "Where were you at 22:15? Did you see anything?"
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		////new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "I was delivering a pizza at that time. When I arrived, he was... well... *cries for a while*"
 		new_dialog_character_sequence[1] = obj_clementine.id
@@ -39,7 +39,7 @@ switch(selectedDialogChoice) {
 		change_clue_status("asked_bruise", true);
 		new_dialog_body_sequence[0] = "How did you get that bruise on your face?"
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		////new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "*covers face abruptly* I fell on a door knob really, I`m a bit clumsy sometimes."
 		new_dialog_character_sequence[1] = obj_clementine.id
@@ -52,7 +52,7 @@ switch(selectedDialogChoice) {
 	case "Ask about address":
 		new_dialog_body_sequence[0] = "What is the address you delivered the pizza to?"
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		////new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "I don`t know, I`m sorry I can`t remember"
 		new_dialog_character_sequence[1] = obj_clementine.id
@@ -63,7 +63,7 @@ switch(selectedDialogChoice) {
 	case "Inquire if Marcelo is the bruiser":
 		new_dialog_body_sequence[0] = "Was Marcelo the one who hit you?"
 		new_dialog_character_sequence[0] = obj_player.id
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		////new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "*surprised* Marcelo? No, it wasn`t him… I mean… I fell, so nobody did it."
 		new_dialog_character_sequence[1] = obj_clementine.id

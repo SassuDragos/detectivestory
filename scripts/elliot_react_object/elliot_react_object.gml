@@ -13,14 +13,14 @@ switch(collision_obj.object_index) {
 		change_clue_status("asked_elliot_ring", true);
 		dialogBodySequence[0] = "Is this ring yours, or do you know it’s owner?"
 		dialogCharacterSequence[0] = obj_player.id
-		dialogChoiceOptionSequence[0,0] = "Check answer..."
+		//dialogChoiceOptionSequence[0,0] = "Check answer..."
 		
 		dialogBehaviourSequence[0] = elliot_sprite_talking_scared();
 		
 		dialogBodySequence[1] = "*surprised* Yeah, where did you find it? Shit I probably shouldn’t have said that"
 		dialogCharacterSequence[1] = obj_elliot.id;
 		if(global.dialog_engine == noone) {
-			dialogChoiceOptionSequence[1,0] = "I knew it!";
+			//dialogChoiceOptionSequence[1,0] = "I knew it!";
 		} else {
 			if(ds_map_find_value(global.cluesMap, "asked_elliot_money") &&
 			   ds_map_find_value(global.cluesMap, "asked_elliot_alibi")) {

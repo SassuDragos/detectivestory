@@ -33,6 +33,26 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "9309a4c7-8f52-4523-8e47-9a06c053527a"
+        },
+        {
+            "id": "10027b22-ba6e-4bd5-aa9b-f8f536f21e6b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 56,
+            "eventtype": 6,
+            "m_owner": "9309a4c7-8f52-4523-8e47-9a06c053527a"
+        },
+        {
+            "id": "cc674a27-000b-4a44-bf26-aa1dd443ba48",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "9309a4c7-8f52-4523-8e47-9a06c053527a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -135,6 +155,20 @@
             "value": "0",
             "varName": "choiceBoxObject",
             "varType": 5
+        },
+        {
+            "id": "f72e5e5c-56b4-4d81-b7c5-effb2c0104ba",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "canClick",
+            "varType": 3
         }
     ],
     "solid": false,

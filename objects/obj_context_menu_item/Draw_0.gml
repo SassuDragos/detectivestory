@@ -1,9 +1,14 @@
 draw_self();	
 
-if (point_in_rectangle(mouse_x, mouse_y, x, y, x + 154, y + 32)) {   
-	draw_rectangle_colour(x + 2, y + 2, x - 2 + 154, y + 32 - 2, c_black, c_black, c_black, c_black, 1);
+var nw_x = x - sprite_width / 2;
+var nw_y = y - sprite_height / 2
+var se_x = x + sprite_width / 2;
+var se_y = y + sprite_height / 2;
+
+if (point_in_rectangle(mouse_x, mouse_y, nw_x, nw_y, se_x, se_y)) {   
+	draw_rectangle_colour(nw_x + 2, nw_y + 2, se_x - 2, se_y - 2, c_black, c_black, c_black, c_black, 1);
 }
 
 draw_set_colour(c_yellow);
-draw_text(x + 15, y + 5, text); 
+draw_text(nw_x + 15, nw_y + 5, text); 
 

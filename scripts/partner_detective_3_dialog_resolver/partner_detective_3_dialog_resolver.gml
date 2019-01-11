@@ -11,7 +11,7 @@ switch(selectedDialogChoice) {
 	case "Opinion on Clementine":
 		new_dialog_body_sequence[0] = "What do you think about Clementine?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "I believe her, she looks devastated."
 		new_dialog_character_sequence[1] = obj_partner_detective;
@@ -23,7 +23,7 @@ switch(selectedDialogChoice) {
 	case "Opinion on Violet":
 		new_dialog_body_sequence[0] = "What do you think about Violet?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "She was really polite and helpful, but at the same time a bit cold."
 		new_dialog_character_sequence[1] = obj_partner_detective;
@@ -35,7 +35,7 @@ switch(selectedDialogChoice) {
 	case "Opinion on Marcelo":
 		new_dialog_body_sequence[0] = "What do you think about Marcelo?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "I didn`t know him before he was killed."
 		new_dialog_character_sequence[1] = obj_partner_detective;
@@ -46,7 +46,7 @@ switch(selectedDialogChoice) {
 	case "Opinion on Michigan":
 		new_dialog_body_sequence[0] = "What do you think about Michigan?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "He’s just a stoner I doubt he has anything to do with this."
 		new_dialog_character_sequence[1] = obj_partner_detective;

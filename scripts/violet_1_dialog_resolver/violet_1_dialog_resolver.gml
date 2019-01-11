@@ -12,7 +12,7 @@ switch(selectedDialogChoice) {
 	case "Clementine’s Whereabouts":
 		new_dialog_body_sequence[0] = "Where is Clementine?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "I think she is upstairs. She said she wants to rest a little. Poor girl, she loved Marcelo so much."
 		new_dialog_character_sequence[1] = obj_violet;
@@ -27,7 +27,7 @@ switch(selectedDialogChoice) {
 	case "Ask about background":
 		new_dialog_body_sequence[0] = "Who are you? What is your relationship with Marcelo?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "My name is Violet Tubi. I am Marcelo’s sister in law and I have known him for many years. I`m so devastated."
 		new_dialog_character_sequence[1] = obj_violet;
@@ -38,7 +38,7 @@ switch(selectedDialogChoice) {
 	case "Ask role in the pizzeria":
 		new_dialog_body_sequence[0] = "Do you also work here?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "Yes, I do, I have worked as the accountant since the place opened";
 		new_dialog_character_sequence[1] = obj_violet;
@@ -51,7 +51,7 @@ switch(selectedDialogChoice) {
 	case "Ask about the business":
 		new_dialog_body_sequence[0] = "How is the pizzeria doing financially?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 	
 		new_dialog_body_sequence[1] = "Well it hasn`t been great, the owner is... *coughs* …the owners are, sometimes, you know, lazy.";
 		new_dialog_character_sequence[1] = obj_violet;
@@ -62,7 +62,7 @@ switch(selectedDialogChoice) {
 	case "Check for alibi":
 		new_dialog_body_sequence[0] = "Where were you at 22:15?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "I was walking Rex our dog.";
 		new_dialog_character_sequence[1] = obj_violet;
@@ -74,15 +74,14 @@ switch(selectedDialogChoice) {
 	case "More details about upstairs":
 		new_dialog_body_sequence[0] = "But what is upstairs?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_body_sequence[1] = "Well, at the first floor we keep our cooking materials. These days, for some reason, there are a lot of mushrooms deposited up there. And we leave at the second floor.";
 		new_dialog_character_sequence[1] = obj_violet;
 		ds_map_set(global.cluesMap, "upstairs_ask_for_permission_unlocked", true)
 		
-		var upstairsHasNotBeenUnlockedBefore = ds_list_find_index(global.available_locations_list, RoomChoices.APARTMENTS) == -1;
 		var initialIndex = 0;
-		if (upstairsHasNotBeenUnlockedBefore) {
+		if (!is_location_available(room, Where.INSIDE_UPSTAIRS, RoomChoices.APARTMENTS)) {
 			new_dialog_choice_sequence[1,0] = "Ask to go and check upstairs";
 			initialIndex = 1;
 		}
@@ -94,7 +93,7 @@ switch(selectedDialogChoice) {
 	case "Ask to go and check upstairs":
 		new_dialog_body_sequence[0] = "Could we please check the upper floors?"
 		new_dialog_character_sequence[0] = obj_player;
-		new_dialog_choice_sequence[0,0] = "Check answer..."
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_behaviour_sequence[0] = upstairs_available;
 		

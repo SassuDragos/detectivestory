@@ -12,12 +12,12 @@ switch(collision_obj.object_index) {
 		// React to ring
 		dialogBodySequence[0] = "Is this ring yours, or do you know it’s owner?"
 		dialogCharacterSequence[0] = obj_player;
-		dialogChoiceOptionSequence[0,0] = "Check answer..."
+		//dialogChoiceOptionSequence[0,0] = "Check answer..."
 		
 		dialogBodySequence[1] = "Let me see it  *investigates ring*, no, I don’t know who this belongs to.";
 		dialogCharacterSequence[1] = obj_violet;
 		if(global.dialog_engine == noone) {
-			dialogChoiceOptionSequence[1,0] = "Ok";
+			//dialogChoiceOptionSequence[1,0] = "Ok";
 		} else {
 			for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
 				dialogChoiceOptionSequence[1,index] = ds_list_find_value(defaultDialogChoices, index);
