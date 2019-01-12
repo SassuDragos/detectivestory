@@ -10,7 +10,11 @@
         "5bc3f335-ddd4-412a-8f50-798d8877a1e6",
         "f84ba40e-edca-4e09-9310-c019e689ed91",
         "7d66e5cf-5dfd-4399-9dea-0b5b4ec22f23",
-        "2ce2f126-2a7f-401f-9904-072cc5349dc4"
+        "2ce2f126-2a7f-401f-9904-072cc5349dc4",
+        "f38e00ca-dd94-41c1-b5a4-022a0d00053c",
+        "8dd93736-7777-4c99-8c08-df33a81a10ad",
+        "0e02b506-f5e5-49ee-86b9-84e34b300c07",
+        "5fb0e8b7-23a3-4074-ab60-f2b2764de872"
     ],
     "filterType": "GMScript",
     "folderName": "logic",

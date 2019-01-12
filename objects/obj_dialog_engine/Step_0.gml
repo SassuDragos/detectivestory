@@ -2,7 +2,7 @@
 if (currentDialogStep == 0 && string_length(textBoxObject.text_body) == 0) {
 	var text = bodyTextSequence[currentDialogStep];
     var characters = charactersSequence[currentDialogStep];
-    var choices = get_row_from_2darray(choiceSequence, currentDialogStep);
+	var choices = choiceSequence[currentDialogStep];
     setup_dialog_displayed_data(text, characters, choices);
 }
 

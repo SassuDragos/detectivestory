@@ -2,9 +2,9 @@
 
 var choiceList = ds_list_create();
 
-ds_list_add(choiceList, "Ask for background");
-ds_list_add(choiceList, "Opinion on the case");
-ds_list_add(choiceList, "Inquire about the smoking");
-ds_list_add(choiceList, "Finish conversation");
+add_choice_to_list(choiceList, "Ask for background");
+add_choice_to_list(choiceList, "Opinion on the case");
+add_choice_to_list(choiceList, "Inquire about the smoking");
+add_choice_to_list(choiceList, "Finish conversation");
 
 return choiceList

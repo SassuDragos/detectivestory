@@ -5,11 +5,11 @@ var hasBruiserRingInInventory = true;
 
 var choiceList = ds_list_create();
 /*if (hasBruiserRingInInventory) {
-	ds_list_add(choiceList, "Ask about ring");
+	add_choice_to_list(choiceList, "Ask about ring");
 }*/
-ds_list_add(choiceList, "Ask about drug dealing");
-ds_list_add(choiceList, "Ask for background");
-ds_list_add(choiceList, "Check for alibi");
-ds_list_add(choiceList, "Finish conversation");
+add_choice_to_list(choiceList, "Ask about drug dealing");
+add_choice_to_list(choiceList, "Ask for background");
+add_choice_to_list(choiceList, "Check for alibi");
+add_choice_to_list(choiceList, "Finish conversation");
 
 return choiceList

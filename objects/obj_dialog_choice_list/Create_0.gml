@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-choice_list = [];
+choice_list = ds_list_create();
 newOptions = false;
 lowerPos = 0;
 upperPos = 4;

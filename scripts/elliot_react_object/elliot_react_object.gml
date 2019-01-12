@@ -1,6 +1,6 @@
 var collision_obj = argument0;
 
-var defaultDialogChoices = obj_elliot.dialog_choices;
+var defaultDialogChoices = obj_elliot.choice_option_sequence;
 
 var dialogBodySequence = [];
 var dialogCharacterSequence = [];
@@ -19,16 +19,12 @@ switch(collision_obj.object_index) {
 		
 		dialogBodySequence[1] = "*surprised* Yeah, where did you find it? Shit I probably shouldn’t have said that"
 		dialogCharacterSequence[1] = obj_elliot.id;
-		if(global.dialog_engine == noone) {
-			//dialogChoiceOptionSequence[1,0] = "I knew it!";
-		} else {
+		if(global.dialog_engine != noone) {
 			if(ds_map_find_value(global.cluesMap, "asked_elliot_money") &&
 			   ds_map_find_value(global.cluesMap, "asked_elliot_alibi")) {
-				ds_list_insert(defaultDialogChoices, 0, "I guess we're done here");
-			}
-			for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-				dialogChoiceOptionSequence[1,index] = ds_list_find_value(defaultDialogChoices, index);
-			}
+				   dialogChoiceOptionSequence[1] = defaultDialogChoices;
+				   add_choice_to_list(dialogChoiceOptionSequence[1], "I guess we're done here");
+			   }
 		}
 		
 		dialogBehaviourSequence[1] = elliot_sprite_still_scared;

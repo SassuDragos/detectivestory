@@ -1,6 +1,6 @@
 var collision_obj = argument0;
 
-var defaultDialogChoices = obj_michigan.dialog_choices;
+var defaultDialogChoices = obj_michigan.choice_option_sequence;
 
 var dialogBodySequence = [];
 var dialogCharacterSequence = [];
@@ -18,7 +18,7 @@ switch(collision_obj.object_index) {
 		
 		// Update game state
 		ds_map_set(global.cluesMap, "gave_toad_pizza", true)
-		create_event_initialise_dialog_holder(obj_michigan, michigan_2_dialog_content_init, michigan_2_dialog_resolver);
+		create_event_initialise_dialog_holder(obj_michigan, michigan_2_dialog_content_init, michigan_2_dialog_resolver, michigan_2_default_choices(), "2");
 		//dialogChoiceOptionSequence[0,0] = "Ok";
 		
 		return;
@@ -30,12 +30,8 @@ switch(collision_obj.object_index) {
 		
 		dialogBodySequence[1] = "Nah man, I never wear rings."
 		dialogCharacterSequence[1] = obj_michigan;
-		if(global.dialog_engine == noone) {
-			//dialogChoiceOptionSequence[1,0] = "Ok";
-		} else {
-			for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-				dialogChoiceOptionSequence[1,index] = ds_list_find_value(defaultDialogChoices, index);
-			}
+		if(global.dialog_engine != noone) {
+			dialogChoiceOptionSequence[1] = defaultDialogChoices;
 		}
 		
 		ReAddObjectToInventory();

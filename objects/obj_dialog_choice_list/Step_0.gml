@@ -1,4 +1,4 @@
-var choiceListLength = array_length_1d(choice_list);
+var choiceListLength = ds_list_size(choice_list);
 
 if (choiceListLength > 0)
 {

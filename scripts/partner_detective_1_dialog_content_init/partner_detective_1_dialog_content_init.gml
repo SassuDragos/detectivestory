@@ -5,7 +5,7 @@
 
 var dialog_body = [];
 var dialog_character = [];
-var dialog_choices = [];
+var choice_option_sequence = [];
 var result = [];
 
 var funnyDialogBodies = ds_list_create();
@@ -22,13 +22,9 @@ ds_list_add(funnyDialogBodies, "My strong suspicion is, we got the world we dese
 ds_list_shuffle(funnyDialogBodies);
 dialog_body[0] = ds_list_find_value(funnyDialogBodies, 0);
 dialog_character[0] = obj_partner_detective;
-
-var choices = partner_detective_1_default_choices();
-for (var index = 0; index < ds_list_size(choices); index ++) {
-	dialog_choices[0, index] = ds_list_find_value(choices, index);
-}
+choice_option_sequence[0] = ds_map_find_value(global.character_stage, obj_partner_detective) == "1" ? "default" : partner_detective_1_default_choices();
 
 result[0] = dialog_body;
 result[1] = dialog_character;
-result[2] = dialog_choices;
+result[2] = choice_option_sequence;
 return result

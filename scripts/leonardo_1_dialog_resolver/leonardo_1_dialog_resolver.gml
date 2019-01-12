@@ -1,7 +1,12 @@
 /// @function partner_detective_1_dialog_resolver(selected_dialog_choice) 
 
-var selectedDialogChoice = argument0;
-var defaultDialogChoices = leonardo_1_default_choices();
+var selectedChoice = argument0;
+var selectedDialogChoice = selectedChoice[0];
+var defaultDialogChoices = ds_map_find_value(global.dialog_choices, obj_leonardo);
+
+toggle_read_choice(defaultDialogChoices, selectedDialogChoice, true);
+
+ds_map_set(global.dialog_choices,obj_leonardo, defaultDialogChoices);
 
 var new_dialog_body_sequence = []
 var new_dialog_character_sequence = []
@@ -15,9 +20,8 @@ switch(selectedDialogChoice) {
 	
 		new_dialog_body_sequence[1] = "Ah, my wife let you in... Yeah, this was such an unpredictible event... so terrible, who would do that to him?"
 		new_dialog_character_sequence[1] = obj_leonardo.id;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		}
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		
 		break;
 	case "Clementine’s Whereabouts":
 		new_dialog_body_sequence[0] = "Where is Clementine?"
@@ -26,9 +30,7 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "She is in her room."
 		new_dialog_character_sequence[1] = obj_leonardo.id;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		}
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		
 		break;
 	case "Ask about background":
@@ -38,9 +40,7 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "I`m Leonardo Tubi, and I`m Markie’s brother... damn why did he have to die, I loved him but he always had bad timing."
 		new_dialog_character_sequence[1] = obj_leonardo.id;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		}
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		
 		break;
 	case "Ask role in the pizzeria":
@@ -50,10 +50,8 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "I`m the co-owner... well owner now.";
 		new_dialog_character_sequence[1] = obj_leonardo.id;
-		new_dialog_choice_sequence[1, 0] = "Ask about the business"; 
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index+1] = ds_list_find_value(defaultDialogChoices,index);
-		}
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		add_choice_to_list(new_dialog_choice_sequence[1], "Ask about the business", selectedChoice[2] + 1, selectedDialogChoice);
 		
 		break;
 	case "Ask about the business":
@@ -63,9 +61,8 @@ switch(selectedDialogChoice) {
 	
 		new_dialog_body_sequence[1] = "Not too well, but right now I don`t want to think about that.";
 		new_dialog_character_sequence[1] = obj_leonardo.id;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		}
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		
 		break;
 	case "Check for alibi":
 		new_dialog_body_sequence[0] = "Where were you at 22:15?"
@@ -74,10 +71,8 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "I was in my room, thinking.”";
 		new_dialog_character_sequence[1] = obj_leonardo.id;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		};
-	
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
+			
 		break; 
 	case "Ask about sound":
 		new_dialog_body_sequence[0] = "Didn’t you hear anything?"
@@ -86,11 +81,11 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "No, we are in the third floor you can`t even hear the washing machine, and that thing is noisy.";
 		new_dialog_character_sequence[1] = obj_leonardo.id;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index+initialIndex] = ds_list_find_value(defaultDialogChoices,index);
-		};
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		
 		break;
 	case "Finish `conversation`":
+		toggle_read_choice(defaultDialogChoices, selectedDialogChoice);
 		break;
 }
 

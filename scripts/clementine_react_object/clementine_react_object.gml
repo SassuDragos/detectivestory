@@ -1,6 +1,6 @@
 var collision_obj = argument0;
 
-var defaultDialogChoices = obj_clementine.dialog_choices;
+var defaultDialogChoices = obj_clementine.choice_option_sequence;
 
 var dialogBodySequence = [];
 var dialogCharacterSequence = [];
@@ -16,12 +16,8 @@ switch(collision_obj.object_index) {
 		
 		dialogBodySequence[1] = "No, I have never seen it before."
 		dialogCharacterSequence[1] = obj_clementine
-		if(global.dialog_engine == noone) {
-			//dialogChoiceOptionSequence[1,0] = "Ok";
-		} else {
-			for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-				dialogChoiceOptionSequence[1,index] = ds_list_find_value(defaultDialogChoices, index);
-			}
+		if(global.dialog_engine != noone) {
+			dialogChoiceOptionSequence[1] = defaultDialogChoices;
 		}
 		
 		ReAddObjectToInventory();

@@ -2,12 +2,12 @@
 
 var choiceList = ds_list_create();
 
-ds_list_add(choiceList, "Clementine’s Whereabouts");
-ds_list_add(choiceList, "Ask about background");
-ds_list_add(choiceList, "Ask role in the pizzeria");
-ds_list_add(choiceList, "Check for alibi");
-//ds_list_add(choiceList, "Ask about ring");
-ds_list_add(choiceList, "Finish conversation");
+add_choice_to_list(choiceList, "Clementine’s Whereabouts");
+add_choice_to_list(choiceList, "Ask about background");
+add_choice_to_list(choiceList, "Ask role in the pizzeria");
+add_choice_to_list(choiceList, "Check for alibi");
+//add_choice_to_list(choiceList, "Ask about ring");
+add_choice_to_list(choiceList, "Finish conversation");
 
 
 

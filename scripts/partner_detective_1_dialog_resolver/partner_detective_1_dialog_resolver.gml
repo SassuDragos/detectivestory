@@ -1,7 +1,12 @@
 /// @function partner_detective_1_dialog_resolver(selected_dialog_choice) 
 
-var selectedDialogChoice = argument0;
-var defaultDialogChoices = partner_detective_1_default_choices();
+var selectedChoice = argument0;
+var selectedDialogChoice = selectedChoice[0];
+var defaultDialogChoices = ds_map_find_value(global.dialog_choices, obj_partner_detective);
+
+toggle_read_choice(defaultDialogChoices, selectedDialogChoice, true);
+
+ds_map_set(global.dialog_choices,obj_partner_detective, defaultDialogChoices);
 
 var new_dialog_body_sequence = []
 var new_dialog_character_sequence = []
@@ -18,9 +23,7 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = get_background_question_body_text(noOfBackgroundQuestions);
 		new_dialog_character_sequence[1] = obj_partner_detective;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		}
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		
 		ds_map_set(global.cluesMap, "no_of_background_questions_on_partner", noOfBackgroundQuestions);
 		break;
@@ -31,9 +34,7 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "I don’t know man, it seems a bit dodgy."
 		new_dialog_character_sequence[1] = obj_partner_detective;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		}
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		
 		break;
 		
@@ -44,11 +45,11 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_body_sequence[1] = "Well, that is none of your business."
 		new_dialog_character_sequence[1] = obj_partner_detective;
-		for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-			new_dialog_choice_sequence[1,index] = ds_list_find_value(defaultDialogChoices,index);
-		}
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		
 		break;
 	case "Finish conversation":
+		toggle_read_choice(defaultDialogChoices, selectedDialogChoice);
 		break;
 }
 

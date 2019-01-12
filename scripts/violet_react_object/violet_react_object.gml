@@ -1,6 +1,6 @@
 var collision_obj = argument0;
 
-var defaultDialogChoices = obj_violet.dialog_choices;
+var defaultDialogChoices = obj_violet.choice_option_sequence;
 
 var dialogBodySequence = [];
 var dialogCharacterSequence = [];
@@ -16,12 +16,8 @@ switch(collision_obj.object_index) {
 		
 		dialogBodySequence[1] = "Let me see it  *investigates ring*, no, I don’t know who this belongs to.";
 		dialogCharacterSequence[1] = obj_violet;
-		if(global.dialog_engine == noone) {
-			//dialogChoiceOptionSequence[1,0] = "Ok";
-		} else {
-			for (var index = 0; index < ds_list_size(defaultDialogChoices); index++) {
-				dialogChoiceOptionSequence[1,index] = ds_list_find_value(defaultDialogChoices, index);
-			}
+		if(global.dialog_engine != noone) {
+			dialogChoiceOptionSequence[1] = defaultDialogChoices;
 		}
 		
 		ReAddObjectToInventory();

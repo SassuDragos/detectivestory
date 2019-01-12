@@ -5,20 +5,19 @@
 
 var dialog_body = [];
 var dialog_character = [];
-var dialog_choices = [];
+var choice_option_sequence = [];
 var result = [];
 
 dialog_body[0] = "What an awful event! How could this happen to us?";
 dialog_character[0] = obj_clementine;
-
-var choices = clementine_1_default_choices();
-for (var index = 0; index < ds_list_size(choices); index ++) {
-	dialog_choices[0, index] = ds_list_find_value(choices, index);
-}
+choice_option_sequence[0] = "default";
+/*for (var index = 0; index < ds_list_size(choices); index ++) {
+	choice_option_sequence[0, index] = ds_list_find_value(choices, index);
+}*/
 
 
 
 result[0] = dialog_body;
 result[1] = dialog_character;
-result[2] = dialog_choices;
+result[2] = choice_option_sequence;
 return result

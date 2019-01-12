@@ -30,7 +30,7 @@ with (dialogCharacterId) {
 	}
 }
 
-if array_length_1d(dialogChoices) > 0 {
+if ds_list_size(dialogChoices) > 0 {
     global.dialog_engine.choiceBoxObject.sprite_index = spr_choice_list_background;
     global.dialog_engine.choiceBoxObject.choice_list = dialogChoices;
 	global.dialog_engine.choiceBoxObject.newOptions = true;
@@ -38,7 +38,7 @@ if array_length_1d(dialogChoices) > 0 {
 	global.dialog_engine.choiceBoxObject.visible = true;
 } else {
     global.dialog_engine.choiceBoxObject.visible = false;
-    global.dialog_engine.choiceBoxObject.choice_list = [];
+    global.dialog_engine.choiceBoxObject.choice_list = ds_list_create();
 }
 
 if(argument_count > 3) {

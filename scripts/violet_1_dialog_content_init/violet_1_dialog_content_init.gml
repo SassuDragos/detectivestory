@@ -5,18 +5,14 @@
 
 var dialog_body = [];
 var dialog_character = [];
-var dialog_choices = [];
+var choice_option_sequence = [];
 var result = [];
 
 dialog_body[0] = "Hello detective! I came as soon as I heard about this unfortunate event... This will definetly affect the business!";
 dialog_character[0] = obj_violet;
-
-var choices = violet_1_default_choices();
-for (var index = 0; index < ds_list_size(choices); index ++) {
-	dialog_choices[0, index] = ds_list_find_value(choices, index);
-}
+choice_option_sequence[0] = ds_map_find_value(global.character_stage, obj_violet) == "1" ? "default" : violet_1_default_choices();
 
 result[0] = dialog_body;
 result[1] = dialog_character;
-result[2] = dialog_choices;
+result[2] = choice_option_sequence;
 return result

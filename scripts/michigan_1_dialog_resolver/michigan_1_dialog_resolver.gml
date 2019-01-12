@@ -1,7 +1,12 @@
 /// @function partner_detective_1_dialog_resolver(selected_dialog_choice) 
 
-var selectedDialogChoice = argument0;
-var defaultDialogChoices = partner_detective_1_default_choices();
+var selectedChoice = argument0;
+var selectedDialogChoice = selectedChoice[0];
+var defaultDialogChoices = ds_map_find_value(global.dialog_choices, obj_michigan);
+
+toggle_read_choice(defaultDialogChoices, selectedDialogChoice, true);
+
+ds_map_set(global.dialog_choices,obj_michigan, defaultDialogChoices);
 
 var new_dialog_body_sequence = []
 var new_dialog_character_sequence = []
@@ -29,6 +34,7 @@ switch(selectedDialogChoice) {
 		
 		break;
 	case "Finish `conversation`":
+		toggle_read_choice(defaultDialogChoices, selectedDialogChoice);
 		break;
 }
 
