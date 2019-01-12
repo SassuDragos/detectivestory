@@ -1,6 +1,6 @@
 var collision_obj = argument0;
 
-var defaultDialogChoices = obj_elliot.choice_option_sequence;
+var defaultDialogChoices = ds_map_find_value(global.dialog_choices, obj_elliot);
 
 var dialogBodySequence = [];
 var dialogCharacterSequence = [];

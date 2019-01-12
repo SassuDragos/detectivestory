@@ -22,6 +22,9 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[1] = obj_leonardo.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		
+		ds_map_set(global.cluesMap, "presented_to_leonardo", true);
+		create_event_initialise_dialog_holder(obj_leonardo, leonardo_1_dialog_content_init, leonardo_1_dialog_resolver, leonardo_1_default_choices(), "1");
+		
 		break;
 	case "Clementine’s Whereabouts":
 		new_dialog_body_sequence[0] = "Where is Clementine?"
@@ -84,7 +87,7 @@ switch(selectedDialogChoice) {
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		
 		break;
-	case "Finish `conversation`":
+	case "Finish conversation":
 		toggle_read_choice(defaultDialogChoices, selectedDialogChoice);
 		break;
 }

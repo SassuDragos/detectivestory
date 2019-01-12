@@ -1,6 +1,6 @@
 var collision_obj = argument0;
 
-var defaultDialogChoices = obj_michigan.choice_option_sequence;
+var defaultDialogChoices = ds_map_find_value(global.dialog_choices, obj_michigan);
 
 var dialogBodySequence = [];
 var dialogCharacterSequence = [];
@@ -17,7 +17,7 @@ switch(collision_obj.object_index) {
 		generate_stars_effect(obj_michigan.x, obj_michigan.y);
 		
 		// Update game state
-		ds_map_set(global.cluesMap, "gave_toad_pizza", true)
+		ds_map_set(global.cluesMap, "gave_toad_pizza", true);
 		create_event_initialise_dialog_holder(obj_michigan, michigan_2_dialog_content_init, michigan_2_dialog_resolver, michigan_2_default_choices(), "2");
 		//dialogChoiceOptionSequence[0,0] = "Ok";
 		

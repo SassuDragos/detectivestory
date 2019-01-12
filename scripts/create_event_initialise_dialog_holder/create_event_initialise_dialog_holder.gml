@@ -14,7 +14,7 @@ var dialog_owner = argument[0];
 
 if(argument_count > 4) {
 	var stage = ds_map_find_value(global.character_stage, dialog_owner.object_index);
-	if(is_undefined(stage) || stage == argument[4]) {
+	if(is_undefined(stage) || stage != argument[4]) {
 		if(argument_count > 3) {
 			ds_map_set(global.dialog_choices, dialog_owner.object_index, argument[3]);
 		}

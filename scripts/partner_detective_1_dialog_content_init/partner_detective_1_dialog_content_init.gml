@@ -22,7 +22,7 @@ ds_list_add(funnyDialogBodies, "My strong suspicion is, we got the world we dese
 ds_list_shuffle(funnyDialogBodies);
 dialog_body[0] = ds_list_find_value(funnyDialogBodies, 0);
 dialog_character[0] = obj_partner_detective;
-choice_option_sequence[0] = ds_map_find_value(global.character_stage, obj_partner_detective) == "1" ? "default" : partner_detective_1_default_choices();
+choice_option_sequence[0] = "default";
 
 result[0] = dialog_body;
 result[1] = dialog_character;

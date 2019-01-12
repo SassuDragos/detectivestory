@@ -97,7 +97,7 @@ switch(selectedDialogChoice) {
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		
 		break;
-	case "Finish `conversation`":
+	case "Finish conversation":
 		toggle_read_choice(defaultDialogChoices, selectedDialogChoice);
 		break;
 }

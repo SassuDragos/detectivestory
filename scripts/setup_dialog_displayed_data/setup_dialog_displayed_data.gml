@@ -30,8 +30,8 @@ with (dialogCharacterId) {
 	}
 }
 
-if ds_list_size(dialogChoices) > 0 {
-    global.dialog_engine.choiceBoxObject.sprite_index = spr_choice_list_background;
+if dialogChoices != noone && ds_list_size(dialogChoices) > 0 {
+    //global.dialog_engine.choiceBoxObject.sprite_index = spr_choice_list_background;
     global.dialog_engine.choiceBoxObject.choice_list = dialogChoices;
 	global.dialog_engine.choiceBoxObject.newOptions = true;
     global.dialog_engine.choiceBoxObject.text_line_height = string_height(dialogText);

@@ -10,7 +10,11 @@ var result = [];
 
 dialog_body[0] = "Hi who are you and who let you in my house?";
 dialog_character[0] = obj_leonardo;
-choice_option_sequence[0,0] = "Present yourself";
+
+var choices = ds_list_create();
+add_choice_to_list(choices, "Present yourself");
+
+choice_option_sequence[0] = global.cluesMap[? "presented_to_leonardo"] ? "default" : choices;
 
 result[0] = dialog_body;
 result[1] = dialog_character;

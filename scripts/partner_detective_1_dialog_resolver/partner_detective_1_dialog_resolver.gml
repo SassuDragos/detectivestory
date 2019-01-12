@@ -11,21 +11,25 @@ ds_map_set(global.dialog_choices,obj_partner_detective, defaultDialogChoices);
 var new_dialog_body_sequence = []
 var new_dialog_character_sequence = []
 var new_dialog_choice_sequence = []
+var new_dialog_behaviour_sequence = []
 	
 switch(selectedDialogChoice) {
 	case "Ask for background":
-		var noOfBackgroundQuestions = ds_map_find_value(global.cluesMap, "no_of_background_questions_on_partner");
-		noOfBackgroundQuestions ++;
-		
 		new_dialog_body_sequence[0] = "Who are you?"
 		new_dialog_character_sequence[0] = obj_player;
 		////new_dialog_choice_sequence[0,0] = "Check answer..."
+		new_dialog_behaviour_sequence[0] = increment_sarcastic_dialog;
 		
-		new_dialog_body_sequence[1] = get_background_question_body_text(noOfBackgroundQuestions);
+		
+		var before = global.cluesMap[? "no_of_background_questions_on_partner"];
+		new_dialog_body_sequence[1] = get_background_question_body_text(global.cluesMap[? "no_of_background_questions_on_partner"]);
 		new_dialog_character_sequence[1] = obj_partner_detective;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		
-		ds_map_set(global.cluesMap, "no_of_background_questions_on_partner", noOfBackgroundQuestions);
+		if(global.cluesMap[? "no_of_background_questions_on_partner"] == before) {
+			toggle_read_choice(defaultDialogChoices, selectedDialogChoice, false);
+		}
+		
 		break;
 	case "Opinion on the case":
 		new_dialog_body_sequence[0] = "What do you think about this case?"
@@ -53,6 +57,6 @@ switch(selectedDialogChoice) {
 		break;
 }
 
-add_data_sequence_to_dialog(new_dialog_body_sequence, new_dialog_character_sequence, new_dialog_choice_sequence);
+add_data_sequence_to_dialog(new_dialog_body_sequence, new_dialog_character_sequence, new_dialog_choice_sequence, new_dialog_behaviour_sequence);
 move_to_next_dialog_step();
 

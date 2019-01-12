@@ -1,5 +1,5 @@
 // Draw sprite
-draw_self();
+//draw_self();
 
 var choiceListLength = ds_list_size(choice_list);
 if (choiceListLength > 0)
@@ -21,13 +21,16 @@ if (choiceListLength > 0)
         
     for (var index = 0; index < ds_list_size(choice_list); index++) {
         var pos = lowerPos + index;
-        var y1 = startingY + index * 25;
+        var entry = ds_list_find_value(choice_list, pos);
+		if(!is_array(entry)) {
+			return;
+		}
+		var y1 = startingY + index * 25;
         var y2 = y1 + sprite_get_height(spr_dialog_choice) + 2;
 		draw_sprite(spr_dialog_choice, 0, x + sprite_get_width(spr_dialog_choice) / 2, y1 + sprite_get_height(spr_dialog_choice) / 2)
 		//draw_set_colour(c_white);
         //draw_rectangle(x1, y1, x2, y2, 1);
        
-		var entry = ds_list_find_value(choice_list, pos);
 		var textToShow = "";
 		if(entry[2] > 0) {
 			textToShow = "> ";

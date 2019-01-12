@@ -66,7 +66,8 @@ switch(selectedDialogChoice) {
 		
 		ds_map_set(global.cluesMap, "knows_about_clementine_dealing", true); 
 		global.game_stage = 2; 
-	case "Finish `conversation`":
+		break;
+	case "Finish conversation":
 		toggle_read_choice(defaultDialogChoices, selectedDialogChoice);
 		break;
 }

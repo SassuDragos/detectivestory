@@ -10,7 +10,7 @@ var result = [];
 
 dialog_body[0] = "Hello detective! I came as soon as I heard about this unfortunate event... This will definetly affect the business!";
 dialog_character[0] = obj_violet;
-choice_option_sequence[0] = ds_map_find_value(global.character_stage, obj_violet) == "1" ? "default" : violet_1_default_choices();
+choice_option_sequence[0] = "default";
 
 result[0] = dialog_body;
 result[1] = dialog_character;

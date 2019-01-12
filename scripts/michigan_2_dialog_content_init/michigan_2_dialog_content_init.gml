@@ -11,7 +11,7 @@ var result = [];
 
 dialog_body[0] = "So what can I do for you, detective?";
 dialog_character[0] = obj_michigan;
-choice_option_sequence[0] = ds_map_find_value(global.character_stage, obj_michigan) == "2" ? "default" : michigan_2_default_choices();
+choice_option_sequence[0] = "default";
 
 result[0] = dialog_body;
 result[1] = dialog_character;
