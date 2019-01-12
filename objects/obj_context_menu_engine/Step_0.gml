@@ -15,7 +15,7 @@ if (menuX != noone && menuY != noone && array_length_1d(buttonList) == 0) {
 		switch(menuItemType) {
 			case ContextMenuItemType.GOTO:
 				listItem.action = action_go_to;
-				listItem.text = "Go To";
+				listItem.text = "Go To       >";
 				break;
 			case ContextMenuItemType.DISCUSS:
 				listItem.action = action_discuss;

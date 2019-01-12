@@ -1,3 +1,7 @@
+if(action == action_go_to) {
+	return;	
+}
+
 if(room != room_interrogation) {
 	var menuHolder = global.context_menu_engine.attachedObject;
 

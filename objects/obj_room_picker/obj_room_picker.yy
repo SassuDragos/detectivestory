@@ -79,9 +79,23 @@
             "value": "0",
             "varName": "entry",
             "varType": 1
+        },
+        {
+            "id": "bdeadf8e-6b86-4ddd-b63d-7e58b5709f07",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "initiator",
+            "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "f18d0a86-586e-4902-b79b-e4879361c5e0",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

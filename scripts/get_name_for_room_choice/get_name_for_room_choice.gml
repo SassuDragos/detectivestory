@@ -9,12 +9,12 @@ switch(argument0) {
 		return "Last delivery address";
 		break
 	case RoomChoices.PIZZERIA:
-		return "Pizzeria";
+		return "Pizzeria (Ground Floor)";
 		break;
 	case RoomChoices.STORAGE:
-		return "Second Floor";
+		return "Storage (1st Floor)";
 		break;
 	case RoomChoices.APARTMENTS:
-		return "Third Floor";
+		return "Apartments (2nd Floor)";
 		break;
 }
