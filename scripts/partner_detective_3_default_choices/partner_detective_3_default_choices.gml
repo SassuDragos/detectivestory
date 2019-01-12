@@ -3,13 +3,13 @@
 var choiceList = ds_list_create();
 
 if (ds_map_find_value(global.cluesMap, "has_discovered_leonardo")) {
-	ds_list_add(choiceList, "Opinion on Leonardo");
+	add_choice_to_list(choiceList, "Opinion on Leonardo");
 }
-ds_list_add(choiceList, "Opinion on Clementine");
-ds_list_add(choiceList, "Opinion on Violet");
-ds_list_add(choiceList, "Opinion on Marcelo");
-ds_list_add(choiceList, "Opinion on Michigan");
-ds_list_add(choiceList, "Finish conversation");
+add_choice_to_list(choiceList, "Opinion on Clementine");
+add_choice_to_list(choiceList, "Opinion on Violet");
+add_choice_to_list(choiceList, "Opinion on Marcelo");
+add_choice_to_list(choiceList, "Opinion on Michigan");
+add_choice_to_list(choiceList, "Finish conversation");
 
 
 

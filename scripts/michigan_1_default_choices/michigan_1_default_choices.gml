@@ -2,6 +2,6 @@
 
 var choiceList = ds_list_create();
 
-ds_list_add(choiceList, "What...?");
+add_choice_to_list(choiceList, "What...?");
 
 return choiceList
