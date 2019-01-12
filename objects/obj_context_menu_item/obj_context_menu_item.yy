@@ -23,6 +23,26 @@
             "enumb": 4,
             "eventtype": 6,
             "m_owner": "b430f093-6496-4628-a9f7-1be14b4f5132"
+        },
+        {
+            "id": "5cbaec31-0b41-425c-84e0-7d04d3145087",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "b430f093-6496-4628-a9f7-1be14b4f5132"
+        },
+        {
+            "id": "251d7dc3-08f3-43f1-b046-34e026a4f6bd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "b430f093-6496-4628-a9f7-1be14b4f5132"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -83,6 +103,20 @@
             "value": "False",
             "varName": "isDrawn",
             "varType": 3
+        },
+        {
+            "id": "44f5d179-fc17-421b-a05e-0dacaabf79b0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "room_picker",
+            "varType": 1
         }
     ],
     "solid": false,
