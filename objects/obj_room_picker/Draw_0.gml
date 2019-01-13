@@ -27,6 +27,7 @@ if (choiceListLength > 0) {
 		draw_set_halign(fa_left);
 		draw_set_colour(c_yellow);
         draw_text(x1 + 20, y1, get_name_for_room_choice(entry));
+		draw_set_colour(-1);
        
         if (point_in_rectangle(mouse_x, mouse_y, x1, y1, x2, y2) && entry != "")
         {   		
