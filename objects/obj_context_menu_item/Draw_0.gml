@@ -11,4 +11,5 @@ if (point_in_rectangle(mouse_x, mouse_y, nw_x, nw_y, se_x, se_y)) {
 
 draw_set_colour(c_yellow);
 draw_text(nw_x + 15, nw_y + 5, text); 
+draw_set_colour(-1);
 

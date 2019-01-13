@@ -1895,14 +1895,6 @@
             }
         },
         {
-            "Key": "67b211a5-827d-474c-89bf-f46802332300",
-            "Value": {
-                "id": "fba70093-17c2-401b-a11f-3f3c1e01bbdf",
-                "resourcePath": "fonts\\font_game\\font_game.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
             "Key": "68e810e2-1325-47bc-bdf7-93128eea3a23",
             "Value": {
                 "id": "08fe3645-062d-4d75-accb-1172d2ac25b0",
@@ -2234,7 +2226,7 @@
             "Key": "794b2bf8-ac8f-4c18-9c83-23a861c07566",
             "Value": {
                 "id": "c57df5d9-43c7-40e2-9b95-20aafc6513ef",
-                "resourcePath": "fonts\\font_name\\font_name.yy",
+                "resourcePath": "fonts\\fnt_name\\fnt_name.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -2348,6 +2340,14 @@
                 "id": "6317a177-0bfe-45ec-8935-f131aba5b71d",
                 "resourcePath": "sprites\\spr_stairs_2\\spr_stairs_2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "81910da9-33e1-48bf-a3f9-64fc581e1549",
+            "Value": {
+                "id": "ce2293ec-4a1c-46d1-a89f-42c1a1b41f94",
+                "resourcePath": "fonts\\fnt_game\\fnt_game.yy",
+                "resourceType": "GMFont"
             }
         },
         {
