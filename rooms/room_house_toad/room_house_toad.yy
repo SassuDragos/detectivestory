@@ -2,8 +2,8 @@
 {
     "name": "room_house_toad",
     "id": "76c878dc-789a-478a-93d9-57bd102491af",
-    "creationCodeFile": "",
-    "inheritCode": true,
+    "creationCodeFile": "RoomCreationCode.gml",
+    "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": true,
     "instanceCreationOrderIDs": [
