@@ -5,7 +5,6 @@
     "name": "fnt_title",
     "AntiAlias": 1,
     "TTFName": "${project_dir}\\fonts\\fnt_title\\murderous desire DEMO.otf",
-    "ascenderOffset": 6,
     "bold": false,
     "charset": 0,
     "first": 0,
