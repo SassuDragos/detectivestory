@@ -34,7 +34,7 @@ if dialogChoices != noone && ds_list_size(dialogChoices) > 0 {
     //global.dialog_engine.choiceBoxObject.sprite_index = spr_choice_list_background;
     global.dialog_engine.choiceBoxObject.choice_list = dialogChoices;
 	global.dialog_engine.choiceBoxObject.newOptions = true;
-    global.dialog_engine.choiceBoxObject.text_line_height = string_height(dialogText);
+    global.dialog_engine.choiceBoxObject.text_line_height = string_height_ext(dialogText, 2, sprite_get_width(spr_textbox_background) - 50);
 	global.dialog_engine.choiceBoxObject.visible = true;
 } else {
     global.dialog_engine.choiceBoxObject.visible = false;

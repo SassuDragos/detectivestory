@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_secret_door",
     "eventList": [
-        
+        {
+            "id": "6eb01ab2-55c6-40c9-909f-edc6e5f6ac54",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4c6ed9a4-15ca-4409-8cc2-797c390cbefe"
+        },
+        {
+            "id": "c537846f-76d7-4224-9734-871325fbffa6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "4c6ed9a4-15ca-4409-8cc2-797c390cbefe"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -14,7 +33,7 @@
             "mvc": "1.0",
             "objectId": "8a0c620c-ba5f-4bb5-8071-f6a362d22693",
             "propertyId": "94d9278b-229d-41af-80cd-805330761e29",
-            "value": "-1"
+            "value": "Where.INNER"
         }
     ],
     "parentObjectId": "9c0bf1e8-e76f-4dd4-8cff-a68989ee8c75",
