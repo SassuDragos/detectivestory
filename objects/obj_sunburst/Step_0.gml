@@ -1,0 +1,1 @@
+rotation -= 0.01;	// increase spin degree
