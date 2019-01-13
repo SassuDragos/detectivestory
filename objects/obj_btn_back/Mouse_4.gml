@@ -10,6 +10,9 @@ switch(room) {
 	case mirror_scene:
 		room_goto(room_bathroom);
 		break;
+	case room_keyLock:
+		room_goto(room_office);
+		break;
 	default:
 		room_goto(room_pizzaria);
 		break;

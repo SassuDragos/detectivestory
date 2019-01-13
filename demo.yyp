@@ -3535,6 +3535,14 @@
             }
         },
         {
+            "Key": "ccb975ac-46c0-45eb-89e6-c8bb0d4453d9",
+            "Value": {
+                "id": "37c4413a-32a5-4d63-af8b-73ee912d3aa2",
+                "resourcePath": "rooms\\room_keyLock\\room_keyLock.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cce29017-78f8-4874-89eb-a9426617f90e",
             "Value": {
                 "id": "f952e566-6b49-4ff2-b1d8-dd97b49a2241",

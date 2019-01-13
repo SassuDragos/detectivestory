@@ -12,9 +12,9 @@ if (argument0.sprite_index == spr_board) {
 } else if (argument0.sprite_index == spr_marcelo_full) {
 	room_goto(room_body_inspection);
 } else if (argument0.sprite_index == spr_piano){
-	character_says(obj_player, "")
+	character_says(obj_player, "There seems to be a music sheet here. It's titled 'Piano Sonata No. 11'.")
 } else if (argument0.sprite_index == spr_mirror_bath){
 	room_goto(mirror_scene);
-} /* else if (argument0.sprite_index == spr_code){
-	room_goto();
-}*/
+} else if (argument0.sprite_index == spr_code){
+	room_goto(room_keyLock);
+}

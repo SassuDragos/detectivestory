@@ -6,4 +6,5 @@ add_available_location(RoomChoices.APARTMENTS, Where.INNER, RoomChoices.BEDROOM_
 add_available_location(RoomChoices.APARTMENTS, Where.INNER, RoomChoices.BEDROOM_MARIO);
 add_available_location(RoomChoices.APARTMENTS, Where.INNER, RoomChoices.BATHROOM);
 add_available_location(RoomChoices.APARTMENTS, Where.INNER, RoomChoices.SAFE_ROOM);
+
 generate_stars_effect(obj_stairs_1.x, obj_stairs_1.y);
