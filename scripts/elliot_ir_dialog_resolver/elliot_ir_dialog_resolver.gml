@@ -136,7 +136,8 @@ switch(selectedDialogChoice) {
 		
 		break;
 	case "I guess we're done here":
-		fade_change_to_room(room_good_ending);
+		change_clue_status("good_ending", true);
+		fade_change_to_room(detective_office);
 		return;
 }
 

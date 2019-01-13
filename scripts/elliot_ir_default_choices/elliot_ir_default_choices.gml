@@ -6,6 +6,6 @@ add_choice_to_list(choiceList, "Confront about drug business");
 	add_choice_to_list(choiceList, "Ask about ring");
 }*/
 
-
+//add_choice_to_list(choiceList, "I guess we're done here");
 
 return choiceList

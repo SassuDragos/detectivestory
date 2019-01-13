@@ -20,9 +20,15 @@ switch(selectedDialogChoice) {
 		////new_dialog_choice_sequence[0,0] = "Check answer..."
 		new_dialog_behaviour_sequence[0] = increment_sarcastic_dialog;
 		
+		
+		var before = global.cluesMap[? "no_of_background_questions_on_partner"];
 		new_dialog_body_sequence[1] = get_background_question_body_text(global.cluesMap[? "no_of_background_questions_on_partner"]);
 		new_dialog_character_sequence[1] = obj_partner_detective;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		
+		if(global.cluesMap[? "no_of_background_questions_on_partner"] == before) {
+			toggle_read_choice(defaultDialogChoices, selectedDialogChoice, false);
+		}
 		
 		break;
 	case "Opinion on the case":

@@ -7,7 +7,8 @@
         "3c264e2d-b0b3-44e8-a0e6-1b7f26e04f3a",
         "4cf2c6bf-87c7-46d5-b568-b6f3fc211fe7",
         "7b5fde34-e46f-4fc0-8195-d2a5a705c792",
-        "8a0c620c-ba5f-4bb5-8071-f6a362d22693"
+        "8a0c620c-ba5f-4bb5-8071-f6a362d22693",
+        "b79e920e-4bbd-41e6-aa1a-091e24d9c6d7"
     ],
     "filterType": "GMObject",
     "folderName": "room_navigation",

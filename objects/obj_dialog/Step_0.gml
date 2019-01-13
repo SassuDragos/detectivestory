@@ -152,15 +152,6 @@ if(lastCut == false && firstCut == true && obj_cutscene.startgame == true){
 		
 	}
 	
-	if(strings[next] == partnerDialog0){
-		
-		obj_cutscene.f_p_walking = true;
-		obj_camera.zoomBegi = false;
-		obj_camera.zoomOut = true;
-		obj_cutscene.lookingUp = false;
-		
-	}
-	
 	if(strings[next] == triggerLigStop){
 		ligColor = false;
 		obj_partnerCutscenes.flag_stop = true;
@@ -188,6 +179,8 @@ if(lastCut == false && firstCut == true && obj_cutscene.startgame == true){
 }*/
 
 if(lastCut == true){
+	
+	obj_fade.image_alpha = 0;
 	// beginning 
 	//effects
 	//audio_stop_sound(snd_rain);

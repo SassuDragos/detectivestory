@@ -11,8 +11,8 @@ current_zoom = zoom;
 zoom_speed = 0.5;
 zoom_max = 15;
 
-original_view_wport = view_wport[0];
-original_view_hport = view_hport[0];
+original_view_wport = camera_get_view_width(view_camera[0]);
+original_view_hport = camera_get_view_height(view_camera[0]);
 
 if(rain == true)
 {

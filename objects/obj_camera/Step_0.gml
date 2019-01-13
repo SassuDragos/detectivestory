@@ -64,8 +64,8 @@ if(/*keyboard_check_pressed(ord("Y")) || */zoomBegi == true){
 
 if(/*keyboard_check_pressed(ord("O")) || */zoomOut == true){
 	camera_set_view_target(view_camera[0], target_original);
-	camera_set_view_size(view_camera[0], 1500,844);
-	camera_set_view_pos(view_camera[0], 220, 120);
+	camera_set_view_size(view_camera[0], original_view_wport,original_view_hport);
+	camera_set_view_pos(view_camera[0], 0, 0);
 	//surface_resize(application_surface, display_get_gui_width(), display_get_gui_height());
 }
 

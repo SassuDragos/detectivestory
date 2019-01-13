@@ -19,10 +19,10 @@ switch(collision_obj.object_index) {
 		
 		dialogBodySequence[1] = "*surprised* Yeah, where did you find it? Shit I probably shouldn’t have said that"
 		dialogCharacterSequence[1] = obj_elliot.id;
+		dialogChoiceOptionSequence[1] = defaultDialogChoices;
 		if(global.dialog_engine != noone) {
 			if(ds_map_find_value(global.cluesMap, "asked_elliot_money") &&
 			   ds_map_find_value(global.cluesMap, "asked_elliot_alibi")) {
-				   dialogChoiceOptionSequence[1] = defaultDialogChoices;
 				   add_choice_to_list(dialogChoiceOptionSequence[1], "I guess we're done here");
 			   }
 		}
