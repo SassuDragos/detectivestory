@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "07b08a78-547e-4733-95af-4651b9163786",
+            "Value": {
+                "id": "6d96b377-d0c7-43ce-83ae-1bbdcfe37957",
+                "resourcePath": "sounds\\snd_mambo\\snd_mambo.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "07ee6a22-50e7-4044-beed-9e52d048bff1",
             "Value": {
                 "id": "41781291-23f5-4346-9539-b99016d2cc83",

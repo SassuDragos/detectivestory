@@ -17,4 +17,6 @@ if (argument0.sprite_index == spr_board) {
 	room_goto(mirror_scene);
 } else if (argument0.sprite_index == spr_code){
 	room_goto(room_keyLock);
+} else if (argument0.sprite_index == spr_gramaphone){
+	audio_play_sound(snd_mambo, 10, false);
 }
