@@ -2343,6 +2343,14 @@
             }
         },
         {
+            "Key": "91d27b40-bcce-4a4a-92b6-0920acdb1f6b",
+            "Value": {
+                "id": "8cfe0f04-9f82-493b-b2eb-54ac1601915e",
+                "resourcePath": "sprites\\spr_dude_window\\spr_dude_window.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9221ce31-baa0-4c7c-8584-5c63fde30ad6",
             "Value": {
                 "id": "295097d4-e029-483c-bef3-117c7847458b",
