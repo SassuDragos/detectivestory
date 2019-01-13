@@ -2,32 +2,7 @@
 // You can write your code in this editor
 draw_self();
 
-var room_display = "Unknown room";
-
-switch(room) {
-	case room_pizzaria:
-	case room_body_inspection:
-		room_display = "Pizzaria (Ground floor)";
-		break;
-	case room_storage:
-		room_display = "Storage (1st floor)";
-		break;
-	case room_living:
-		room_display = "Living Room (2nd floor)";
-		break;
-	case room_house_toad:
-		room_display = "Michigan's Apartment";
-		break;
-	case room_bedroom_mario:
-		room_display = "Marcelo's room";
-		break;
-	case room_bedroom_luigi:
-		room_display = "Leonardo's room";
-		break;
-	case room_interrogation:
-		room_display = "Interrogation Room";
-		break;
-}
+var room_display = get_name_for_room_choice(room);
 
 draw_set_font(fnt_darling);
 draw_set_halign(fa_center);

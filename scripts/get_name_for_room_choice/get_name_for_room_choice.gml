@@ -7,14 +7,24 @@
 switch(argument0) {
 	case RoomChoices.TOADS:
 		return "Last delivery address";
-		break
 	case RoomChoices.PIZZERIA:
 		return "Pizzeria (Ground Floor)";
-		break;
 	case RoomChoices.STORAGE:
 		return "Storage (1st Floor)";
-		break;
 	case RoomChoices.APARTMENTS:
-		return "Apartments (2nd Floor)";
-		break;
+		return "Living Room (2nd Floor)";
+	case RoomChoices.OFFICE:
+		return "Office (1st Floor)";
+	case RoomChoices.SAFE_ROOM:
+		return "Safe Room (2nd Floor)";
+	case RoomChoices.BATHROOM:
+		return "Bathroom (2nd Floor)";
+	case room_interrogation:
+		return "Interrogation Room";
+	case room_bedroom_mario:
+		return "Marcelo's room";
+	case room_bedroom_luigi:
+		return "Leonardo's room";
+	default:
+		return "Unknown Room";
 }

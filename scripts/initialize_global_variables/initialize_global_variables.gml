@@ -14,7 +14,9 @@ enum RoomChoices {
 	APARTMENTS = room_living,
 	BEDROOM_MARIO = room_bedroom_mario,
 	BEDROOM_LUIGI = room_bedroom_luigi,
-	SAFE_ROOM// = room_safe_room
+	SAFE_ROOM = room_safe,
+	BATHROOM = room_bathroom,
+	OFFICE = room_office
 }
 
 enum Where {

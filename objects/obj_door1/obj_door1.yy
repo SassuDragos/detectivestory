@@ -28,7 +28,7 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "af722ddd-17d0-4aa8-ad33-d4ce0c4743a5",
+            "id": "300b94c4-0c95-430e-98ad-ea2b454275e8",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "8a0c620c-ba5f-4bb5-8071-f6a362d22693",
@@ -60,7 +60,10 @@
                 "RoomChoices.SAFE_ROOM",
                 "RoomChoices.BEDROOM_LUIGI",
                 "RoomChoices.BEDROOM_MARIO",
-                "RoomChoices.APARTMENTS"
+                "RoomChoices.APARTMENTS",
+                "RoomChoices.BATHROOM",
+                "RoomChoices.OFFICE",
+                "RoomChoices.STORAGE"
             ],
             "multiselect": false,
             "rangeEnabled": false,
