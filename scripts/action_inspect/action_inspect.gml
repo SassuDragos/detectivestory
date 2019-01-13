@@ -4,7 +4,7 @@
 if (argument0.sprite_index == spr_board) {
 	room_goto(room_organigram);
 } else if (argument0.sprite_index == spr_deliveryBook) {
-	room_goto(room_delivery_ledger_incomplete);
+	room_goto(room_Computer);
 } else if (argument0.sprite_index == spr_safePaper) {
 	room_goto(room_safePaper);
 } else if (argument0.sprite_index == spr_safePaper) {

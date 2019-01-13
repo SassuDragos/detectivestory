@@ -5,9 +5,11 @@ switch(room) {
 			   character_says(obj_partner_detective, "I think you missed some important evidence...");
 			   return;
 		}
+	case mirror_scene:
+		room_goto(room_bathroom);
+		break;
 	default:
 		room_goto(room_pizzaria);
 }
 
 variable_global_set("actions_allowed", true);
-
