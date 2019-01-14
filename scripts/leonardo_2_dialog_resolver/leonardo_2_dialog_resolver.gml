@@ -37,6 +37,7 @@ switch(selectedDialogChoice) {
 		new_dialog_body_sequence[1] = "Yeah I HATED him so I KILLED him!!!"
 		new_dialog_character_sequence[1] = obj_leonardo.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		variable_global_set("interrogation_enabled", true);
 		
 		add_choice_to_list(new_dialog_choice_sequence[1], "Finish conversation", selectedChoice[2] + 1, selectedDialogChoice);
 		break;
