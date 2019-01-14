@@ -3,6 +3,9 @@
 var selectedChoice = argument0;
 var selectedDialogChoice = selectedChoice[0];
 var defaultDialogChoices = ds_map_find_value(global.dialog_choices, obj_clementine);
+if(ds_map_find_value(global.cluesMap, "picked_guide_paper")){
+	add_choice_to_list(choiceList, "Help with paper");
+}
 
 toggle_read_choice(defaultDialogChoices, selectedDialogChoice, true);
 
@@ -22,13 +25,13 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		add_choice_to_list(new_dialog_choice_sequence[1], "Finish conversation", selectedChoice[2] + 1, selectedDialogChoice);
-		add_choice_to_list(new_dialog_choice_sequence[1], "Ask about discussion", selectedChoice[2] + 1, selectedDialogChoice);
+		add_choice_to_list(new_dialog_choice_sequence[1], "Second key", selectedChoice[2] + 1, selectedDialogChoice);
 		add_choice_to_list(new_dialog_choice_sequence[1], "Safe location", selectedChoice[2] + 1, selectedDialogChoice);
 		add_choice_to_list(new_dialog_choice_sequence[1], "Brothers’ relationship", selectedChoice[2] + 1, selectedDialogChoice);
 		
 		
 		break; 
-	case "Ask about discussion":
+	case "Second key":
 		new_dialog_body_sequence[0] = "Do you have a second key to Violet’s room?"
 		new_dialog_character_sequence[0] = obj_player.id;
 		////new_dialog_choice_sequence[0,0] = "Check answer..."
@@ -60,6 +63,16 @@ switch(selectedDialogChoice) {
 		
 		
 		break; 
+	case "Help with paper":
+		new_dialog_body_sequence[0] = "Can you help us with this?"
+		new_dialog_character_sequence[0] = obj_player.id;
+		////new_dialog_choice_sequence[0,0] = "Check answer..."
+		
+		new_dialog_body_sequence[1] = "A - I think it means to look in the mirror. B - Marcelo liked to play the piano. C - Try listening to the gramaphone. D - Don't forget the one with flowers."
+		new_dialog_character_sequence[1] = obj_clementine.id;
+		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		
+		break;
 	
 	case "Finish conversation":
 		toggle_read_choice(defaultDialogChoices, selectedDialogChoice);

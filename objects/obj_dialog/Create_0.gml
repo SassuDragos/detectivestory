@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-firstCut = false;
-lastCut = true;
+firstCut = true;
+lastCut = false;
 //lastCut = variable_global_exists("cluesMap") && global.cluesMap[? "good_ending"];
 badEnding = false;
 //

@@ -25,7 +25,10 @@ enum Where {
 	INSIDE_DOWNSTAIRS,
 	INNER
 }
+//
+variable_global_set("door_open", false);
 
+//
 variable_global_set("actions_allowed", true);
 variable_global_set("dialog_engine", noone);
 variable_global_set("context_menu_engine", noone);
@@ -38,6 +41,7 @@ var cluesMap = ds_map_create();
 // Clementine - Stage 1
 ds_map_add(cluesMap, "knows_toad_location", false);
 ds_map_add(cluesMap, "safePuzzle_done", false);
+ds_map_add(cluesMap, "picked_guide_paper", false);
 ds_map_add(cluesMap, "knows_mario_wears_ring", false);
 ds_map_add(cluesMap, "asked_bruise", false);
 
