@@ -6,6 +6,7 @@ startgame = false
 
 obj_dialog.firstCut = false;
 obj_dialog.lastCut = false;
+obj_dialog.badEnding = false;
 
 // partner
 obj_partnerCutscenes.walkSpeed = 2;

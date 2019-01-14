@@ -47,7 +47,7 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[0] = obj_player.id;
 		////new_dialog_choice_sequence[0,0] = "Check answer..."
 		
-		new_dialog_body_sequence[1] = "It’s supposed to be in the office in the second floor, but I never been there, neither has Violet, those two were always so secretive with that stupid ROOM... Oh but Marcelo kept a note with some cryptic answer, I think it's in MY room."
+		new_dialog_body_sequence[1] = "It’s supposed to be in the office in the second floor, but I never been there, neither has Violet, those two were always so secretive with that stupid ROOM... Oh but Marcelo kept a note with some cryptic answers on top of the wardrobe, I think it's in MY room."
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		

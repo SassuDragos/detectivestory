@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00207862-d8ff-4ac8-83aa-c32b3b237ba0",
+            "Value": {
+                "id": "ccd5b588-da68-455d-a2d4-3d7e239f2fe0",
+                "resourcePath": "objects\\obj_organigram\\obj_organigram.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "00566360-4ecb-4421-a8d8-7deb7eeaf4d3",
             "Value": {
                 "id": "d4b7f0d1-4203-4ecb-a2a0-5a073f86ab28",

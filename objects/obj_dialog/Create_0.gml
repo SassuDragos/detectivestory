@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-firstCut = true;
+firstCut = false;
 lastCut = false;
 //lastCut = variable_global_exists("cluesMap") && global.cluesMap[? "good_ending"];
-badEnding = false;
+badEnding = true;
 //
 obj_boxOpen.image_speed = 0;
 
@@ -12,7 +12,7 @@ obj_boxOpen.image_speed = 0;
 
 //
 
-if(lastCut == true){
+if(lastCut == true ){
 	obj_boxOpen.image_alpha = 1;
 	obj_playerCutscenes.walkSpeed = 2;
 	audio_stop_sound(snd_rain);
@@ -159,7 +159,7 @@ strings[26] = "";
 strings[27] = "";
 
 // last cut
-if(lastCut == true || badEnding == false){
+if(lastCut == true && badEnding == false){
 	dialog0 = strDetectiveName + "Another case solved. All is well.";
 	dialog1 = strDetectiveName + "*suprised* A box...";
 	dialog2 = strDetectiveName + "...";
@@ -168,12 +168,12 @@ if(lastCut == true || badEnding == false){
 	dialog5 = strDetectiveName + "'...I know you always wanted to play this game because we are more alike than you think...'";
 	dialog6 = strDetectiveName + "'...I hope you discover your counterpart in due time, \nwhich I believe you will because I know you are more than capable...'";
 	dialog7 = strDetectiveName + "'...Yours truly Ex...'";
-} else if(badEnding == true || lastCut == false){
+} else if(badEnding == true && lastCut == false){
 	dialog0 = strDetectiveName + "Another case solved... It's still raining...";
 	dialog1 = strDetectiveName + "*suprised* A box...";
 	dialog2 = strDetectiveName + "...";
 	dialog3 = strDetectiveName + "...They left a note."
-	dialog4 = strDetectiveName + "'Hello friend, I'm sad you didn't accuse the murder, \nyour turn has finally come...'";
+	dialog4 = strDetectiveName + "'Hello friend, I'm sad you didn't accuse the actual murderer, \nyour turn has finally come...'";
 	dialog5 = strDetectiveName + "'...I know you always wanted to play this game because we are more alike than you think...'";
 	dialog6 = strDetectiveName + "'...I hope you discover your counterpart in due time, \nwhich I believe you will because I know you are more than capable...'";
 	dialog7 = strDetectiveName + "'...Yours truly Ex...'";

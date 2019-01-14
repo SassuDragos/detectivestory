@@ -34,11 +34,11 @@ if (detectiveWalking == true && obj_playerCutscenes.y <= objectiveD){
 	obj_playerCutscenes.sprite_index = spr_detective_walking_down_cutscene;
 }else detectiveWalking = false;
 
-if(obj_dialog.lastCut = true){
-if (detectiveWalking2 == true && obj_playerCutscenes.y >= objectiveD2){
-	obj_playerCutscenes.y -= obj_playerCutscenes.walkSpeed;
-	obj_playerCutscenes.image_speed = obj_playerCutscenes.walkSpeed / 3; // makes animation smooth
-	obj_playerCutscenes.sprite_index = spr_detective_walking_up_cutscene;
+if(obj_dialog.lastCut == true || obj_dialog.badEnding == true){
+	if (detectiveWalking2 == true && obj_playerCutscenes.y >= objectiveD2){
+		obj_playerCutscenes.y -= obj_playerCutscenes.walkSpeed;
+		obj_playerCutscenes.image_speed = obj_playerCutscenes.walkSpeed / 3; // makes animation smooth
+		obj_playerCutscenes.sprite_index = spr_detective_walking_up_cutscene;
 }else detectiveWalking2 = false
 if (detectiveWalking2 == false && obj_playerCutscenes.y <= objectiveD2){
 	
