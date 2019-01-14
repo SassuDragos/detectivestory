@@ -79,3 +79,5 @@ variable_global_set("inventory_items", ds_list_create());
 variable_global_set("dialog_choices", ds_map_create());
 
 variable_global_set("character_stage", ds_map_create());
+
+variable_global_set("tutorial_active", true);
