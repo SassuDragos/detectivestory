@@ -136,8 +136,38 @@ switch(selectedDialogChoice) {
 		
 		break;
 	case "I guess we're done here":
-		change_clue_status("good_ending", true);
-		fade_change_to_room(detective_office);
+		//change_clue_status("good_ending", true);
+		//fade_change_to_room(detective_office);
+		new_dialog_body_sequence[0] = "We know you were the last one to see him, CUT THE CRAP!!"
+		new_dialog_character_sequence[0] = obj_player.id
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
+		
+		new_dialog_behaviour_sequence[0] = elliot_sprite_talking_scared;
+		
+		new_dialog_body_sequence[1] = "Nah man I’m telling you I wasn’t the last one to see him… you know what, I saw Leonardo coming down the stairs before I left…"
+		new_dialog_character_sequence[1] = obj_elliot.id
+		new_dialog_choice_sequence[1] = ds_list_create();
+		add_choice_to_list(new_dialog_choice_sequence[1], "Continue investigation.")
+		
+		//change_clue_status("good_ending", true);
+		//fade_change_to_room(RoomChoices.PIZZERIA);
+		
+		break;
+	case "ACCUSE":
+		//change_clue_status("good_ending", true);
+		//fade_change_to_room(detective_office);
+		new_dialog_body_sequence[0] = "You are done for!!"
+		new_dialog_character_sequence[0] = obj_player.id
+		//new_dialog_choice_sequence[0,0] = "Check answer..."
+		
+		new_dialog_behaviour_sequence[0] = goto_bad_ending;
+	
+		break;
+		
+	case "Continue investigation.":
+		global.game_stage = 3;
+		fade_change_to_room(RoomChoices.PIZZERIA);
+		//goto_pizzaria_stage3();
 		return;
 }
 

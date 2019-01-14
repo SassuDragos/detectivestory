@@ -8,9 +8,10 @@ var dialog_character = [];
 var choice_option_sequence = [];
 var result = [];
 
-dialog_body[0] = "So, detective... Is there any reason to have me in this kind of sad and dark dungeon?";
-dialog_character[0] = obj_elliot;
+dialog_body[0] = "Please help me!!! Please";
+dialog_character[0] = obj_clementine;
 choice_option_sequence[0] = "default";
+
 
 result[0] = dialog_body;
 result[1] = dialog_character;
