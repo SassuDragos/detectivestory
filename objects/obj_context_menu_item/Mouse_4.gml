@@ -2,18 +2,13 @@ if(action == action_go_to) {
 	return;	
 }
 
-if(room != room_interrogation) {
-	var menuHolder = global.context_menu_engine.attachedObject;
+var menuHolder = global.context_menu_engine.attachedObject;
 
-	var distancePlayerToMenuHolder = point_distance(menuHolder.x, menuHolder.y, obj_player.x, obj_player.y)
+var distancePlayerToMenuHolder = point_distance(menuHolder.x, menuHolder.y, obj_player.x, obj_player.y)
 
-	instance_destroy(obj_context_menu_engine);
+instance_destroy(obj_context_menu_engine);
 
-	script_execute(action, menuHolder);
-	
-} else {
-	fade_change_to_room(room_bad_ending);
-}
+script_execute(action, menuHolder);
 
 /*
 if(distancePlayerToMenuHolder < 100){

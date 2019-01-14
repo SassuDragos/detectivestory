@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(layer == layer_get_id("layer_disabled_items")) {
+if(layer == layer_get_id("layer_disabled_items") || global.tutorial_active) {
 	return;
 }
 
