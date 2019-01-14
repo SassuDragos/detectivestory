@@ -4543,6 +4543,14 @@
             }
         },
         {
+            "Key": "fa2c89ed-cfd6-4cba-a098-318c00d09209",
+            "Value": {
+                "id": "fe901335-968b-4c79-bf1c-0a60ae6b0449",
+                "resourcePath": "objects\\obj_btn_detective_eye\\obj_btn_detective_eye.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa6f849e-7e4d-4c46-a51a-01be92747f68",
             "Value": {
                 "id": "953598bf-2db0-4afa-b912-615935130308",
