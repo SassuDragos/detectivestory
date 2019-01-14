@@ -7,6 +7,8 @@ var dialogCharacterSequence = [];
 var dialogChoiceOptionSequence = [];
 var dialogBehaviourSequence = [];
 
+var tutorial_end = false;
+
 switch(collision_obj.object_index) {
 	case obj_pizza:
 		// React to pizza
@@ -45,15 +47,32 @@ switch(collision_obj.object_index) {
 		ReAddObjectToInventory();
 	
 		break;
+	case obj_cigarettes:
+		// React to cigarettes
+		clear_mouse_animation();
+		global.actions_allowed = false;
+		generate_stars_effect(obj_partner_detective.x, obj_partner_detective.y);
+		var content = partner_detective_tutorial_dialog_content_init3();
+		dialogBodySequence = content[0];
+		dialogCharacterSequence = content[1];
+		dialogChoiceOptionSequence = content[2];
+		dialogBehaviourSequence = content[3];
+		RemoveObjectFromInventory(collision_obj, true);
+		tutorial_end = true;
+		break;
 	default:
 		return false;
 }
 if(global.dialog_engine == noone) {
 	instantiate_dialog_engine(	dialogBodySequence,
 									dialogCharacterSequence,
-									dialogChoiceOptionSequence);
+									dialogChoiceOptionSequence, noone, dialogBehaviourSequence);
 } else {
-	add_data_sequence_to_dialog(dialogBodySequence, dialogCharacterSequence, dialogChoiceOptionSequence);
+	add_data_sequence_to_dialog(dialogBodySequence, dialogCharacterSequence, dialogChoiceOptionSequence, dialogBehaviourSequence);
 	move_to_next_dialog_step();
 }
+if(tutorial_end) {
+	create_event_initialise_dialog_holder(id, partner_detective_tutorial_dialog_content_init4, noone, partner_detective_tutorial_default_choices(), "tutorial");	
+}
+
 return true;

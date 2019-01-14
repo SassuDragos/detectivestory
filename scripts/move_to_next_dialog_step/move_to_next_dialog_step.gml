@@ -8,6 +8,7 @@ if(argument_count > 0) {
 	textSequence = argument[0];
 	characterSequence = argument[1];
 	choicesSequence = argument[2];
+	behaviourSequence = argument[3];
 }
 
 // One liner

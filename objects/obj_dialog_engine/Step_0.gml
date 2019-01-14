@@ -1,7 +1,7 @@
 //Initialize dialog text and avatar (ONLY FIRST TIME) -> Due to lack of constructor forobj_dialog_engine
 if (currentDialogStep == 0 && string_length(textBoxObject.text_body) == 0) {
     //setup_dialog_displayed_data(text, characters, choices);
-	move_to_next_dialog_step(bodyTextSequence, charactersSequence, choiceSequence);
+	move_to_next_dialog_step(bodyTextSequence, charactersSequence, choiceSequence, behaviourSequence);
 }
 
 /*
