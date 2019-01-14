@@ -14,7 +14,8 @@
         "dbc47afb-e178-4288-a8cf-c5d1d55cda38",
         "aeb572a2-cbf2-4ce0-a551-cbe61119558c",
         "cc9857f1-3439-4737-90d2-bf5754856275",
-        "bb85e61d-2c41-41f4-afac-cc6e7fd124b0"
+        "bb85e61d-2c41-41f4-afac-cc6e7fd124b0",
+        "ce20580c-92a9-4a8d-8a25-918a24bf54c6"
     ],
     "IsDnD": false,
     "layers": [
@@ -97,7 +98,8 @@
                     "inheritSubLayers": true,
                     "inheritVisibility": true,
                     "instances": [
-{"name": "inst_1C7D31C0","id": "dbc47afb-e178-4288-a8cf-c5d1d55cda38","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": true,"inheritItemSettings": true,"IsDnD": false,"m_originalParentID": "975e6727-e82e-4df0-adf2-d61c3851285f","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1C7D31C0","objId": "7b5fde34-e46f-4fc0-8195-d2a5a705c792","properties": null,"rotation": 0,"scaleX": 0.5,"scaleY": 0.5,"mvc": "1.0","x": 1696,"y": 51}
+{"name": "inst_1C7D31C0","id": "dbc47afb-e178-4288-a8cf-c5d1d55cda38","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": true,"inheritItemSettings": true,"IsDnD": false,"m_originalParentID": "975e6727-e82e-4df0-adf2-d61c3851285f","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1C7D31C0","objId": "7b5fde34-e46f-4fc0-8195-d2a5a705c792","properties": null,"rotation": 0,"scaleX": 0.5,"scaleY": 0.5,"mvc": "1.0","x": 1696,"y": 51},
+{"name": "inst_1E721E2B","id": "ce20580c-92a9-4a8d-8a25-918a24bf54c6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": true,"inheritItemSettings": true,"IsDnD": false,"m_originalParentID": "a277249b-904e-4b96-910d-0cfa2e94f9c2","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1E721E2B","objId": "fa2c89ed-cfd6-4cba-a098-318c00d09209","properties": null,"rotation": 0,"scaleX": 0.2456491,"scaleY": 0.2,"mvc": "1.0","x": 1696,"y": 384}
                     ],
                     "layers": [
 
