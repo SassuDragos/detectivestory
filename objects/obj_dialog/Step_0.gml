@@ -262,4 +262,88 @@ if(lastCut == true){
 		obj_boxOpen.image_index = 2;
 	}
 	
+}else if(badEnding == true){
+	
+	obj_fade.image_alpha = 0;
+	// beginning 
+	//effects
+	//audio_stop_sound(snd_rain);
+	
+	//
+	
+	//
+	l += 0.8;//time between dialogue
+
+	print = string_copy(str,1,l)
+
+	if (l > string_length(str)+100) && (next <array_length_1d(strings2)-1)
+	{
+		l = 0;
+		next++;
+		if(next == array_length_1d(strings2)-1) holdspace++;
+		
+	}
+	str = strings2[next];
+	//
+	if(strings2[next] == dialog4 || strings2[next] == dialog5 || strings2[next] == dialog6 || strings2[next] == dialog7){
+		//audio_stop_sound(snd_rain);
+		//obj_sunburst.sunburst = false;
+		
+		obj_camera.rain = true;
+		
+		
+		
+		
+	}
+	if(strings2[next] == dialog4 && badEnding == false){
+		rainsnd = true;
+		audio_stop_sound(snd_birds);
+		
+	}
+	if(strings2[next] == dialog2 && badEnding == false){
+		rainsnd = true;
+		
+		
+	}
+	if(rainsnd == true){
+		
+		rainsnd = false;
+		alarm[0] = 2;
+		
+		
+	}
+	if(strings2[next] == dialog7){
+	
+		obj_camera.zoomBegi = false;
+		obj_camera.zoomOut = true;
+		obj_camera.zoomPlayer = false;
+		
+
+		
+	}
+	if(strings2[next] == dialog6){
+		obj_camera.target = obj_playerCutscenes;
+		obj_camera.zoomBegi = true;
+		obj_camera.zoomOut = false;
+		obj_camera.zoomPlayer = false;
+		obj_big_window.sprite_index = spr_dude_window;
+		alarm[1] = room_speed*2;
+		
+		
+	}
+	
+	if(strings2[next] == dialog0){
+		l -= 0.3;
+		obj_cutscene.detectiveWalking2 = true
+		l += 0.3;
+	}
+	if(strings2[next] == dialog2){
+		
+		obj_cutscene.detectiveWalking3 = true
+	}
+	if(strings2[next] == dialog3){
+		
+		obj_boxOpen.image_index = 2;
+	}
+	
 }

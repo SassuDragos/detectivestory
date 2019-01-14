@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 firstCut = true;
-lastCut = variable_global_exists("cluesMap") && global.cluesMap[? "good_ending"];
+lastCut = false;
+//lastCut = variable_global_exists("cluesMap") && global.cluesMap[? "good_ending"];
+badEnding = false;
 //
 obj_boxOpen.image_speed = 0;
 
@@ -19,6 +21,24 @@ if(lastCut == true){
 	obj_playerCutscenes.y = 695;
 	obj_sunburst.sunburst = true;
 	obj_camera.rain = false;
+	//
+	detective = true;
+	obj_cutscene.startgame = true;
+	obj_camera.target = obj_playerCutscenes;
+	obj_camera.zoomBegi = false;
+	obj_camera.zoomOut = false;
+	obj_camera.zoomPlayer = false;
+	obj_cutscene.lookingUp = false;
+	instance_destroy(obj_partnerCutscenes);
+}else if(badEnding == true){
+	obj_boxOpen.image_alpha = 1;
+	obj_playerCutscenes.walkSpeed = 2;
+	//audio_stop_sound(snd_rain);
+	//audio_play_sound(snd_birds, 10, true);
+	obj_playerCutscenes.x = 956;
+	obj_playerCutscenes.y = 695;
+	//obj_sunburst.sunburst = true;
+	obj_camera.rain = true;
 	//
 	detective = true;
 	obj_cutscene.startgame = true;
@@ -139,16 +159,25 @@ strings[26] = "";
 strings[27] = "";
 
 // last cut
-
-dialog0 = strDetectiveName + "Another case solved. All is well.";
-dialog1 = strDetectiveName + "*suprised* A box...";
-dialog2 = strDetectiveName + "...";
-dialog3 = strDetectiveName + "...They left a note."
-dialog4 = strDetectiveName + "'Hello friend, your turn has finally come...'";
-dialog5 = strDetectiveName + "'...I know you always wanted to play this game because we are more alike than you think...'";
-dialog6 = strDetectiveName + "'...I hope you discover your counterpart in due time, \nwhich I believe you will because I know you are more than capable...'";
-dialog7 = strDetectiveName + "'...Yours truly Ex...'";
-
+if(lastCut == true || badEnding == false){
+	dialog0 = strDetectiveName + "Another case solved. All is well.";
+	dialog1 = strDetectiveName + "*suprised* A box...";
+	dialog2 = strDetectiveName + "...";
+	dialog3 = strDetectiveName + "...They left a note."
+	dialog4 = strDetectiveName + "'Hello friend, your turn has finally come...'";
+	dialog5 = strDetectiveName + "'...I know you always wanted to play this game because we are more alike than you think...'";
+	dialog6 = strDetectiveName + "'...I hope you discover your counterpart in due time, \nwhich I believe you will because I know you are more than capable...'";
+	dialog7 = strDetectiveName + "'...Yours truly Ex...'";
+} else if(badEnding == true || lastCut == false){
+	dialog0 = strDetectiveName + "Another case solved... It's still raining...";
+	dialog1 = strDetectiveName + "*suprised* A box...";
+	dialog2 = strDetectiveName + "...";
+	dialog3 = strDetectiveName + "...They left a note."
+	dialog4 = strDetectiveName + "'Hello friend, I'm sad you didn't accuse the murder, \nyour turn has finally come...'";
+	dialog5 = strDetectiveName + "'...I know you always wanted to play this game because we are more alike than you think...'";
+	dialog6 = strDetectiveName + "'...I hope you discover your counterpart in due time, \nwhich I believe you will because I know you are more than capable...'";
+	dialog7 = strDetectiveName + "'...Yours truly Ex...'";
+}
 strings2[0] = dialog0;//"All is well.";
 
 strings2[1] = dialog1;//"A note";
@@ -159,7 +188,14 @@ strings2[5] = dialog5;//"...I hope you discover your counterpart in due time, wh
 strings2[6] = dialog6;
 strings2[7] = dialog7;//"...Yours truly Ex...";
 
-
-
-
+/*
+dialogB0 = strDetectiveName + "Another case solved. All is well.";
+dialogB1 = strDetectiveName + "*suprised* A box...";
+dialogB2 = strDetectiveName + "...";
+dialogB3 = strDetectiveName + "...They left a note."
+dialogB4 = strDetectiveName + "'Hello friend, your turn has finally come...'";
+dialogB5 = strDetectiveName + "'...I know you always wanted to play this game because we are more alike than you think...'";
+dialogB6 = strDetectiveName + "'...I hope you discover your counterpart in due time, \nwhich I believe you will because I know you are more than capable...'";
+dialogB7 = strDetectiveName + "'...Yours truly Ex...'";
+*/
 
