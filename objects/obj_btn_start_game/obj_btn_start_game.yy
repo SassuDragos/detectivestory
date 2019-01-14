@@ -5,13 +5,13 @@
     "name": "obj_btn_start_game",
     "eventList": [
         {
-            "id": "6f080bfc-7bbb-4ad3-971a-9b695483458c",
+            "id": "bd6002c4-85b2-4ac0-84a2-5c1320d23a77",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
+            "enumb": 64,
+            "eventtype": 8,
             "m_owner": "6681c763-1de4-43f2-bb3f-29c8f35c580b"
         }
     ],
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "cdf731ff-edf3-49f6-9249-100cec602f56",
+    "spriteId": "ebf6eee3-8ed6-4562-8fc6-2e52b79682df",
     "visible": true
 }
