@@ -21,10 +21,11 @@ switch(selectedDialogChoice) {
 		new_dialog_body_sequence[1] = "They were just screaming at each other, I heard them from our room… When Leonardo came out he just said “I’m going to the safe room just don’t disturb me!!” … I tried to talk with Violet but she locked the door and just ignored me"
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		add_choice_to_list(new_dialog_choice_sequence[1], "Finish conversation", selectedChoice[2] + 1, selectedDialogChoice);
 		add_choice_to_list(new_dialog_choice_sequence[1], "Ask about discussion", selectedChoice[2] + 1, selectedDialogChoice);
 		add_choice_to_list(new_dialog_choice_sequence[1], "Safe location", selectedChoice[2] + 1, selectedDialogChoice);
 		add_choice_to_list(new_dialog_choice_sequence[1], "Brothers’ relationship", selectedChoice[2] + 1, selectedDialogChoice);
-		add_choice_to_list(new_dialog_choice_sequence[1], "Finish conversation", selectedChoice[2] + 1, selectedDialogChoice);
+		
 		
 		break; 
 	case "Ask about discussion":

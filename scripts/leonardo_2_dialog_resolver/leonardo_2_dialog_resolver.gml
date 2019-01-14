@@ -38,6 +38,7 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[1] = obj_leonardo.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		
+		add_choice_to_list(new_dialog_choice_sequence[1], "Finish conversation", selectedChoice[2] + 1, selectedDialogChoice);
 		break;
 	
 	case "Finish conversation":
