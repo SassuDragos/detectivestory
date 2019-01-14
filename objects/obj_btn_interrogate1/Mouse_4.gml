@@ -1,1 +1,0 @@
-fade_change_to_room(room_interrogation);
