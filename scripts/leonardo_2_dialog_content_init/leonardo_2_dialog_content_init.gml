@@ -2,6 +2,22 @@
 
 // Returns initial dialog sequence for the Partner
 // [ bodies, characters, choices]
+var dialog_body = [];
+var dialog_character = [];
+var choice_option_sequence = [];
+var result = [];
+
+dialog_body[0] = "Yeah I did it!!";
+dialog_character[0] = obj_leonardo;
+choice_option_sequence[0] = "default";
+
+
+result[0] = dialog_body;
+result[1] = dialog_character;
+result[2] = choice_option_sequence;
+return result
+
+/*
 
 var dialog_body = [];
 var dialog_character = [];
@@ -20,3 +36,5 @@ result[0] = dialog_body;
 result[1] = dialog_character;
 result[2] = choice_option_sequence;
 return result
+
+*/

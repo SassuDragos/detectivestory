@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "211419cb-1b1c-4f19-a1d4-f22e551cdf10",
+            "Value": {
+                "id": "f927de8a-d534-43e2-a6fa-32a77ec5548f",
+                "resourcePath": "sprites\\spr_violet_dead\\spr_violet_dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21a9fbf7-4dcb-40cf-a03f-f765c90e7c56",
             "Value": {
                 "id": "1c147464-7b4a-469d-9fc5-87c834bb6cca",
@@ -1363,6 +1371,14 @@
             "Value": {
                 "id": "22719fac-b2bb-4a34-9166-2fb0d7a54f5f",
                 "resourcePath": "sprites\\spr_detective_walking_down_cutscene\\spr_detective_walking_down_cutscene.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "44654514-d754-4dcd-9517-446b3e9ebc5f",
+            "Value": {
+                "id": "585b3413-2c51-46be-9e1a-b395313beeaa",
+                "resourcePath": "sprites\\spr_dead_shadow\\spr_dead_shadow.yy",
                 "resourceType": "GMSprite"
             }
         },

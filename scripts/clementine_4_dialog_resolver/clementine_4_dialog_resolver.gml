@@ -22,6 +22,9 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		add_choice_to_list(new_dialog_choice_sequence[1], "Ask about discussion", selectedChoice[2] + 1, selectedDialogChoice);
+		add_choice_to_list(new_dialog_choice_sequence[1], "Safe location", selectedChoice[2] + 1, selectedDialogChoice);
+		add_choice_to_list(new_dialog_choice_sequence[1], "Brothers’ relationship", selectedChoice[2] + 1, selectedDialogChoice);
+		add_choice_to_list(new_dialog_choice_sequence[1], "Finish conversation", selectedChoice[2] + 1, selectedDialogChoice);
 		
 		break; 
 	case "Ask about discussion":
@@ -32,7 +35,7 @@ switch(selectedDialogChoice) {
 		new_dialog_body_sequence[1] = "NO!! She never locks the room I didn’t even know there was a key, we don’t have one for ours."
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
-		add_choice_to_list(new_dialog_choice_sequence[1], "Safe location", selectedChoice[2] + 1, selectedDialogChoice);
+		//add_choice_to_list(new_dialog_choice_sequence[1], "Safe location", selectedChoice[2] + 1, selectedDialogChoice);
 		
 		break;
 	case "Safe location":
@@ -43,7 +46,6 @@ switch(selectedDialogChoice) {
 		new_dialog_body_sequence[1] = "It’s supposed to be in the office in the second floor, but I never been there, neither has Violet, those two were always so secretive with that stupid ROOM... Oh but Marcelo kept a note with some cryptic answer, I think it's in MY room."
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
-		add_choice_to_list(new_dialog_choice_sequence[1], "Brothers’ relationship", selectedChoice[2] + 1, selectedDialogChoice);
 		
 		break; 
 	case "Brothers’ relationship":
@@ -54,6 +56,7 @@ switch(selectedDialogChoice) {
 		new_dialog_body_sequence[1] = "I don’t give a shit about your detective work right now!! Just help me PLEASE!!!"
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
+		
 		
 		break; 
 	

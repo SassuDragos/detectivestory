@@ -8,7 +8,7 @@ var dialog_character = [];
 var choice_option_sequence = [];
 var result = [];
 
-dialog_body[0] = "I don't want to talk right now...";
+dialog_body[0] = "Please help me!!! Please";
 dialog_character[0] = obj_clementine;
 choice_option_sequence[0] = "default";
 

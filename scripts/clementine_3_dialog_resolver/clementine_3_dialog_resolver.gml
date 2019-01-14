@@ -18,7 +18,7 @@ switch(selectedDialogChoice) {
 		new_dialog_character_sequence[0] = obj_player.id;
 		////new_dialog_choice_sequence[0,0] = "Check answer..."
 		
-		new_dialog_body_sequence[1] = "“Please help me!!! Please”"
+		new_dialog_body_sequence[1] = "Please help me!!! Please"
 		new_dialog_character_sequence[1] = obj_clementine.id;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		//add_choice_to_list(new_dialog_choice_sequence[1], "Ask about discussion", selectedChoice[2] + 1, selectedDialogChoice);
