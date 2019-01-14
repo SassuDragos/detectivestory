@@ -2,6 +2,7 @@
 // You can write your code in this editor
 draw_self();
 
+var on = global.detective_eye;
 var str = "Detec. Eye: ";
 str += on ?  "ON" : "OFF";
 

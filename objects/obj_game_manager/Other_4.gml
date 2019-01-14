@@ -16,7 +16,3 @@ mp_grid_to_ds_grid(global.path_grid, global.ds_path_grid);
 if(!layer_exists("layer_disabled_items")) {
 	layer_create(layer_get_depth("Instances") + 1, "layer_disabled_items");
 }
-var l = layer_get_id("layer_bg_scene");
-var l2 = layer_get_id("layer_disabled_items");
-layer_shader(l, sha_bw);
-layer_shader(l2, sha_bw);

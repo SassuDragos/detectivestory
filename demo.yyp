@@ -119,18 +119,18 @@
             }
         },
         {
-            "Key": "05548237-0251-4633-bc7c-01deab2c017a",
-            "Value": {
-                "id": "f3e99555-2c23-4ffe-87b2-6f4b07f89ade",
-                "resourcePath": "sprites\\spr_leonardo_still_shocked\\spr_leonardo_still_shocked.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "051cf551-13c4-4c0c-9a90-c7b2bdeb6c7d",
             "Value": {
                 "id": "3badbacd-1af4-47a4-a723-434a54009f29",
                 "resourcePath": "sprites\\spr_puzzleGuide1\\spr_puzzleGuide1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "05548237-0251-4633-bc7c-01deab2c017a",
+            "Value": {
+                "id": "f3e99555-2c23-4ffe-87b2-6f4b07f89ade",
+                "resourcePath": "sprites\\spr_leonardo_still_shocked\\spr_leonardo_still_shocked.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2228,14 +2228,6 @@
                 "id": "63ea0005-7575-46f1-b436-0a8d28d20df4",
                 "resourcePath": "tilesets\\tileset2\\tileset2.yy",
                 "resourceType": "GMTileSet"
-            }
-        },
-        {
-            "Key": "6c65ffc8-8fb3-42a0-9ab1-17e9fae50b8d",
-            "Value": {
-                "id": "2f264eca-a7a4-4ed1-b7d5-e16156fa0d66",
-                "resourcePath": "paths\\path0\\path0.yy",
-                "resourceType": "GMPath"
             }
         },
         {

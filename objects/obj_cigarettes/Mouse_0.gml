@@ -8,6 +8,9 @@ if(obj_fade_tutorial.inactive) {
 if(!inInventory) {
 	with (obj_mouse) {
 		if(image_xscale == 1) {
+			if(animation != 2) {
+				return;	
+			}
 			animation = 0;	
 		}
 	}
