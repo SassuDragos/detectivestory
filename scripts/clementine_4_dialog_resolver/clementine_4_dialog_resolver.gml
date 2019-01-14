@@ -4,7 +4,7 @@ var selectedChoice = argument0;
 var selectedDialogChoice = selectedChoice[0];
 var defaultDialogChoices = ds_map_find_value(global.dialog_choices, obj_clementine);
 if(ds_map_find_value(global.cluesMap, "picked_guide_paper")){
-	add_choice_to_list(choiceList, "Help with paper");
+	add_choice_to_list(defaultDialogChoices, "Help with paper");
 }
 
 toggle_read_choice(defaultDialogChoices, selectedDialogChoice, true);
