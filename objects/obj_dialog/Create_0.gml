@@ -1,14 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-firstCut = false;
+firstCut = true;
 lastCut = false;
 //lastCut = variable_global_exists("cluesMap") && global.cluesMap[? "good_ending"];
-badEnding = true;
+badEnding = false;
 //
 obj_boxOpen.image_speed = 0;
 
 //
-
 
 //
 
@@ -159,7 +158,7 @@ strings[26] = "";
 strings[27] = "";
 
 // last cut
-if(lastCut == true && badEnding == false){
+if(lastCut == true){
 	dialog0 = strDetectiveName + "Another case solved. All is well.";
 	dialog1 = strDetectiveName + "*suprised* A box...";
 	dialog2 = strDetectiveName + "...";
@@ -168,7 +167,7 @@ if(lastCut == true && badEnding == false){
 	dialog5 = strDetectiveName + "'...I know you always wanted to play this game because we are more alike than you think...'";
 	dialog6 = strDetectiveName + "'...I hope you discover your counterpart in due time, \nwhich I believe you will because I know you are more than capable...'";
 	dialog7 = strDetectiveName + "'...Yours truly Ex...'";
-} else if(badEnding == true && lastCut == false){
+} else if(badEnding == true){
 	dialog0 = strDetectiveName + "Another case solved... It's still raining...";
 	dialog1 = strDetectiveName + "*suprised* A box...";
 	dialog2 = strDetectiveName + "...";
@@ -178,15 +177,20 @@ if(lastCut == true && badEnding == false){
 	dialog6 = strDetectiveName + "'...I hope you discover your counterpart in due time, \nwhich I believe you will because I know you are more than capable...'";
 	dialog7 = strDetectiveName + "'...Yours truly Ex...'";
 }
-strings2[0] = dialog0;//"All is well.";
 
-strings2[1] = dialog1;//"A note";
-strings2[2] = dialog2;
-strings2[3] = dialog3;//"Hello friend, your turn has finally come...";
-strings2[4] = dialog4;//"...I know you always wanted to play this game because we are more alike than you think...";
-strings2[5] = dialog5;//"...I hope you discover your counterpart in due time, which I believe you will because I know you are more than capable...”";
-strings2[6] = dialog6;
-strings2[7] = dialog7;//"...Yours truly Ex...";
+if(lastCut == true || badEnding == true) {
+
+	strings2[0] = dialog0;//"All is well.";
+
+	strings2[1] = dialog1;//"A note";
+	strings2[2] = dialog2;
+	strings2[3] = dialog3;//"Hello friend, your turn has finally come...";
+	strings2[4] = dialog4;//"...I know you always wanted to play this game because we are more alike than you think...";
+	strings2[5] = dialog5;//"...I hope you discover your counterpart in due time, which I believe you will because I know you are more than capable...”";
+	strings2[6] = dialog6;
+	strings2[7] = dialog7;//"...Yours truly Ex...";
+
+}
 
 /*
 dialogB0 = strDetectiveName + "Another case solved. All is well.";
