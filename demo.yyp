@@ -751,14 +751,6 @@
             }
         },
         {
-            "Key": "2984b0c7-4b3c-4a65-a18f-0d193c213c60",
-            "Value": {
-                "id": "b959ab88-6dd6-4763-aa50-21bffbad6053",
-                "resourcePath": "objects\\obj_interrogation_button_spawner\\obj_interrogation_button_spawner.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "29fa73bc-5a5f-4181-8c44-a64af6994887",
             "Value": {
                 "id": "6b32a5d2-6c90-46ed-ac77-8edc800f860e",
@@ -4503,12 +4495,12 @@
         "0c7e95cf-ade0-4e96-865c-7eb47bf5d7ab",
         "824bc020-ed2e-49f3-8644-e648fea152bd",
         "fa81d3c2-44d0-4f54-965d-3320ade6ae0a",
+        "4540c275-c207-4bc8-a012-6c7e7f66e00a",
         "dedb18c3-55f5-44dd-8b04-312504be195f",
         "24eaae48-15c7-4ec2-a6af-fb0b970052d5",
         "20a0e699-0fe2-4a0d-9c21-3c620cf706e1",
         "9221ce31-baa0-4c7c-8584-5c63fde30ad6",
         "5093a018-d0b2-456d-bb8a-2dd0754a4d24",
-        "4540c275-c207-4bc8-a012-6c7e7f66e00a",
         "692c7e09-7e0a-49c4-945f-26289a7c5bce",
         "2f1ab803-c0a8-4304-a63b-9266f10e46fc",
         "c23e443f-1483-4c47-9249-096165c5054c"
