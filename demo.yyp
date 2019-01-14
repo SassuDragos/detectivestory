@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "05548237-0251-4633-bc7c-01deab2c017a",
+            "Value": {
+                "id": "f3e99555-2c23-4ffe-87b2-6f4b07f89ade",
+                "resourcePath": "sprites\\spr_leonardo_still_shocked\\spr_leonardo_still_shocked.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "051cf551-13c4-4c0c-9a90-c7b2bdeb6c7d",
             "Value": {
                 "id": "3badbacd-1af4-47a4-a723-434a54009f29",
@@ -1279,6 +1287,14 @@
             }
         },
         {
+            "Key": "3d6e20a1-b1ef-4e44-9eef-186b19df433a",
+            "Value": {
+                "id": "f2b68ff7-0524-4d44-81cc-9afa09de82b0",
+                "resourcePath": "sprites\\spr_leonardo_still_angry\\spr_leonardo_still_angry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3da81ead-ea40-4598-86c6-4faff5f133e0",
             "Value": {
                 "id": "7d037370-4e28-445c-a585-5a1006ef58db",
@@ -1636,6 +1652,14 @@
                 "id": "236d3c7f-d667-4adc-9707-1eb47aa899e8",
                 "resourcePath": "objects\\obj_window\\obj_window.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4f0b1119-1850-46ad-b563-025340514dfc",
+            "Value": {
+                "id": "ce9994bb-8629-4740-9615-8c4add9fd77e",
+                "resourcePath": "sprites\\spr_leonard_talking_confident\\spr_leonard_talking_confident.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2287,6 +2311,14 @@
             }
         },
         {
+            "Key": "6f9c0efc-893d-437a-987e-05cba4254a6b",
+            "Value": {
+                "id": "d62aa11b-0d69-44c5-a4e9-12b155005067",
+                "resourcePath": "sprites\\spr_leonardo_still_confident\\spr_leonardo_still_confident.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6fb70758-2c76-40f9-a9e3-14dd1eba9e5f",
             "Value": {
                 "id": "81a155f1-eef6-4098-bf8b-fc0f30b35357",
@@ -2635,6 +2667,14 @@
             "Value": {
                 "id": "4d342022-2ad8-4c33-acc3-44fd49af5469",
                 "resourcePath": "sprites\\spr_window_blue\\spr_window_blue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "83763e97-4169-41be-8daa-113fb3b13096",
+            "Value": {
+                "id": "851716f3-3012-44c9-98bb-b7aef973153f",
+                "resourcePath": "sprites\\spr_leonardo_still_calm\\spr_leonardo_still_calm.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3671,6 +3711,14 @@
             }
         },
         {
+            "Key": "bd34f43c-946d-472f-aea4-c66f2449bddf",
+            "Value": {
+                "id": "a441afe6-541b-4c45-a890-feac0f16c6d8",
+                "resourcePath": "sprites\\spr_leonardo_talking_sad\\spr_leonardo_talking_sad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bdfd1506-064e-4c28-bc88-2e9074403341",
             "Value": {
                 "id": "2c951e70-9f21-4364-b61b-df428c447650",
@@ -4095,6 +4143,14 @@
             }
         },
         {
+            "Key": "d9256a10-d3b2-418f-8569-870a9be91237",
+            "Value": {
+                "id": "490cebfb-7217-4d42-8c6f-b60af6e59d2f",
+                "resourcePath": "sprites\\spr_leonardo_still_sad\\spr_leonardo_still_sad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9b7f5d9-a96b-4536-868a-9a96b7b591d4",
             "Value": {
                 "id": "31243469-e209-40c3-808c-175d57d8a57a",
@@ -4471,6 +4527,14 @@
             }
         },
         {
+            "Key": "ef3c1457-9f76-4f32-9abd-ab30a6cf8614",
+            "Value": {
+                "id": "61894050-310a-47e3-b9bb-fcf9d87ca6d3",
+                "resourcePath": "sprites\\spr_leonardo_talking_angry\\spr_leonardo_talking_angry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ef613ab8-dfc7-495c-b9bd-40bfbbae768c",
             "Value": {
                 "id": "d93369b8-59bd-43d1-9d31-0ba2932ef637",
@@ -4563,6 +4627,14 @@
             "Value": {
                 "id": "f71f7e29-f8b2-40fe-9b88-079056564410",
                 "resourcePath": "sprites\\spr_deliveryBook\\spr_deliveryBook.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f4a884f4-b786-44c6-84a6-4dfd615466a5",
+            "Value": {
+                "id": "afae54f2-5393-4881-9a17-6603325c757f",
+                "resourcePath": "sprites\\spr_leonardo_talking_calm\\spr_leonardo_talking_calm.yy",
                 "resourceType": "GMSprite"
             }
         },
