@@ -20,4 +20,3 @@ var l = layer_get_id("layer_bg_scene");
 var l2 = layer_get_id("layer_disabled_items");
 layer_shader(l, sha_bw);
 layer_shader(l2, sha_bw);
-	

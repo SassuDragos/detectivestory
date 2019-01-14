@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 //start game
-if(keyboard_check(vk_space)){
-	
+if(start_requested){
+	start_requested = false;
 	startgame = true;
 	var gameManager = instance_create_depth(10, 10, 10, obj_game_manager);
 	variable_global_set("game_manager", gameManager);

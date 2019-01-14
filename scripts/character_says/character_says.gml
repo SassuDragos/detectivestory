@@ -4,7 +4,8 @@ var speech = argument1;
 var textSequence = [speech];
 var characterSequence = [character];
 
-var dialogChoiceOptionSequence = variable_instance_exists(character, "choice_option_sequence") ? character.choice_option_sequence : [];
+character.choice_option_sequence = [];
+var dialogChoiceOptionSequence = variable_instance_exists(character, "choice_option_sequence") ? decode_choice_sequence(character) : [];
 
 if(global.dialog_engine == noone) {
 	instantiate_dialog_engine(	textSequence,
