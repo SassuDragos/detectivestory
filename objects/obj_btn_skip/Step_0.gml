@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(obj_dialog.lastCut || obj_dialog.lastCut) {
+if(is_not_visible) {
 	visible = false;
 }
