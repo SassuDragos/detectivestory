@@ -9,7 +9,9 @@
         "c4e40fee-772a-4bcd-8feb-9eacc227a25f",
         "3dd17ad1-d6c7-4896-a31e-ea48ee7393fc",
         "3d59af45-f729-456c-b958-5ec26accd230",
-        "d9b7f5d9-a96b-4536-868a-9a96b7b591d4"
+        "d9b7f5d9-a96b-4536-868a-9a96b7b591d4",
+        "1291fb36-e865-451d-9b32-6e3a1b5ee1e9",
+        "3304e74f-a75d-4cca-98d4-6bdeebac030f"
     ],
     "filterType": "GMScript",
     "folderName": "behaviours",
