@@ -1,9 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-firstCut = true;
-lastCut = false;
-//lastCut = variable_global_exists("cluesMap") && global.cluesMap[? "good_ending"];
-badEnding = false;
+firstCut = !variable_global_exists("cluesMap") || !ds_map_exists(global.cluesMap, "good_ending");
+lastCut = !firstCut && global.cluesMap[? "good_ending"];
+badEnding = !firstCut && !global.cluesMap[? "good_ending"];
 //
 obj_boxOpen.image_speed = 0;
 

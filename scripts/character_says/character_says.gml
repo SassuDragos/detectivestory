@@ -1,8 +1,8 @@
 var character = argument0;
 var speech = argument1;
 
-var textSequence = [speech];
-var characterSequence = [character];
+var textSequence = is_array(speech) ? speech : [speech];
+var characterSequence = array_create(array_length_1d(textSequence), character);
 
 character.choice_option_sequence = [];
 var dialogChoiceOptionSequence = variable_instance_exists(character, "choice_option_sequence") ? decode_choice_sequence(character) : [];

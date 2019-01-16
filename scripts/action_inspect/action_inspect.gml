@@ -32,5 +32,5 @@ if (argument0.sprite_index == spr_board) {
 	}
 
 } else if(argument0.sprite_index == spr_violet_note){
-	character_says(obj_player, "It reads 'I’m sorry Leonardo I love you so much but I can’t take it any longer. Ever since we received that stupid game I kept thinking so negatively about everyone and he treated you so badly.  I forgive what you did, just forget this last month ever happened. Go to another country and start a new life just forget that Clementine exists. Yours Truly Violet.'")
+	character_says(obj_player, ["It reads 'I’m sorry Leonardo I love you so much but I can’t take it any longer. Ever since we received that stupid game I kept thinking so negatively about everyone and he treated you so badly.", "I forgive what you did, just forget this last month ever happened. Go to another country and start a new life just forget that Clementine exists. Yours Truly Violet.'"])
 }

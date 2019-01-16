@@ -80,7 +80,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "-1",
             "varName": "room_to_go",
             "varType": 1
         }

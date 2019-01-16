@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(drawable) {
+if(drawable && obj_dialog.firstCut) {
 	
 	draw_self();
 

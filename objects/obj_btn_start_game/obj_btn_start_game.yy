@@ -15,13 +15,13 @@
             "m_owner": "6681c763-1de4-43f2-bb3f-29c8f35c580b"
         },
         {
-            "id": "1f9336f6-a7aa-40f3-a259-f8a804eac223",
+            "id": "f68fa86e-f967-409a-a57d-4b34e41c0da7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 7,
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "6681c763-1de4-43f2-bb3f-29c8f35c580b"
         }
     ],
@@ -52,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "False",
+            "value": "True",
             "varName": "drawable",
             "varType": 3
         }

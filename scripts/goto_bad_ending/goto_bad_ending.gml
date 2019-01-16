@@ -1,1 +1,2 @@
-room_goto(room_bad_ending);
+global.cluesMap[? "good_ending"] = false;
+fade_change_to_room(detective_office);

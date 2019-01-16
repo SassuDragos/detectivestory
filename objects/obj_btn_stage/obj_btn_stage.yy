@@ -1,0 +1,111 @@
+{
+    "id": "5a384280-07c8-4c8d-8b71-0d8cba905e78",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_btn_stage",
+    "eventList": [
+        {
+            "id": "38fd39ce-3ad8-4a3b-850b-2a6d9c7ef294",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "5a384280-07c8-4c8d-8b71-0d8cba905e78"
+        },
+        {
+            "id": "d39e2eaa-c799-485b-8af0-dac35ed89c61",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5a384280-07c8-4c8d-8b71-0d8cba905e78"
+        },
+        {
+            "id": "6bdc4eda-3906-41e2-b0e1-2ececb2abae3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5a384280-07c8-4c8d-8b71-0d8cba905e78"
+        },
+        {
+            "id": "c010e1cd-48c9-4369-9b62-b3b28ff334ff",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "5a384280-07c8-4c8d-8b71-0d8cba905e78"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "7cf33fa0-5569-4709-accf-aebe017f48cb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "drawable",
+            "varType": 3
+        },
+        {
+            "id": "7956c90b-b6ed-4d8d-8803-231543b5ffa9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "game_stage",
+            "varType": 1
+        },
+        {
+            "id": "9e60e5f2-ce69-4a6d-829e-d03a6804f76d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "room_pizzaria",
+            "varName": "room_to_change",
+            "varType": 4
+        }
+    ],
+    "solid": false,
+    "spriteId": "ebf6eee3-8ed6-4562-8fc6-2e52b79682df",
+    "visible": true
+}

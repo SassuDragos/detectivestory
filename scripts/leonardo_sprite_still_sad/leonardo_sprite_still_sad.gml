@@ -1,0 +1,1 @@
+obj_leonardo.sprite_index = spr_leonardo_still_sad;

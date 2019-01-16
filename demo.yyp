@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "019be7cf-82c0-4b3b-a074-48dd7713194e",
+            "Value": {
+                "id": "2a62f8a6-aa41-4f99-b7d4-c3ecd04e3bab",
+                "resourcePath": "scripts\\leonardo_ir_dialog_resolver\\leonardo_ir_dialog_resolver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "020beca1-b84e-43db-a59b-b1077be14a52",
             "Value": {
                 "id": "aaef5170-02a5-44df-9e28-a38f9ce2a936",
@@ -148,6 +156,14 @@
                 "id": "bbc9e970-dec1-4d49-82c1-e0889137de39",
                 "resourcePath": "scripts\\action_discuss\\action_discuss.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0674e51b-6125-47ad-8872-9f56e5a65a4e",
+            "Value": {
+                "id": "a8a80360-1a66-427d-92b1-b9b55f65b749",
+                "resourcePath": "views\\0674e51b-6125-47ad-8872-9f56e5a65a4e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -564,6 +580,14 @@
                 "id": "3d90b531-3c68-4577-8159-69baf294d105",
                 "resourcePath": "rooms\\room_organigram\\room_organigram.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1b782757-11d6-4d73-a72e-100519625959",
+            "Value": {
+                "id": "65de1947-1d1d-4421-9aa2-9d051abb563d",
+                "resourcePath": "objects\\obj_btn_exit\\obj_btn_exit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1247,6 +1271,14 @@
             }
         },
         {
+            "Key": "3c200ed5-9c4e-4f98-8294-a6e35dbeb0f1",
+            "Value": {
+                "id": "eb3b5037-25bc-4782-ac44-1ecdb74d8e97",
+                "resourcePath": "scripts\\goto_good_ending\\goto_good_ending.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3c264e2d-b0b3-44e8-a0e6-1b7f26e04f3a",
             "Value": {
                 "id": "ccb580c3-0891-45da-bf8e-10c9a25d5649",
@@ -1348,6 +1380,14 @@
                 "id": "a22b1edd-ee5d-4f0f-8cac-983e894ca39f",
                 "resourcePath": "views\\3f593659-4f5b-458a-86ca-bbc5b45c91fc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3f6d551b-7017-4aab-b2c5-6a7e17405b3f",
+            "Value": {
+                "id": "74dda316-c509-4a85-828a-5cd7ffca15cc",
+                "resourcePath": "scripts\\leonardo_ir_dialog_content_init\\leonardo_ir_dialog_content_init.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1666,7 +1706,7 @@
             "Key": "4f474c0b-d9f7-4655-87a6-ca60181dbe62",
             "Value": {
                 "id": "4dfa58e3-17a8-4c93-bc8e-f5648407088f",
-                "resourcePath": "objects\\obj_btn_options\\obj_btn_options.yy",
+                "resourcePath": "objects\\obj_btn_stage_select\\obj_btn_stage_select.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1860,6 +1900,14 @@
                 "id": "ace33c55-8c50-4157-82da-361c87b24373",
                 "resourcePath": "sounds\\snd_rain\\snd_rain.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5a384280-07c8-4c8d-8b71-0d8cba905e78",
+            "Value": {
+                "id": "fd883467-6258-4c7a-925f-93cac83822db",
+                "resourcePath": "objects\\obj_btn_stage\\obj_btn_stage.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2388,6 +2436,14 @@
                 "id": "a438d18d-ed51-46ed-ae03-9cfcbe13d2d0",
                 "resourcePath": "fonts\\fnt_darling\\fnt_darling.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "748659eb-e65a-4d78-ad19-d807ee46bbd5",
+            "Value": {
+                "id": "03d0c3bf-cd00-48e9-b9d0-5775ac978e1c",
+                "resourcePath": "scripts\\leonardo_ir_default_choices\\leonardo_ir_default_choices.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3087,6 +3143,14 @@
             }
         },
         {
+            "Key": "9b894d8d-ec66-480d-8363-7528cd3f0f53",
+            "Value": {
+                "id": "89fba8c1-5983-42a3-99b3-509d8a1c31ab",
+                "resourcePath": "scripts\\leonardo_sprite_still_calm\\leonardo_sprite_still_calm.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9bb6d4e1-0123-4c72-bafd-e4d90dd78e5f",
             "Value": {
                 "id": "73a2d296-847c-49e7-be1e-6d390e84e169",
@@ -3204,6 +3268,14 @@
                 "id": "bc406b97-dd8f-4d0e-92a3-577951fd7b5a",
                 "resourcePath": "views\\a21396dc-58ad-4fb9-9fca-a477c0426268.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a22983dc-4669-431f-8274-fe83dc9b32d0",
+            "Value": {
+                "id": "01df024b-9f1c-4f54-8b7a-c4f4b934f59c",
+                "resourcePath": "objects\\obj_btn_return\\obj_btn_return.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3895,6 +3967,14 @@
             }
         },
         {
+            "Key": "cc6ad7c1-7ac2-4ce2-843f-fcdb76926356",
+            "Value": {
+                "id": "d26ba435-ce2d-481f-81d8-88ef0e8b1f7b",
+                "resourcePath": "scripts\\leonardo_sprite_talking_angry\\leonardo_sprite_talking_angry.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "2f5a3bc4-dfda-4922-a821-9d8b285179f6",
@@ -3932,6 +4012,14 @@
                 "id": "d4f2724d-2897-4ffb-a159-0d9976db2351",
                 "resourcePath": "sprites\\spr_btn_start_game\\spr_btn_start_game.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ce1413cc-8118-459d-a235-a14eae4630eb",
+            "Value": {
+                "id": "7bfd4d6d-22aa-46a3-962b-181683ff7685",
+                "resourcePath": "scripts\\leonardo_sprite_still_angry\\leonardo_sprite_still_angry.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -4223,6 +4311,14 @@
             }
         },
         {
+            "Key": "dd110693-73df-4b0e-901d-c4903e837b78",
+            "Value": {
+                "id": "6fbbadbf-a7dc-44e6-b60b-909ac6d9e29d",
+                "resourcePath": "scripts\\leonardo_sprite_still_sad\\leonardo_sprite_still_sad.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dd4d5e4a-4a90-4535-a8f9-1f1e8c854b6b",
             "Value": {
                 "id": "84ea6686-1524-4713-afec-38b8a467208a",
@@ -4399,6 +4495,14 @@
             }
         },
         {
+            "Key": "e77d7b54-d413-4942-a8ec-4cca06bc66c9",
+            "Value": {
+                "id": "999160be-9d12-4274-9031-6eb951dce079",
+                "resourcePath": "scripts\\leonardo_sprite_talking_sad\\leonardo_sprite_talking_sad.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e7be3986-1d77-4579-ba27-39a6f8254117",
             "Value": {
                 "id": "a864ba36-abe8-4b0b-b927-0ab030297eba",
@@ -4535,6 +4639,14 @@
             }
         },
         {
+            "Key": "efb23d25-02a1-48cb-8ab4-f8e1bf30587a",
+            "Value": {
+                "id": "480fde47-78f8-47d9-84f8-2ecbc2968eca",
+                "resourcePath": "scripts\\leonardo_sprite_talking_calm\\leonardo_sprite_talking_calm.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "efdbc357-a7b7-4b84-b77a-cc1e541c4cdb",
             "Value": {
                 "id": "89d8f015-d0b9-4ab8-9fc1-9e3f73b78484",
@@ -4628,6 +4740,14 @@
                 "id": "afae54f2-5393-4881-9a17-6603325c757f",
                 "resourcePath": "sprites\\spr_leonardo_talking_calm\\spr_leonardo_talking_calm.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f4b17b5f-1bd8-4aa1-981d-680b3d7538c8",
+            "Value": {
+                "id": "7370ad9b-986b-4815-a07c-2d02b3471756",
+                "resourcePath": "views\\f4b17b5f-1bd8-4aa1-981d-680b3d7538c8.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -4952,6 +5072,16 @@
         "21a9fbf7-4dcb-40cf-a03f-f765c90e7c56",
         "fa6f849e-7e4d-4c46-a51a-01be92747f68",
         "a4b1ba6a-124b-42d7-bfca-cc176ea388d8",
+        "748659eb-e65a-4d78-ad19-d807ee46bbd5",
+        "3f6d551b-7017-4aab-b2c5-6a7e17405b3f",
+        "019be7cf-82c0-4b3b-a074-48dd7713194e",
+        "9b894d8d-ec66-480d-8363-7528cd3f0f53",
+        "efb23d25-02a1-48cb-8ab4-f8e1bf30587a",
+        "ce1413cc-8118-459d-a235-a14eae4630eb",
+        "cc6ad7c1-7ac2-4ce2-843f-fcdb76926356",
+        "dd110693-73df-4b0e-901d-c4903e837b78",
+        "e77d7b54-d413-4942-a8ec-4cca06bc66c9",
+        "3c200ed5-9c4e-4f98-8294-a6e35dbeb0f1",
         "deed04b2-4908-4577-8781-153abea1aee7",
         "3c44ca1b-3bc6-455c-97b1-e387df119968",
         "cce29017-78f8-4874-89eb-a9426617f90e",

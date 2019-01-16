@@ -1,3 +1,3 @@
-if(global.game_stage == 3) {
+if(global.game_stage > 2) {
 	instance_destroy(self);
-} 
+}

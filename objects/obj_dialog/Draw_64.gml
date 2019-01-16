@@ -11,6 +11,10 @@ if(obj_cutscene.startgame == true){
 	draw_set_valign(fa_top);
 	draw_set_font(fnt_game);
 	draw_text(room_width / 2,room_height - 100,print);
+	draw_set_valign(-1);
+	draw_set_font(-1);
+	draw_set_halign(-1);
+	draw_set_color(-1);
 	
 	
 }else{
@@ -22,6 +26,10 @@ if(obj_cutscene.startgame == true){
 	//draw_text(600,600,startGameStr);
 	draw_set_font(fnt_title);
 	draw_text(600,100,strTitle);
+	draw_set_valign(-1);
+	draw_set_font(-1);
+	draw_set_halign(-1);
+	draw_set_color(-1);
 	
 }
 
