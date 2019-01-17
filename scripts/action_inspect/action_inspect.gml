@@ -25,7 +25,7 @@ if (argument0.sprite_index == spr_board) {
 } else if(argument0.sprite_index == spr_puzzleForm){
 	character_says(obj_player, "The paper reads: '(A x B + C) x D' ")
 } else if(argument0.sprite_index == spr_door_violet){
-	if(variable_global_get("door_open")=false){
+	if(!global.cluesMap[? "violet_door_open"]){
 		character_says(obj_player, "The door is locked, we should find a way to break in.");
 	}else{
 		room_goto(room_bedroom_luigi);

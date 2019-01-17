@@ -14,8 +14,15 @@ if(drawable) {
 
 	if(point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), bbox_left, bbox_top, bbox_right, bbox_bottom) && mouse_check_button_pressed(mb_left)) {
 		//obj_cutscene.start_requested = true;
+		var gameManager = instance_create_depth(10, 10, 10, obj_game_manager);
+		variable_global_set("game_manager", gameManager);
+		with(obj_fade) {
+			image_alpha = 0;	
+		}
+		
 		global.tutorial_active = false;
 		global.game_stage = game_stage;
+		
 		fade_change_to_room(room_to_change);
 	}
 }

@@ -5,6 +5,8 @@ var list;
 
 switch(where) {
 	case Where.INNER:
+		list = ds_map_find_value(global.available_locations_inner, this_room);
+		break;
 	case Where.OUTSIDE:
 		list = ds_map_find_value(global.available_locations_outside, this_room);
 		break;

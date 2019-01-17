@@ -26,7 +26,6 @@ enum Where {
 	INNER
 }
 //
-variable_global_set("door_open", false);
 
 //
 variable_global_set("actions_allowed", true);
@@ -67,11 +66,16 @@ ds_map_add(cluesMap, "has_discovered_leonardo", false)
 // Ring
 ds_map_add(cluesMap, "has_bruiser_ring_in_inventory", false);
 
+ds_map_add(cluesMap, "violet_door_open", false);
+
+ds_map_add(cluesMap, "picked_crowbar", false);
+
 variable_global_set("cluesMap", cluesMap);
 
 variable_global_set("available_locations_outside", ds_map_create());
 variable_global_set("available_locations_inside_up", ds_map_create());
 variable_global_set("available_locations_inside_down", ds_map_create());
+variable_global_set("available_locations_inner", ds_map_create());
 add_available_location(noone, Where.OUTSIDE, RoomChoices.PIZZERIA);
 
 variable_global_set("game_stage", 1);

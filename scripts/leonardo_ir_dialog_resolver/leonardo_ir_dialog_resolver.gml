@@ -83,13 +83,13 @@ switch(selectedDialogChoice) {
 		new_dialog_behaviour_sequence[0] = leonardo_sprite_still_angry;
 		
 		new_dialog_body_sequence[1] = "Well that greedy bastard would forget anything when talks became about money. He would even become nervous whenever I would ask about his gambling issues."
-		new_dialog_body_sequence[1] = "Let’s say my honour was not the only one suffering lately… If only Violet would actually know how many times I had to use her makeup to cover his blows."
+		new_dialog_body_sequence[2] = "Let’s say my honour was not the only one suffering lately… If only Violet would actually know how many times I had to use her makeup to cover his blows."
 		
 		new_dialog_character_sequence[1] = obj_leonardo.id
 		new_dialog_character_sequence[2] = obj_leonardo.id
 		
 		new_dialog_choice_sequence[2] = defaultDialogChoices;
-		add_choice_to_list(new_dialog_choice_sequence[2], " Ask if Violet new about Marcelo’s behavior", selectedChoice[2] + 1, selectedDialogChoice);
+		add_choice_to_list(new_dialog_choice_sequence[2], " Ask if Violet knew about Marcelo’s behavior", selectedChoice[2] + 1, selectedDialogChoice);
 		
 		new_dialog_behaviour_sequence[1] = leonardo_sprite_talking_sad;
 		
@@ -115,10 +115,8 @@ switch(selectedDialogChoice) {
 		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		
 		new_dialog_behaviour_sequence[0] = leonardo_sprite_still_calm;
-		new_dialog_body_sequence[1] = "…"
-		new_dialog_character_sequence[1] = obj_leonardo.id
-		new_dialog_choice_sequence[1] = ds_list_create();
-		add_choice_to_list(new_dialog_choice_sequence[1], "Wrap this up");
+		new_dialog_choice_sequence[0] = ds_list_create();
+		add_choice_to_list(new_dialog_choice_sequence[0], "Wrap this up");
 		
 		//change_clue_status("good_ending", true);
 		//fade_change_to_room(RoomChoices.PIZZERIA);
