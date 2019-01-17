@@ -132,7 +132,9 @@ switch(selectedDialogChoice) {
 		new_dialog_body_sequence[1] = "We got into a fight, i hit him so hard he felt to the ground. To make sure the bastard will never get up again, I hit him again, this time with a pan he left in the kitchen. After that I made myself a tasteful mushroom sandwich of vengeance! God it felt good eating his mushrooms in his face!";
 		new_dialog_character_sequence[1] = obj_leonardo.id
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
-		add_choice_to_list(new_dialog_choice_sequence[1], "Confront him!");
+		if(global.cluesMap[? "has_weapon_in_inventory"]) {
+			add_choice_to_list(new_dialog_choice_sequence[1], "Confront him!");
+		}
 		new_dialog_behaviour_sequence[1] = leonardo_sprite_talking_sad;
 		
 		break;

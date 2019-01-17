@@ -46,7 +46,7 @@ switch(selectedDialogChoice) {
 		
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		if (ds_map_find_value(global.cluesMap, "has_convinced_mitch")) {
-			new_dialog_body_sequence[1] = "Chill man, no need to threaten, It`s a blond girl, she always brings some grub."
+			new_dialog_body_sequence[1] = "Chill man, no need to threaten, It`s the pizza girl with the beret, she always brings some grub."
 		} else {
 			new_dialog_body_sequence[1] = "You mean the magic mushrooms? Well I can’t tell you, I ain’t no snitch."
 			add_choice_to_list(new_dialog_choice_sequence[1], "Convince Mitch", selectedChoice[2] + 1, selectedDialogChoice);
@@ -60,7 +60,7 @@ switch(selectedDialogChoice) {
 		//new_dialog_choice_sequence[0,0] = "Check answer..."
 		ds_map_set(global.cluesMap, "has_convinced_mitch", true);
 		
-		new_dialog_body_sequence[1] = "Okay I’ll tell you, geez, I’m high I just got confused, it’s a blond girl, she always brings some grub."
+		new_dialog_body_sequence[1] = "Okay I’ll tell you, geez, I’m high I just got confused, it's the pizza girl with the beret, she always brings some grub."
 		new_dialog_character_sequence[1] = obj_michigan;
 		new_dialog_choice_sequence[1] = defaultDialogChoices;
 		

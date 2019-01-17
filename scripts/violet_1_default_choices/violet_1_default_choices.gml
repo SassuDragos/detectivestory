@@ -2,6 +2,8 @@
 
 var choiceList = ds_list_create();
 
+add_choice_to_list(choiceList, "Ask about background");
+add_choice_to_list(choiceList, "Ask role in the pizzeria");
 
 add_choice_to_list(choiceList, "Clementine’s Whereabouts");
 
@@ -15,9 +17,6 @@ if (canAskToUnlockUpstairs && is_location_available(room, Where.INSIDE_UPSTAIRS,
 	add_choice_to_list(choiceList, "Ask to go and check upstairs");
 }
 
-
-add_choice_to_list(choiceList, "Ask about background");
-add_choice_to_list(choiceList, "Ask role in the pizzeria");
 add_choice_to_list(choiceList, "Check for alibi");
 //add_choice_to_list(choiceList, "Ask about ring");
 add_choice_to_list(choiceList, "Finish conversation");

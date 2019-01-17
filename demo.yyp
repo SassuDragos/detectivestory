@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "0142b244-f5e1-4a1b-a94e-588e0b102f4a",
-            "Value": {
-                "id": "86d8a4b8-bd51-4914-ac07-a08a59e1bef8",
-                "resourcePath": "views\\0142b244-f5e1-4a1b-a94e-588e0b102f4a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "019be7cf-82c0-4b3b-a074-48dd7713194e",
             "Value": {
                 "id": "2a62f8a6-aa41-4f99-b7d4-c3ecd04e3bab",
@@ -3959,14 +3951,6 @@
             }
         },
         {
-            "Key": "caa28350-89ef-4782-b7bf-8f5662fec88c",
-            "Value": {
-                "id": "2dff54b4-1990-4e7e-89e7-283b482fe271",
-                "resourcePath": "views\\caa28350-89ef-4782-b7bf-8f5662fec88c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "cc6ad7c1-7ac2-4ce2-843f-fcdb76926356",
             "Value": {
                 "id": "d26ba435-ce2d-481f-81d8-88ef0e8b1f7b",
@@ -4911,14 +4895,6 @@
             }
         },
         {
-            "Key": "fc552a27-1070-4c0f-a041-e6854e8db5da",
-            "Value": {
-                "id": "ccbe1859-32b1-4c20-aa86-111dd826e943",
-                "resourcePath": "scripts\\add_ring_to_inventory\\add_ring_to_inventory.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "fc6a029f-b6cc-422c-bb89-9e608cfc6dee",
             "Value": {
                 "id": "730c6825-ea45-45d5-9225-43b16804ff05",
@@ -5099,7 +5075,6 @@
         "072ce89b-4bc9-4986-852c-c2d6ceb941fb",
         "d260ef93-2f29-49a7-b609-946236085b87",
         "eeaf97eb-90ce-4a16-aafb-7686b1f5da53",
-        "fc552a27-1070-4c0f-a041-e6854e8db5da",
         "0c7e95cf-ade0-4e96-865c-7eb47bf5d7ab",
         "824bc020-ed2e-49f3-8644-e648fea152bd",
         "fa81d3c2-44d0-4f54-965d-3320ade6ae0a",
