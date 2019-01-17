@@ -14,7 +14,7 @@ if(!inInventory) {
 			animation = 0;	
 		}
 	}
-	AddObjectToInventory(self);
+	AddObjectToInventory(self, true);
 	instance_destroy(global.dialog_engine);
 	create_event_initialise_dialog_holder(obj_partner_detective.id, partner_detective_tutorial_dialog_content_init2, noone, partner_detective_tutorial_default_choices(), "tutorial");
 	action_discuss(obj_partner_detective);

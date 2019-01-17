@@ -7,7 +7,7 @@ event_inherited();
 switch(room) {
 	case room_house_toad:
 		if(!inInventory) {
-			AddObjectToInventory(self);
+			AddObjectToInventory(self, true);
 		}
 		break;
 }

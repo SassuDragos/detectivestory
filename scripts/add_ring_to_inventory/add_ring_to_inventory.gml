@@ -1,1 +1,0 @@
-AddObjectToInventory(obj_ring)
